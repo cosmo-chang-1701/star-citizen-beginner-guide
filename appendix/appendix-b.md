@@ -17,8 +17,17 @@
 
 ### 社群與尋求幫助的地方
 
+#### 網站
+
 - **[Reddit](https://www.reddit.com/r/starcitizen/):** 最大的英文《星際公民》社群，你可以在這裡看到最新的遊戲新聞、有趣的玩家故事和各種問題的討論。
-- **Discord:** 尋找隊友、即時提問最有效的地方。有許多大型的、面向所有玩家的《星際公民》Discord 伺服器，也有許多不同主題（如採礦、PVP）或不同地區的伺服器。不要害羞，大膽地在新手頻道提問，大家都很樂意幫助新人。
-- **YouTube / Twitch:** 有大量的內容創作者在製作《星際公民》的教學影片和直播。觀看他們的影片是學習新技巧最直觀的方式。
+
+#### Discord 伺服器
+
+- **[/r/starcitizen](https://discord.gg/CjFF43ZmT4)：** 身為 Reddit 最大《星際公民》社群的官方 Discord，這裡是玩家的即時交流中心，提供問答、組隊招募與多元討論，凝聚了廣大的社群力量。
+- **[PIPELINE - Star Citizen's Breaking News Source](https://discord.gg/yK7bNkExyj)：** PIPELINE 是《星際公民》的情報前線，專注於最新消息與未公開的「洩漏」資訊。這個具爭議性的 Discord 社群，是核心玩家一窺遊戲未來樣貌的關鍵管道。
+
+#### YouTuber 頻道
+
+- **[BoredGamer](http://googleusercontent.com/youtube/0)：** BoredGamer 專注於《星際公民》與《 Squadron 42 》的最新資訊，涵蓋新聞、教學、攻略、遊戲玩法、飛船導購、訪談、設定及更新。
 
 勇敢地使用這些工具，並融入社群吧！你會發現，與其他公民交流，是這個宇宙最有趣的體驗之一。我們宇宙中見！
