@@ -23,11 +23,18 @@
 
 #### Discord 伺服器
 
+- **[Star Netrunner](https://discord.gg/2H8X3dq83n)：** 本指南作者創立的 Discord 社群，宗旨為運用資訊科技為繁體中文《星際公民》社群玩家帶來即時且正確的遊戲資訊。
 - **[/r/starcitizen](https://discord.gg/CjFF43ZmT4)：** 身為 Reddit 最大《星際公民》社群的官方 Discord，這裡是玩家的即時交流中心，提供問答、組隊招募與多元討論，凝聚了廣大的社群力量。
 - **[PIPELINE - Star Citizen's Breaking News Source](https://discord.gg/yK7bNkExyj)：** PIPELINE 是《星際公民》的情報前線，專注於最新消息與未公開的「洩漏」資訊。這個具爭議性的 Discord 社群，是核心玩家一窺遊戲未來樣貌的關鍵管道。
+- **[星際遊騎兵海灣 / Outrider's Haven](https://discord.gg/ZDMHJ2jXdd)：** 台灣目前最大的《星際公民》社群 Discord，從新手教學到遊戲攻略一應俱全，群內有許多大佬可以帶你飛。
+- **[迷途旅人 Wayward Voyager](https://discord.gg/nTDamKVKB4)：** 《星際公民》玩家公會 Discord，也是 Youtube 頻道《躍兔實驗室 - Lab. TwoZic》官方 Discord。
+- **[星際公民中文聊天頻道](https://discord.gg/KUPHXV22QB)：** 台灣電玩網站《巴哈姆特電玩資訊站》的《星際公民》版 Discord。
+- **[Staraid](https://discord.gg/53Ex3tgQkM)：** 《星際公民》玩家公會 Staraid 的 Discord，是一個星援組織 / 跨星系非營利組織，為所有《星際公民》玩家提供即時的救援服務。
 
 #### YouTuber 頻道
 
 - **[BoredGamer](http://googleusercontent.com/youtube/0)：** BoredGamer 專注於《星際公民》與《 Squadron 42 》的最新資訊，涵蓋新聞、教學、攻略、遊戲玩法、飛船導購、訪談、設定及更新。
+- **[Nihilastra Gaming](https://www.youtube.com/@Nihilastra)：** 台灣《星際公民》玩家 Nihilastra 創立的 Youtube 頻道，擁有大量繁體中文教學資源，是《星際公民》中文圈知名玩家。
+- **[躍兔實驗室 - Lab. TwoZic](https://www.youtube.com/@Lab.TwoZic)：** 台灣《星際公民》玩家 Sipher 創立的 Youtube 頻道，分享星際公民、麥塊、3D 列印，穿梭於現實與虛擬之間。
 
 勇敢地使用這些工具，並融入社群吧！你會發現，與其他公民交流，是這個宇宙最有趣的體驗之一。我們宇宙中見！
