@@ -12,6 +12,7 @@
 - **[Regolith Co.](https://regolith.rocks/)：** Regolith Co. 是一個致力於幫助《星際公民》礦工們組織、分享和共同探勘的粉絲網站。
 - **[Cargo Grid Viewer](https://sc-cargo.space/)：** 貨物網格模擬器，提供玩家透過網頁互動功能模擬不同載具的貨物網格規劃擺放貨物的方式。
 - **[Executive Hangar Timer](https://contestedzonetimers.com/)：** Pyro 行政機庫開啟時間預測網站。
+- **[星際公民正體中文翻譯計畫](https://www.notion.so/staraid/1502405be3fe806ea0bacb9b68aeced0)：** 《星際公民》正體中文翻譯計畫，為臺灣玩家進行專業在地化。團隊深入考究科技、軍事術語，力求最高品質的翻譯。
 
 ### 官方資源
 
