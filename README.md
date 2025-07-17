@@ -19,9 +19,13 @@
 
 ---
 
-**一起探索，樂趣加倍**
+**關於作者**
 
-我的 Discord ID 是 `cosmo.chang`，加我好友，讓我們一起探索星辰大海！
+Discord ID: cosmo.chang
+
+所屬組織：[Star Netrunner](https://robertsspaceindustries.com/en/orgs/SNRO)
+
+[Star Netrunner Discord 邀請連結](https://discord.gg/2H8X3dq83n)
 
 **聲明**
 
