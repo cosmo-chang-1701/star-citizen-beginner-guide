@@ -4,10 +4,14 @@
 
 ### 必備的第三方網站
 
-- **[#DPSCalculatorLIVE](https://www.erkul.games/)：** **你的線上軍械庫。** 這個網站可以讓你模擬改裝你的任何一艘飛船。你想換什麼武器？換什麼護盾？換完之後性能數據如何？最重要的是，這些零件在遊戲裡的哪個商店可以買到？Erkul 都會告訴你。這是所有玩家規劃自己船艦升級路徑的必備工具。
-- **[SC Trade Tools](https://sc-trade.tools/home)：** **你的貿易好幫手。** 如果你想嘗試跑商貿易，這個工具能告訴你各種商品在哪裡買最便宜，又在哪裡賣最貴，幫助你規劃利潤最高的貿易路線。
+- **[Star Citizen Wiki](https://starcitizen.tools/)：** 資料最齊全的《星際公民》維基百科，由玩家社群一同維護。
+- **[#DPSCalculatorLIVE](https://www.erkul.games/)：** 這個網站可以讓你模擬改裝你的任何一艘飛船。你想換什麼武器？換什麼護盾？換完之後性能數據如何？最重要的是，這些零件在遊戲裡的哪個商店可以買到？Erkul 都會告訴你。這是所有玩家規劃自己船艦升級路徑的必備工具。
+- **[SC Trade Tools](https://sc-trade.tools/home)：** 如果你想嘗試跑商貿易，這個工具能告訴你各種商品在哪裡買最便宜，又在哪裡賣最貴，幫助你規劃利潤最高的貿易路線。
 - **[UEX Corp](https://uexcorp.space/)：** 一個綜合性的資料庫，包含了採礦、打撈、貿易等詳細數據，是工業玩家的好朋友。
 - **[Star Citizen Wiki](https://starcitizen.tools/)：** 一個物品搜尋器，可以幫你快速找到某件裝備或武器在遊戲中的哪個商店有賣。
+- **[Regolith Co.](https://regolith.rocks/)：** Regolith Co. 是一個致力於幫助《星際公民》礦工們組織、分享和共同探勘的粉絲網站。
+- **[Cargo Grid Viewer](https://sc-cargo.space/)：** 貨物網格模擬器，提供玩家透過網頁互動功能模擬不同載具的貨物網格規劃擺放貨物的方式。
+- **[Executive Hangar Timer](https://contestedzonetimers.com/)：** Pyro 行政機庫開啟時間預測網站。
 
 ### 官方資源
 
