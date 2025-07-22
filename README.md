@@ -21,7 +21,9 @@
 
 **關於作者**
 
-Discord ID: cosmo.chang
+遊戲 ID：CosmoChang
+
+Discord ID：cosmo.chang
 
 所屬組織：[Star Netrunner](https://robertsspaceindustries.com/en/orgs/SNRO)
 
