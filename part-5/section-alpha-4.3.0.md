@@ -106,6 +106,6 @@ PvP 在這裡更像是一場心理戰。你隨時可能在走出電梯的瞬間�
 
 我們宇宙見。
 
-## 相關攻略資源分享
+## 攻略資源
 
-[4.3 Rare ASD Armor Farming Guide & Route: The Death Run Route!!! | Star Citizen Gameplay 4k](https://www.youtube.com/watch?v=fLtSRL9s6os)
+{% embed url="https://www.youtube.com/watch?v=fLtSRL9s6os" %}
