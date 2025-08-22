@@ -27,6 +27,7 @@
   - [4.4：記得吃飯喝水！基礎的生存需求](part-4/section-4-4.md)
 - [第五章：深入進階 - 特殊活動指南](part-5/README.md)
   - [Alpha 4.2.1：資源爭奪戰 (Resource Rush)](part-5/section-alpha-4.2.1.md)
+  - [Alpha 4.3.0：Onyx 設施 (Onyx Facilities)](part-5/section-alpha-4.3.0.md)
 - [第六章：展望未來，星辰大海的彼方](part-6/README.md)
   - [6.1：萬眾期待的單人史詩：《42 中隊》](part-6/section-6-1.md)
   - [6.2：真正的無縫宇宙：伺服器網路化 (Server Meshing)](part-6/section-6-2.md)
