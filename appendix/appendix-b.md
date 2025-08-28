@@ -38,6 +38,6 @@
 
 - **[BoredGamer](https://www.youtube.com/@BoredGamerUK)：** BoredGamer 專注於《星際公民》與《 Squadron 42 》的最新資訊，涵蓋新聞、教學、攻略、遊戲玩法、飛船導購、訪談、設定及更新。
 - **[Nihilastra Gaming](https://www.youtube.com/@Nihilastra)：** 台灣《星際公民》玩家 Nihilastra 創立的 Youtube 頻道，擁有大量繁體中文教學資源，是《星際公民》中文圈知名玩家。
-- **[躍兔實驗室 - Lab. TwoZic](https://www.youtube.com/@Lab.TwoZic)：** 台灣《星際公民》玩家 Sipher 創立的 Youtube 頻道，分享星際公民、麥塊、3D 列印，穿梭於現實與虛擬之間。
+- **[躍兔實驗室 - Lab. TwoZic](https://www.youtube.com/@Lab.TwoZic)：** 台灣《星際公民》玩家 Sipher87 創立的 Youtube 頻道，分享星際公民、麥塊、3D 列印，穿梭於現實與虛擬之間。
 
 勇敢地使用這些工具，並融入社群吧！你會發現，與其他公民交流，是這個宇宙最有趣的體驗之一。我們宇宙中見！
