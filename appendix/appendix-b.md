@@ -2,8 +2,18 @@
 
 公民，你不是一個人在戰鬥！《星際公民》擁有一個非常龐大且熱心的玩家社群，他們開發了許多實用的第三方工具，能極大地幫助你規劃你的星際旅程。
 
-### 必備的第三方網站
+### 官方資源
 
+- **[官網知識庫](https://support.robertsspaceindustries.com/hc/en-us)：** 官方提供的遊戲機制詳細解釋。
+- **[伺服器狀態頁](https://status.robertsspaceindustries.com/)：** 當你無法登入遊戲時，可以先來這裡看看是不是官方伺服器出了問題。
+- **[導覽系統](https://robertsspaceindustries.com/spectrum/guide)：** 官方的配對系統，可以將你這樣的新手與經驗豐富的老玩家配對，讓他們在遊戲裡一對一地帶你入門。
+- **[問題回報中心](https://issue-council.robertsspaceindustries.com/)：** 在遊戲中遇到任何 Bug 都可以來這邊回報，在回報問題以前可以先搜索有沒有已經存在的回報項目，可以加入討論與追蹤。
+
+### 社群與尋求幫助的地方
+
+#### 第三方網站
+
+- **[Reddit](https://www.reddit.com/r/starcitizen/):** 最大的英文《星際公民》社群，你可以在這裡看到最新的遊戲新聞、有趣的玩家故事和各種問題的討論。
 - **[Star Citizen Wiki](https://starcitizen.tools/)：** 資料最齊全的《星際公民》維基百科，由玩家社群一同維護。
 - **[#DPSCalculatorLIVE](https://www.erkul.games/)：** 這個網站可以讓你模擬改裝你的任何一艘飛船。你想換什麼武器？換什麼護盾？換完之後性能數據如何？最重要的是，這些零件在遊戲裡的哪個商店可以買到？Erkul 都會告訴你。這是所有玩家規劃自己船艦升級路徑的必備工具。
 - **[SC Trade Tools](https://sc-trade.tools/home)：** 如果你想嘗試跑商貿易，這個工具能告訴你各種商品在哪裡買最便宜，又在哪裡賣最貴，幫助你規劃利潤最高的貿易路線。
@@ -13,18 +23,6 @@
 - **[Cargo Grid Viewer](https://sc-cargo.space/)：** 貨物網格模擬器，提供玩家透過網頁互動功能模擬不同載具的貨物網格規劃擺放貨物的方式。
 - **[Executive Hangar Timer](https://contestedzonetimers.com/)：** Pyro 行政機庫開啟時間預測網站。
 - **[星際公民正體中文翻譯計畫](https://www.notion.so/staraid/1502405be3fe806ea0bacb9b68aeced0)：** 《星際公民》正體中文翻譯計畫，為臺灣玩家進行專業在地化。團隊深入考究科技、軍事術語，力求最高品質的翻譯。
-
-### 官方資源
-
-- **[官網知識庫](https://support.robertsspaceindustries.com/hc/en-us)：** 官方提供的遊戲機制詳細解釋。
-- **[伺服器狀態頁](https://status.robertsspaceindustries.com/)：** 當你無法登入遊戲時，可以先來這裡看看是不是官方伺服器出了問題。
-- **[導覽系統](https://robertsspaceindustries.com/spectrum/guide)：** 官方的配對系統，可以將你這樣的新手與經驗豐富的老玩家配對，讓他們在遊戲裡一對一地帶你入門。
-
-### 社群與尋求幫助的地方
-
-#### 網站
-
-- **[Reddit](https://www.reddit.com/r/starcitizen/):** 最大的英文《星際公民》社群，你可以在這裡看到最新的遊戲新聞、有趣的玩家故事和各種問題的討論。
 
 #### Discord 伺服器
 
