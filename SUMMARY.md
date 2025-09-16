@@ -40,3 +40,4 @@
   - [附錄 A：快還要更快！新手必備快捷鍵小抄](appendix/appendix-a.md)
   - [附錄 B：遇到困難別怕！好用的工具與熱心社群](appendix/appendix-b.md)
   - [附錄 C：巨擘的統一：深入解析《星際公民》伺服器網格化技術及其發展軌跡](appendix/appendix-c.md)
+  - [附錄 D：錯誤代碼對照表](appendix/appendix-d.md)
