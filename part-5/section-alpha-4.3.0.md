@@ -1,4 +1,4 @@
-# Alpha 4.3.0：Onyx 設施
+# Alpha 4.3.0：Onyx 設施 (Onyx Facilities)
 
 {% embed url="https://www.youtube.com/watch?v=MCJlD2Meuek" %}
 

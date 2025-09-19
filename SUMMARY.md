@@ -28,6 +28,7 @@
 - [第五章：深入進階 - 特殊活動指南](part-5/README.md)
   - [Alpha 4.2.1：資源爭奪戰 (Resource Rush)](part-5/section-alpha-4.2.1.md)
   - [Alpha 4.3.0：Onyx 設施 (Onyx Facilities)](part-5/section-alpha-4.3.0.md)
+  - [Alpha 4.3.1：海伯利安計畫 (Project Hyperion) 解密](part-5/section-alpha-4.3.1.md)
 - [第六章：展望未來，星辰大海的彼方](part-6/README.md)
   - [6.1：「1.0 版本」代表什麼？這是一個全新的開始！](part-6/section-6-1.md)
   - [6.2：打造宇宙的魔法：伺服器網格化與星辰引擎](part-6/section-6-2.md)

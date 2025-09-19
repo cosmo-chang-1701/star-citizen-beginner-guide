@@ -1,4 +1,4 @@
-# Alpha 4.2.1：資源爭奪戰
+# Alpha 4.2.1：資源爭奪戰 (Resource Rush)
 
 {% embed url="https://www.youtube.com/watch?v=fTsnHjTr0w0" %}
 
