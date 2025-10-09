@@ -4,8 +4,9 @@
 
 ### 官方資源
 
-- **[官網知識庫](https://support.robertsspaceindustries.com/hc/en-us)：** 官方提供的遊戲機制詳細解釋。
 - **[伺服器狀態頁](https://status.robertsspaceindustries.com/)：** 當你無法登入遊戲時，可以先來這裡看看是不是官方伺服器出了問題。
+- **[官網知識庫](https://support.robertsspaceindustries.com/hc/en-us)：** 官方提供的遊戲機制詳細解釋。
+- **[星圖](https://robertsspaceindustries.com/en/starmap)：** 官方製作的互動式 3D 星圖導覽系統，揭示了《星際公民》會出現的所有星系資訊。
 - **[導覽系統](https://robertsspaceindustries.com/spectrum/guide)：** 官方的配對系統，可以將你這樣的新手與經驗豐富的老玩家配對，讓他們在遊戲裡一對一地帶你入門。
 - **[問題回報中心](https://issue-council.robertsspaceindustries.com/)：** 在遊戲中遇到任何 Bug 都可以來這邊回報，在回報問題以前可以先搜索有沒有已經存在的回報項目，可以加入討論與追蹤。
 
