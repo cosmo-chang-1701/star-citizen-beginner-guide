@@ -25,7 +25,7 @@
 
 Discord ID：cosmo.chang
 
-所屬組織：[Star Netrunner](https://robertsspaceindustries.com/en/orgs/SNRO)
+所屬組織：[Star Netrunners](https://robertsspaceindustries.com/en/orgs/SNRO)
 
 組織 Discord 邀請連結：[https://discord.gg/2H8X3dq83n](https://discord.gg/2H8X3dq83n)
 

@@ -29,7 +29,7 @@
 
 - **[/r/starcitizen](https://discord.gg/CjFF43ZmT4)：** 身為 Reddit 最大《星際公民》社群的官方 Discord，這裡是玩家的即時交流中心，提供問答、組隊招募與多元討論，凝聚了廣大的社群力量。
 - **[PIPELINE - Star Citizen's Breaking News Source](https://discord.gg/yK7bNkExyj)：** PIPELINE 是《星際公民》的情報前線，專注於最新消息與未公開的「洩漏」資訊。這個具爭議性的 Discord 社群，是核心玩家一窺遊戲未來樣貌的關鍵管道。
-- **[Star Netrunner](https://discord.gg/2H8X3dq83n)：** 本指南作者創立的 Discord 社群，宗旨為運用資訊科技為繁體中文《星際公民》社群玩家帶來即時且正確的遊戲資訊。
+- **[Star Netrunners](https://discord.gg/2H8X3dq83n)：** 本指南作者創立的 Discord 社群，宗旨為運用資訊科技為繁體中文《星際公民》社群玩家帶來即時且正確的遊戲資訊。
 - **[星際遊騎兵海灣 / Outrider's Haven](https://discord.gg/ZDMHJ2jXdd)：** 台灣目前最大的《星際公民》社群 Discord，從新手教學到遊戲攻略一應俱全，群內有許多大佬可以帶你飛。
 - **[迷途旅人 Wayward Voyager](https://discord.gg/nTDamKVKB4)：** 《星際公民》玩家公會 Discord，也是 Youtube 頻道《躍兔實驗室 - Lab. TwoZic》官方 Discord。
 - **[星際公民中文聊天頻道](https://discord.gg/KUPHXV22QB)：** 台灣電玩網站《巴哈姆特電玩資訊站》的《星際公民》版 Discord。
