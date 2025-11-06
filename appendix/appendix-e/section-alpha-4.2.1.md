@@ -1,3 +1,7 @@
+![](https://star-netrunners.gitbook.io/star-citizen-beginners-guide/assets/loading_screen/alpha_4.2.1.png)
+
+---
+
 **2955 年 7 月**
 
 **發佈版本號 4.2.1**
