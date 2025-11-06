@@ -50,7 +50,7 @@ As research spending skyrockets across the empire in the wake of the government'
 
 Organizations from Terra to Castra have signed on to participate, but many expect that the largest donations will come from the four major corporations in the Stanton system who have pledged to support the effort, offering their own internal incentives to contractors who help them secure the top-spot in the drive. Those interested in tracking the results will be able to use their mobiGlas to access real-time standings of the amounts of refined Copper, Tungsten, and Corundum that have been delivered by participants. Government representatives hope the boost in materials will accelerate an end to the Regen Crisis.
 
-從泰拉到卡斯特拉的組織都已簽約參加，但許多人預計最大筆的捐款將來自斯坦頓星系的四大企業，他們已承諾支持這項努力，並向協助他們確保在此次活動中獲得最高排名的承包商提供內部獎勵。有興趣追踪結果的人將能使用他們的 mobiGlas 來即時查看參與者已交付的精煉銅、n 和剛玉的數量排名。政府代表希望材料的增加將加速結束再生危機。
+從泰拉到卡斯特拉的組織都已簽約參加，但許多人預計最大筆的捐款將來自斯坦頓星系的四大企業，他們已承諾支持這項努力，並向協助他們確保在此次活動中獲得最高排名的承包商提供內部獎勵。有興趣追踪結果的人將能使用他們的 mobiGlas 來即時查看參與者已交付的精煉銅、鎢和剛玉的數量排名。政府代表希望材料的增加將加速結束再生危機。
 
 ---
 
