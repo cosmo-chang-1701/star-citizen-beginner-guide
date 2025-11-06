@@ -1,4 +1,4 @@
-![](https://star-netrunners.gitbook.io/star-citizen-beginners-guide/assets/loading_screen/alpha_4.2.1.png)
+![](../../assets/loading_screen/alpha_4.2.1.png)
 
 ---
 
