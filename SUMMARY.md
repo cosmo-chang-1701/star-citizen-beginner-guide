@@ -44,5 +44,5 @@
   - [附錄 B：遇到困難別怕！好用的工具與熱心社群](appendix/appendix-b.md)
   - [附錄 C：巨擘的統一：深入解析《星際公民》伺服器網格化技術及其發展軌跡](appendix/appendix-c.md)
   - [附錄 D：錯誤代碼對照表](appendix/appendix-d.md)
-  - [附錄 E：各版本讀取畫面](appendix/appendix-e/README.md)
+  - [附錄 E：歷史迴廊 (讀取畫面)](appendix/appendix-e/README.md)
     - [Alpha 4.2.1](appendix/appendix-e/section-alpha-4.2.1.md)
