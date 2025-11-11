@@ -6,17 +6,21 @@
 
 ---
 
+**JUL 2955**
+
 **2955 年 7 月**
+
+**RELEASE EDITION 4.2.1**
 
 **發佈版本號 4.2.1**
 
 ---
 
-### 🏛️ **NEW UNITED (新聯合報)**
+### **NEW UNITED (新聯合報)**
 
 ---
 
-### 📰 **左側欄位**
+### **Left Column (左側欄位)**
 
 **ASD DENIES WRONGDOING IN PYRO**
 
@@ -36,7 +40,7 @@ Not the first controversy ASD has dealt with, the company had previously gained 
 
 ---
 
-### 🌌 **中間欄位**
+### **Center Column (中間欄位)**
 
 **UEE RESOURCE DRIVE SPURS REGEN RESEARCH**
 **UEE 資源驅動刺激再生研究**
@@ -54,7 +58,7 @@ Organizations from Terra to Castra have signed on to participate, but many expec
 
 ---
 
-### 📈 **右側欄位**
+### **Right Column (右側欄位)**
 
 **RECORD NUMBER OF MERCENARY CONTRACTS COMPLETED**
 **創紀錄的傭兵合約完成數量**
@@ -74,7 +78,7 @@ In a press release, the Mercenary Guild has stated, "Thanks to the highly skille
 
 ---
 
-### 🌭 **底部欄位**
+### **Footer (底部欄位)**
 
 **CONTROVERSY CLOUDS 2955 DOUBLE DOG EATING CHAMPIONSHIP**
 

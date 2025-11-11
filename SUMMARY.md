@@ -46,3 +46,4 @@
   - [附錄 D：錯誤代碼對照表](appendix/appendix-d.md)
   - [附錄 E：歷史迴廊 (讀取畫面)](appendix/appendix-e/README.md)
     - [Alpha 4.2.1](appendix/appendix-e/section-alpha-4.2.1.md)
+    - [Alpha 4.3.0](appendix/appendix-e/section-alpha-4.3.0.md)
