@@ -1,4 +1,4 @@
-# Alpha 4.3.0
+# Alpha 4.3.0：ASD 揭密者聽證會、SLI 資源募集成功與 Kruger L-21 Wolf 發表
 
 ---
 
