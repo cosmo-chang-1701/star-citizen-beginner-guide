@@ -22,10 +22,6 @@
 
 ---
 
-<!-- ### **Upper Left Column** -->
-
-### **左上欄位**
-
 <!-- **FOOD PANTRY CHARITY DRIVE A SUCCESS** -->
 
 **食物銀行慈善活動圓滿成功**
@@ -36,10 +32,6 @@
 
 ---
 
-<!-- ### **Upper Right Column** -->
-
-### **右上欄位**
-
 <!-- **AIR FILTER REPAIR WORK COMPLETED** -->
 
 **空氣過濾器維修工作已完成**
@@ -49,10 +41,6 @@
 隨著新過濾器的安裝，列夫斯基各地的人們現在應該能呼吸得更順暢。
 
 ---
-
-<!-- ### **Left Column** -->
-
-### **左側欄位**
 
 <!-- **ALBERTSON FAMILY KILLED IN VANDUUL RAID** -->
 
@@ -80,10 +68,6 @@ Albertson 家族礦站才剛開始輪班，剜度襲擊者便毫無預警地來�
 
 ---
 
-<!-- ### **Center Column** -->
-
-### **中間欄位**
-
 <!-- **NYX I TERRAFORMATION SHOWS PROGRESS** -->
 
 **尼克斯 I 星球地球化改造展現進展**
@@ -101,10 +85,6 @@ Albertson 家族礦站才剛開始輪班，剜度襲擊者便毫無預警地來�
 > 這會是我們人民新家園的曙光嗎？
 
 ---
-
-<!-- ### **Right Column** -->
-
-### **右側欄位**
 
 <!-- **IAE POMP AND OPULENCE REEKS OF EMPIRE IN DECLINE** -->
 

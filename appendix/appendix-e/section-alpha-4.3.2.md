@@ -22,10 +22,6 @@
 
 ---
 
-<!-- ### **Left Column** -->
-
-### **左側欄位**
-
 <!-- **AMELIA BOYD SPOTTED IN STANTON** -->
 
 **在斯坦頓發現 AMELIA BOYD 蹤跡**
@@ -39,10 +35,6 @@
 多起經確認的 Amelia Boyd 目擊報告出現在斯坦頓，引起了傭兵公會部分官員的擔憂。Boyd 的行動與「Frontier Fighters」在斯坦頓和派羅日益頻繁的活動相吻合，引發了另一次攻擊可能迫在眉睫的猜測。此活動發生之際，正值「Frontier Fighters」內部傳出內訌和招募不順的謠言。雖然一些公會官員認為此時應保持謹慎，但其他人則主張，現在可能是集中力量對付該組織、將 Boyd 繩之以法的理想時機。
 
 ---
-
-<!-- ### **Upper Right Column** -->
-
-### **右上欄位**
 
 <!-- **IMPERATOR ADDISON SHARES CITIZEN'S DAY MESSAGE** -->
 
@@ -58,10 +50,6 @@
 
 ---
 
-<!-- ### **Lower Right Column** -->
-
-### **右下欄位**
-
 <!-- **THE GREAT DAY OF THE VARA DEBATE** -->
 
 **VARA 節日大辯論**
@@ -75,10 +63,6 @@
 我們希望帝國各地的公會成員告訴我們，在這個詭異的時節，他們的首選服裝是什麼。有趣的？嚇人的？還是兩者兼具？請回答投票，提交您的照片，我們將在下一期中專題報導穿著最棒的傭兵。
 
 ---
-
-<!-- ### **Footer** -->
-
-### **底部欄位**
 
 <!-- **VOLT RECALLS PRISM LASER SHOTGUN** -->
 

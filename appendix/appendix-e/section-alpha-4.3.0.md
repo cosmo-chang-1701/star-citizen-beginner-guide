@@ -22,10 +22,6 @@
 
 ---
 
-<!-- ### **Left Column** -->
-
-### **左側欄位**
-
 <!-- **SECOND LIFE INITIATIVE BOLSTERED BY RESOURCE DRIVE** -->
 
 **「第二生命倡議」獲資源募集活動大力支持**
@@ -40,10 +36,6 @@ Addison 政府稱讚全帝國範圍內為支持解決再生危機的科學研究
 
 ---
 
-<!-- ### **Center Column** -->
-
-### **中間欄位**
-
 <!-- **CONGRESS HEARS TESTIMONY FROM ASD WHISTLEBLOWER** -->
 
 **國會聽取來自 ASD 揭密者的證詞**
@@ -57,10 +49,6 @@ Addison 政府稱讚全帝國範圍內為支持解決再生危機的科學研究
 參議院創新小組委員會聽取了一名聯合科學與發展公司前員工的閉門證詞，此前有報導稱該公司在斯坦頓及其他地區的設施中進行了潛在不道德和非法的實驗。有關這些所謂實驗的故事和圖片充斥著 Spectrum，引發了一場關於放寬「第二生命倡議」(SLI) 所允許的科學限制的激烈辯論。ASD 董事會發布的官方聲明否認了公司的任何不當行為，並堅稱所有授權實驗均超越了 SLI 中設定的標準，同時指出這些指控似乎與斯坦頓已停止運營的研究設施有關。
 
 ---
-
-<!-- ### **Right Column** -->
-
-### **右側欄位**
 
 <!-- **KRUGER REVEALS L-21 WOLF** -->
 
@@ -77,10 +65,6 @@ Kruger Intergalactic 在 Sherman 舉行的年度「尖端博覽會」上大放�
 「我們與合作夥伴 RSI 和 Behring 的頻繁合作是我們的巨大靈感來源，我們很高興能與宇宙（'verse）分享我們對船艦設計的獨特願景。」
 
 ---
-
-### **Footer**
-
-### **底部欄位**
 
 <!-- **ADDISON LEADS UEE IN MOMENT OF SILENCE** -->
 

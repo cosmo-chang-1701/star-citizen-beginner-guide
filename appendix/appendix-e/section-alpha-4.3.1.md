@@ -22,10 +22,6 @@
 
 ---
 
-<!-- ### **Left Column** -->
-
-### **左側欄位**
-
 <!-- **RE-TERRAFORMATION OF SETTLED WORLDS** -->
 
 **已定居世界的再地球化**
@@ -39,10 +35,6 @@
 一家新創公司聲稱，憑藉過去幾十年取得的眾多技術進步，他們可以調整幾個先前已地球化世界的惡劣氣候。儘管有些人預示這可能是解決過去錯誤的潛在機會，但批評者表示，再次發生「火星悲劇」的風險太高。
 
 ---
-
-<!-- ### **Center Column** -->
-
-### **中間欄位**
 
 <!-- **EMPIRE DESPERATE FOR FIRST RESPONDERS** -->
 
@@ -59,10 +51,6 @@ announced a new initiative in conjunction with RSI that has Apollo ships visitin
 
 ---
 
-<!-- ### **Right Column** -->
-
-### **右側欄位**
-
 <!-- **TERRA GENERAL REGEN PROTESTS RESUME** -->
 
 **泰拉綜合醫院「再生」抗議活動重燃**
@@ -76,10 +64,6 @@ announced a new initiative in conjunction with RSI that has Apollo ships visitin
 在該組織領導人因拒絕離開醫院範圍而被捕後，「一次生命」在泰拉星普萊姆綜合醫院的抗議活動又重新開始。該組織尋求禁止所有再生醫療，稱這項基於剜度的技術是不自然的，而且持續的危機表明繼續這種做法是多麼危險。醫院管理人員評論說，他們仍在為任何合適的患者提供「印記」。
 
 ---
-
-<!-- ### **Footer** -->
-
-### **底部欄位**
 
 <!-- **MOST PIRATED SHIPS LIST** -->
 
