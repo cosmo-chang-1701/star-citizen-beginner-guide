@@ -28,7 +28,7 @@
 
 <!-- **INFAMOUS LEADER OF THE FRONTIER FIGHTERS, AMELIA BOYD, KILLED BY HEADHUNTERS GANG.** -->
 
-**惡名昭彰的邊境戰士領袖阿梅莉亞·博伊德遭獵頭幫 (Headhunters) 殺害。**
+**惡名昭彰的邊境戰士領袖阿梅莉亞·博伊德遭獵頭幫殺害。**
 
 <!-- After last month's coordinated assault on the Pyro system utilizing multiple stolen RSI Polaris, leader of the terrorist organization Frontier Fighters, Amelia Boyd, has been brutally executed following her capture by the notorious outlaw group the Headhunters. Despite Citizens for Prosperity's inability to hand Boyd over to UEE authorities to face justice, there is hope that with the Frontier Fighter's leader now deceased that the group will no longer to be a threat. -->
 
