@@ -2,7 +2,7 @@
 
 ---
 
-![](../../assets/loading_screen/alpha_4.5.0.png)
+![](../../assets/loading_screen/alpha_4.5.0.jpg)
 
 ---
 
