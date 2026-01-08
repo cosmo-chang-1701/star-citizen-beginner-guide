@@ -60,7 +60,7 @@
 
 <!-- In what is considered by some to be a concerning sign of the times, sales of Luminalia-themed weapons have sky-rocketed this year to become the holiday's most sought-after gift. While some have been quick to point out the irony of giving a weapon on a holiday about togetherness, others say that they make a thoughtful gift as threats from piracy and Vanduul continue to rise. -->
 
-在一些人認為這是令人擔憂的時代跡象中，光明節主題武器的銷量在今年激增，成為節日最受追捧的禮物。雖然有些人迅速指出在一個象徵團聚的節日贈送武器具有諷刺意味，但其他人則表示，隨著來自海盜和剜度 (Vanduul) 的威脅持續上升，這是一份貼心的禮物。
+在一些人認為這是令人擔憂的時代跡象中，光明節主題武器的銷量在今年激增，成為節日最受追捧的禮物。雖然有些人迅速指出在一個象徵團聚的節日贈送武器具有諷刺意味，但其他人則表示，隨著來自海盜和剜度的威脅持續上升，這是一份貼心的禮物。
 
 ---
 
