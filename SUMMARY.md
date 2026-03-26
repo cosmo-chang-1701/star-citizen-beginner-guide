@@ -45,6 +45,8 @@
   - [附錄 C：巨擘的統一：深入解析《星際公民》伺服器網格化技術及其發展軌跡](appendix/appendix-c.md)
   - [附錄 D：錯誤代碼對照表](appendix/appendix-d.md)
   - [附錄 E：各版本新聞焦點](appendix/appendix-e/README.md)
+    - [Alpha 4.7.0：尼克斯 I 爆發土地爭奪熱潮、聯合地球帝國跨星系通訊網遭駭客攻擊、舒賓星際非法出售礦業權益引發爭議](appendix/appendix-e/section-alpha-4.7.0.md)
+    - [Alpha 4.6.0：Aciedo 完成全帝國超光速網路升級、尼克斯星系萊夫斯基站爆發致命黴菌感染、羅伯茨太空工業歷史特展於克羅肖星系開幕](appendix/appendix-e/section-alpha-4.6.0.md)
     - [Alpha 4.5.0：恐怖組織頭目遭獵頭幫處決、超光速即時通訊技術問世、光明節主題武器成熱門禮物](appendix/appendix-e/section-alpha-4.5.0.md)
     - [Alpha 4.4.0：剜度襲擊致家族喪生、尼克斯 I 地球化改造現曙光、IAE 盛會遭批帝國衰敗](appendix/appendix-e/section-alpha-4.4.0.md)
     - [Alpha 4.3.2：Amelia Boyd 現身斯坦頓、ADDISON 皇帝發表公民日致辭、親特瓦林團體抗議伊德里斯戰役重演](appendix/appendix-e/section-alpha-4.3.2.md)
