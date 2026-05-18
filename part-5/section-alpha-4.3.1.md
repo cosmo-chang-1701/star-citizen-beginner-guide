@@ -1,4 +1,4 @@
-# Alpha 4.3.1：海伯利安計畫 (Project Hyperion) 解密
+# Alpha 4.3.1：海伯利安計畫 (Project Hyperion)
 
 {% embed url="https://www.youtube.com/watch?v=pq7XEWatINA" %}
 
