@@ -6,19 +6,19 @@
 
 ---
 
-<!-- **SEPT. 2955** -->
-
-**2955 年 9 月**
-
 <!-- **RELEASE EDITION 4.3.1** -->
 
-**發佈版本號 4.3.1**
+**發佈版本 4.3.1**
+
+<!-- **2955** -->
+
+**2955 年**
 
 ---
 
 <!-- **NEW UNITED** -->
 
-### **新聯合報**
+**NEW UNITED - 新聯合報**
 
 ---
 
@@ -57,7 +57,7 @@ announced a new initiative in conjunction with RSI that has Apollo ships visitin
 
 <!-- **THE 'ONE LIFE' ORGANIZATION CONTINUES TO PICKET THE HOSPITAL, DEMANDING THEY STOP ALL REGENERATION.** -->
 
-**「一次生命」組織持續在醫院外舉行抗議，要求他們停止所有再生醫療。**
+**「一次生命」 (One Life) 組織持續在醫院外舉行抗議，要求他們停止所有再生醫療。**
 
 <!-- Following the arrests of the group's leaders after their refusal to leave hospital grounds, the One Life protests at Prime's Terra General hospital have resumed. The group seeks to ban all regeneration, stating that the Vanduul-based technology is unnatural and that the ongoing crisis has shown how dangerous it is to continue the practice. Hospital administrators have commented that imprints are still being offered for any patients who are viable. -->
 
@@ -72,12 +72,14 @@ announced a new initiative in conjunction with RSI that has Apollo ships visitin
 <!-- The Advocacy has released their yearly report on the most frequently stolen vehicles. Is your craft in the top ten for
 2955？ -->
 
-倡議局發布了關於最常被盜載具的年度報告。您的船艦是否名列 2955 年的前十名？
+倡議局 (The Advocacy) 發布了關於最常被盜載具的年度報告。您的船艦是否名列 2955 年的前十名？
+
+---
 
 <!-- **"BURNING SKY" SET PHOTOS LEAK** -->
 
-**《燃燒的天空》片場照片外流**
+**《燃燒的天空》 (Burning Sky) 片場照片外流**
 
 <!-- Fans on spectrum have had strong reactions to recent photos of Ellroy Cass in his Squadron 42 uniform taken on the set of the upcoming vid adaption of the "Burning Sky" book series. -->
 
-粉絲們在光譜上對 Ellroy Cass 穿著 42 中隊制服的片場照片反應強烈，這些照片是在即將上映的《燃燒的天空》系列叢書改編影片的片場拍攝的。
+粉絲們在光譜 (Spectrum) 上對 Ellroy Cass 穿著 42 中隊 (Squadron 42) 制服的片場照片反應強烈，這些照片是在即將上映的《燃燒的天空》系列叢書改編影片的片場拍攝的。

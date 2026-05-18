@@ -8,17 +8,17 @@
 
 <!-- **RELEASE EDITION 4.3.2** -->
 
-**發佈版本號 4.3.2**
+**發佈版本 4.3.2**
 
-<!-- **October 2955** -->
+<!-- **2955** -->
 
-**2955 年 10 月**
+**2955 年**
 
 ---
 
-<!-- ### **CROSSHAIR - OFFICIAL NEWS OF THE MERCENARY GUILD** -->
+<!-- **CROSSHAIR - OFFICIAL NEWS OF THE MERCENARY GUILD** -->
 
-### **準心 - 傭兵公會官方新聞**
+**CROSSHAIR - 準心 (傭兵公會官方新聞)**
 
 ---
 
@@ -72,10 +72,12 @@
 
 Volt 在發現製造缺陷可能導致武器過熱和爆炸後，召回了一小批 Prism 雷射霰彈槍。
 
+---
+
 <!-- **PROTESTORS DISRUPT BATTLE OF IDRIS IN REENACTMENT** -->
 
-**抗議者擾亂伊德里斯戰役重演活動**
+**抗議者擾亂伊德里斯戰役 (Battle of Idris) 重演活動**
 
 <!-- Pro-Tevarin rights group Nerriva Alle gathered to demand an end to the annual historical event. -->
 
-支持特瓦林的權利團體「Nerriva Alle」聚集起來，要求停止這項年度歷史活動。
+支持特瓦林 (Tevarin) 的權利團體「Nerriva Alle」聚集起來，要求停止這項年度歷史活動。
