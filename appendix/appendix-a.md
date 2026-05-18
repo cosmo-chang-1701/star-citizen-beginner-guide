@@ -1,6 +1,6 @@
-# 附錄 A：快還要更快！新手必備快捷鍵小抄 (Alpha 4.8 官方預設版)
+# 附錄 A：快還要更快！新手必備快捷鍵小抄 (官方預設版)
 
-《星際公民》的熱鍵非常複雜，但你不需要一次性記住全部。以下整理了 Alpha 4.8 版本中，系統**官方預設 (Default)** 的最核心快捷鍵。掌握這些，就足以應對 90% 的宇宙生活。
+《星際公民》的熱鍵非常複雜，但你不需要一次性記住全部。以下整理了目前版本中，系統**官方預設 (Default)** 的最核心快捷鍵。掌握這些，就足以應對 90% 的宇宙生活。
 
 ### 1. 徒步狀態 (On Foot)
 
@@ -43,15 +43,15 @@
 | **開/關電源 (Power)** | `U` | 一鍵切換全船供電狀態 |
 | **開/關引擎 (Engine)** | `I` | 降落後關閉引擎可防止飛船因強風飄走 |
 
-### 4. 4.8 版本專屬與進階
+### 4. 專業與進階操作
 
 | 動作 | 快捷鍵 | 備註 |
 | :--- | :--- | :--- |
-| **請求對接 (指令模組)** | `右 Alt + N` | 專用於 Ironclad 或 Polaris 等模組化船隻 |
+| **請求對接 (指令模組)** | `右 Alt + N` | 專用於大型模組化船隻 |
 | **工程終端互動** | `F` | 在船內 MFD 螢幕上操作資源網路 |
 
 ---
 
-> **溫馨提醒**：在 Alpha 4.8 中，**「開啟/關閉所有艙門」預設並沒有綁定熱鍵**。若有滅火或防登船需求，建議在 `Options > Keybindings` 中自行設定。
+> **溫馨提醒**：在目前的版本中，**「開啟/關閉所有艙門」預設並沒有綁定熱鍵**。若有滅火或防登船需求，建議在 `Options > Keybindings` 中自行設定。
 
-[Star Citizen Alpha 4.8 Official Keybindings Guide](https://robertsspaceindustries.com/comm-link/transmission/19000-Star-Citizen-Alpha-4-8-Keybindings)
+[Star Citizen Official Keybindings Guide](https://robertsspaceindustries.com/comm-link/transmission/19000-Star-Citizen-Alpha-4-8-Keybindings)
