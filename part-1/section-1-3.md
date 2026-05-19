@@ -8,7 +8,7 @@
 
 這是繼承了經典極光系列精神的新一代入門機型，也是目前預算最友善的選擇。
 
-| 特點 | [RSI Aurora Mk II (極光 Mk II)](https://robertsspaceindustries.com/en/pledge/ships/rsi-alpha-4-8/aurora-mk2) |
+| 特點 | [RSI Aurora Mk II (極光 Mk II)](https://robertsspaceindustries.com/en/pledge/Packages/Citizen-Starter-Pack) |
 | :--- | :--- |
 | **定位** | **多功能通用入門機** |
 | **核心優勢** | **高性價比、模組化空間**。 Mk II 優化了內部空間，不僅保留了方便的**生活床位**，更強化了外部掛載點。 |
@@ -21,7 +21,7 @@
 
 儘管時光流逝，泰坦在目前的宇宙環境中依然穩坐「新手村霸主」的寶座。
 
-| 特點 | [Aegis Avenger Titan (復仇者 泰坦)](https://robertsspaceindustries.com/en/pledge/ships/avenger/avenger-titan) |
+| 特點 | [Aegis Avenger Titan (復仇者 泰坦)](https://robertsspaceindustries.com/en/pledge/Packages/Duelist-Starter-Pack) |
 | :--- | :--- |
 | **定位** | **戰鬥/運輸雙修萬金油** |
 | **核心優勢** | **全能性**。它擁有比基礎船強得多的火力、靈活的機動性，以及一個 8 SCU 的內部貨艙。尾部的**坡道門**讓你在執行地堡任務或搬運物資時極其方便。 |
@@ -34,7 +34,7 @@
 
 這是專為「立志成為專業人士」的新手設計的全新選擇。
 
-| 特點 | [Drake Golem (德雷克 魔像)](https://robertsspaceindustries.com/en/pledge/ships/rsi-alpha-4-8/drake-golem) |
+| 特點 | [Drake Golem (德雷克 魔像)](https://robertsspaceindustries.com/en/pledge/Packages/Miner-Starter-Pack) |
 | :--- | :--- |
 | **定位** | **工業/採礦專業入門機** |
 | **核心優勢** | **專業化工具**。它是第一艘整合了小型採礦雷射與物資粉碎裝置的入門船，讓玩家從第一天起就能參與宇宙最穩定的經濟活動：採礦。 |
