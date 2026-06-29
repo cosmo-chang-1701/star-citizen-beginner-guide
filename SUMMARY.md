@@ -50,6 +50,8 @@
   - [附錄 C：巨擘的統一：深入解析《星際公民》伺服器網格化技術及其發展軌跡](appendix/appendix-c.md)
   - [附錄 D：錯誤代碼對照表](appendix/appendix-d.md)
   - [附錄 E：各版本新聞焦點](appendix/appendix-e/README.md)
+    - [Alpha 4.8.3：XenoThreat 襲擊增加護航需求激增、InterSec 對削減軍費表憂慮、公會發佈 2956 武器製造指南](appendix/appendix-e/section-alpha-4.8.3.md)
+    - [Alpha 4.8.2：皇帝稱續簽克安條約至關重要、人類飛行員青睞克安飛船、參議院辯論克安互助條款](appendix/appendix-e/section-alpha-4.8.2.md)
     - [Alpha 4.8.1：爪蠑螈和平使者失蹤、飛行員對委員會建議「聘請額外安全人員」感到憤怒、藝術作為抵抗的行為](appendix/appendix-e/section-alpha-4.8.1.md)
     - [Alpha 4.8.0：「戰術打擊」行動重塑前線後勤、保險機制改革引發經濟波動、加油員俱樂部正式成立](appendix/appendix-e/section-alpha-4.8.0.md)
     - [Alpha 4.7.0：尼克斯 I 爆發土地爭奪熱潮、聯合地球帝國跨星系通訊網遭駭客攻擊、舒賓星際非法出售礦業權益引發爭議](appendix/appendix-e/section-alpha-4.7.0.md)
