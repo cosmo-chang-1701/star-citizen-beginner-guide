@@ -1,54 +1,34 @@
 # Alpha 4.8.1：爪蠑螈和平使者失蹤、飛行員對委員會建議「聘請額外安全人員」感到憤怒、藝術作為抵抗的行為
 
----
-
 ![](../../assets/loading_screen/alpha_4.8.1.png)
 
----
-
-<!-- **RELEASE EDITION 4.8.1** -->
-
-**發佈版本 4.8.1**
-
-<!-- **2956** -->
-
-**2956 年**
-
----
-
-<!-- **VOX POPULI - THE VOICE OF THE PEOPLE'S ALLIANCE** -->
-
-**VOX POPULI - 人民聯盟之聲**
+> **發佈版本：** 4.8.1 | **年份：** 2956 年 | **來源：** VOX POPULI - 人民聯盟之聲
 
 ---
 
 <!-- **SPICE UP YOUR LIFE** -->
 
-**為生活增添風味**
+## 為生活增添風味
 
 <!-- Submissions are now open for the annual recipe contest which aims to show that "in these trying times, even the simplest food can warm the heart." -->
 
 年度食譜大賽現已開放投稿，該活動旨在展示「在這些艱難的時期，即使是最簡單的食物也能溫暖人心。」
 
----
-
 <!-- **MERCY HOSPITAL CHARITY DRIVE DELAYED** -->
 
-**仁慈醫院 (Mercy Hospital) 慈善募款活動延期**
+## 仁慈醫院 (Mercy Hospital) 慈善募款活動延期
 
 <!-- The event originally scheduled for this month, intended to help the struggling hospital recover from the impact of the Molina Mold crisis, has been delayed indefinitely due to a disappointing lack of tickets purchased. -->
 
 原定於本月舉行、旨在幫助這家陷入困境的醫院從莫里納黴菌 (Molina Mold) 危機影響中恢復的活動，因門票售出情況令人失望而無限期延期。
 
----
-
 <!-- **CLAW SALAMANDERS' PEACE ENVOY MISSING** -->
 
-**爪蠑螈 (Claw Salamanders) 和平使者失蹤**
+## 爪蠑螈 (Claw Salamanders) 和平使者失蹤
 
 <!-- **AN ATTEMPT TO START A PEACEFUL DIALOGUE WITH THE GANG HAS LED TO TRAGEDY.** -->
 
-**試圖與該幫派展開和平對話的嘗試已導致悲劇。**
+> **試圖與該幫派展開和平對話的嘗試已導致悲劇。**
 
 <!-- A group led by Hazel Straub, a gifted language translator, left for Nyx II three days ago hoping to start a dialogue with the Claw Salamanders and establish a meaningful connection between residents of Levski and the troublesome outlaw gang. -->
 
@@ -62,15 +42,13 @@
 
 Hazel Straub 的家人正敦促居民如有任何線索請與他們聯繫。
 
----
-
 <!-- **PILOTS OUTRAGED AT COMMITTEE'S ADVICE TO 'HIRE ADDITIONAL SECURITY'** -->
 
-**飛行員對委員會建議「聘請額外安全人員」感到憤怒**
+## 飛行員對委員會建議「聘請額外安全人員」感到憤怒
 
 <!-- **MANY SAY THAT LEADERS ARE SKIRTING THEIR RESPONSIBILITIES AND SHOULD BE WORKING ON CREATING A SAFER NYX.** -->
 
-**許多人表示領導者正在規避責任，應致力於創造一個更安全的尼克斯 (Nyx)。**
+> **許多人表示領導者正在規避責任，應致力於創造一個更安全的尼克斯 (Nyx)。**
 
 <!-- The Governing Committee continues to show a complete lack of understanding when it comes to the safety of Levski with a new announcement that pilots should now fly with a bare minimum of "one escort." Captains whose livelihoods have been deeply impacted by the growing threat of outlaw and Vanduul attacks immediately balked at the notion that the Alliance's security should further become their financial burden. -->
 
@@ -88,15 +66,13 @@ Hazel Straub 的家人正敦促居民如有任何線索請與他們聯繫。
 
 截至本刊印前，委員會並未對此做出任何回應。
 
----
-
 <!-- **ART AS AN ACT OF RESISTANCE** -->
 
-**藝術作為抵抗的行為**
+## 藝術作為抵抗的行為
 
 <!-- **A NEW COALITION OF LOCAL ARTISTS ARE SEEKING FUNDING TO FURTHER EXPAND THE IMPACT OF ART IN PEOPLE'S ALLIANCE STATIONS.** -->
 
-**一個由當地藝術家組成的新聯盟正在尋求資金，以進一步擴大藝術在人民聯盟 (People's Alliance) 站點中的影響力。**
+> **一個由當地藝術家組成的新聯盟正在尋求資金，以進一步擴大藝術在人民聯盟 (People's Alliance) 站點中的影響力。**
 
 <!-- For many in Levski, art isn't just a luxury: it's a necessity. Art has always held cultural and political significance here, tracing back to the very founding of the People's Alliance. From anti-Messer protest pieces, to scrawlings in the bathrooms; each has its own purpose and meaning. -->
 
