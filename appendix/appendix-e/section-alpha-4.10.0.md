@@ -1,6 +1,6 @@
 # Alpha 4.10.0：九尾幫襲擊奧里森、希安拒絕軍事援助、重生技術僱用限制訴訟
 
-![](../../assets/loading_screen/alpha_4.10.0.jpg)
+![](../../assets/loading_screen/alpha_4.10.0.png)
 
 > **發佈版本：** 4.10.0 | **年份：** 2956 年 | **來源：** TERRA GAZETTE - 泰拉公報
 
@@ -22,7 +22,7 @@
 
 ## 希安談判代表拒絕強制援助條款
 
-<!-- **CONCERNS OVER THE IMPENDING HUXA TREATY RENEWAL GROW AS EMPEROR KRAY REFUSES VANDUUL WAR INVOLVEMENT.** -->
+<!-- **CONCERNS OVER THE IMPENDING HUXA TREATY RENEWAL GROW AS EMPEROR KR.Ē REFUSES VANDUUL WAR INVOLVEMENT.** -->
 
 > **隨著克雷 (Kr.ē) 皇帝拒絕捲入剜度 (Vanduul) 戰爭，對即將到來的《人類-希安條約》(HuXa Treaty) 續簽的擔憂日益加劇。**
 
