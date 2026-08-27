@@ -36,6 +36,7 @@
   - [Alpha 4.6.0：列夫斯基的生命線 (Lifeline for Levski)](part-5/section-alpha-4.6.0.md)
   - [Alpha 4.7.0：製造、物流與尼克斯之戰 (Crafting & Logistics)](part-5/section-alpha-4.7.0.md)
   - [Alpha 4.8.0：戰術打擊 (Tactical Strike)](part-5/section-alpha-4.8.0.md)
+  - [Alpha 4.10.0：圍攻奧里森 (Siege of Orison)](part-5/section-alpha-4.10.0.md)
 - [第六章：展望未來，星辰大海的彼方](part-6/README.md)
   - [6.1：「1.0 版本」代表什麼？這是一個全新的開始！](part-6/section-6-1.md)
   - [6.2：打造宇宙的魔法：伺服器網格化與星辰引擎](part-6/section-6-2.md)
