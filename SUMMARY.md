@@ -27,6 +27,7 @@
   - [4.2：當個好人還是壞蛋？了解一下犯罪系統](part-4/section-4-2.md)
   - [4.3：記得吃飯喝水！基礎的生存需求](part-4/section-4-3.md)
 - [第五章：深入進階 - 特殊活動指南](part-5/README.md)
+  - [Alpha 4.10.1：奧里森救濟 (Orison Relief Support)](part-5/section-alpha-4.10.1.md)
   - [Alpha 4.10.0：圍攻奧里森 (Siege of Orison)](part-5/section-alpha-4.10.0.md)
   - [Alpha 4.8.0：戰術打擊 (Tactical Strike)](part-5/section-alpha-4.8.0.md)
   - [Alpha 4.7.0：製造、物流與尼克斯之戰 (Crafting & Logistics)](part-5/section-alpha-4.7.0.md)
