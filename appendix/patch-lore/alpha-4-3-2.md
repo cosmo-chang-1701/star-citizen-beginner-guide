@@ -8,7 +8,6 @@ icon: newspaper
 ![](../../.gitbook/assets/loading_screen/alpha_4.3.2.png)
 
 > [!NOTE]
-> [!NOTE]
 > **發佈版本：** 4.3.2 | **年份：** 2955 年 | **來源：** CROSSHAIR - 準心 (傭兵公會官方新聞)
 
 ---

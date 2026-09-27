@@ -5,45 +5,56 @@ icon: bookmark
 
 # 附錄 B：遇到困難別怕！好用的工具與熱心社群
 
-公民，你不是一個人在戰鬥！《星際公民》擁有一個非常龐大且熱心的玩家社群，他們開發了許多實用的第三方工具，能極大地幫助你規劃你的星際旅程。
+公民，在無垠的星辰中你絕非孤身奮戰！《星際公民》擁有全球遊戲界最熱情、工程技術實力最頂尖的玩家社群之一。海量實用的第三方輔助網站與數據庫能極大程度簡化你的配裝、經商與探險規劃。
 
-### 官方資源
+---
 
-- **[伺服器狀態頁](https://status.robertsspaceindustries.com/)：** 當你無法登入遊戲時，可以先來這裡看看是不是官方伺服器出了問題。
-- **[官網知識庫](https://support.robertsspaceindustries.com/hc/en-us)：** 官方提供的遊戲機制詳細解釋。
-- **[星圖](https://robertsspaceindustries.com/en/starmap)：** 官方製作的互動式 3D 星圖導覽系統，揭示了《星際公民》會出現的所有星系資訊。
-- **[導覽系統](https://robertsspaceindustries.com/spectrum/guide)：** 官方的配對系統，可以將你這樣的新手與經驗豐富的老玩家配對，讓他們在遊戲裡一對一地帶你入門。
-- **[問題回報中心](https://issue-council.robertsspaceindustries.com/)：** 在遊戲中遇到任何 Bug 都可以來這邊回報，在回報問題以前可以先搜索有沒有已經存在的回報項目，可以加入討論與追蹤。
+## 官方權威資源與導航
 
-### 社群與尋求幫助的地方
+在尋求第三方工具之前，以下官方站點是確認伺服器健康度與提交問題的權威入口：
 
-#### 第三方網站
+- **[RSI 伺服器狀態監控 (Live Status)](https://status.robertsspaceindustries.com/)**：無法登入或頻繁遇到連線問題時，首先確認後端服務是否處於維護中。
+- **[官方知識庫 (Knowledge Base)](https://support.robertsspaceindustries.com/hc/en-us)**：包含帳號安全、系統最低相容性與基礎機制之官方官方解釋。
+- **[3D 互動全息星圖 (Ark Starmap)](https://robertsspaceindustries.com/en/starmap)**：官方打造的三維星系導覽工具，收錄已知宇宙各大恆星系、跳躍點與殖民歷史。
+- **[新公民引導導師系統 (Guide System)](https://robertsspaceindustries.com/spectrum/guide)**：官方志願者配對機制，能為新玩家媒合經驗豐富的資深老兵，進行遊戲內一對一語音帶飛教學。
+- **[問題回報中心 (Issue Council)](https://issue-council.robertsspaceindustries.com/)**：遇到任何機制異常或遊戲 Bug，可在這裡搜尋既有條目共同貢獻覆核 (Reproduce)，直接推動 CIG 工程師排查修復。
 
-- **[載具組件配置工具 (Erkul.games)](https://www.erkul.games/)：** 模擬改裝飛船必備。換武器、換護盾後的性能數據，以及零件購買地點，Erkul 都會告訴你。
-- **[貿易查詢工具 (UEX Corp)](https://uexcorp.space/)：** 綜合性的資料庫，包含了貿易、採礦、打撈等詳細數據，是工業玩家的好夥伴。
-- **[挖礦查詢工具 (Regolith Co.)](https://regolith.rocks/)：** 致力於幫助礦工們組織、分享和共同探勘的粉絲網站。
-- **[貨物網格模擬器 (Cargo Grid Viewer)](https://sc-cargo.space/)：** 提供玩家模擬不同載具貨物網格規劃擺放方式的互動工具。
-- **[PYAM Executive Hangar Status](https://exec.xyxyll.com/)：** 追蹤 Pyro 星系行政機庫 (Executive Hangar) 開啟狀態與時間預測。
-- **[藍圖獲得任務查詢 (SC Crafter)](https://www.sccrafter.com/)** & **[SCMDB](https://scmdb.net/)：** 查詢各項飛船組件與裝備藍圖的獲取方式、掉落地點與製造需求。
-- **[簡體中文版藍圖查詢系統](https://scm.flowcld.com/tools/blueprint)：** 適合中文使用者的藍圖資料庫工具。
-- **[星際公民多國語系在地化專案](https://github.com/cosmo-chang-1701/sc-translation-pack)：** 由 CosmoChang 發起的多國語系在地化計畫，提供最新的中文翻譯包與技術支援。
-- **[SC Trade Tools](https://sc-trade.tools/home)：** 幫助你規劃利潤最高的貿易路線。
-- **[Universal Item Finder](https://finder.cstone.space/)：** 快速找到某件裝備或武器在遊戲中的哪個商店有賣。
-- **[Reddit](https://www.reddit.com/r/starcitizen/):** 最大的英文《星際公民》社群。
-- **[Star Citizen Wiki](https://starcitizen.tools/)：** 資料最齊全的《星際公民》維基百科。
+---
 
-#### Discord 伺服器
+## 必備第三方社群神器
 
-- **[/r/starcitizen](https://discord.gg/CjFF43ZmT4)：** Reddit 最大《星際公民》社群的官方 Discord。
-- **[PIPELINE](https://discord.gg/yK7bNkExyj)：** 專注於最新消息與未公開的「洩漏」資訊。
-- **[Star Netrunners](https://discord.gg/2H8X3dq83n)：** 本指南作者創立的 Discord 社群。
-- **[星際遊騎兵海灣 / Outrider's Haven](https://discord.gg/ZDMHJ2jXdd)：** 台灣目前最大的《星際公民》社群 Discord。
-- **[星際公民正體中文翻譯計畫](https://discord.gg/2H8X3dq83n)：** 致力於為臺灣玩家提供專業且高品質的正體中文在地化支援。
+{% tabs %}
+{% tab title="飛船配裝與貨運模擬" icon="wrench" %}
+- **[Erkul.games (飛船組件模擬器)](https://www.erkul.games/)**：全宇宙公民必備神站！即時模擬各型號飛船更換武器、雷達、冷卻器與量子引擎後的 DPS、散熱與耗電數據，並標明各大空間站的即時庫存與售價。
+- **[UEX Corp (綜合貿易數據庫)](https://uexcorp.space/)**：最強大的星際貿易指南，整合即時大宗商品物價波動、利潤排行、採礦與打撈回購報價。
+- **[SC Cargo Space (貨物網格模擬器)](https://sc-cargo.space/)**：3D 視覺化工具，協助卡車司機模擬各船型物理貨艙網格的箱體最佳堆疊排列。
+- **[SC Trade Tools](https://sc-trade.tools/home)**：老牌星際商道計算機，自動計算每分鐘投資報酬率 (aUEC/min) 最優的航線。
+{% endtab %}
 
-#### YouTuber 頻道
+{% tab title="藍圖、採礦與物品查詢" icon="database" %}
+- **[SC Crafter 藍圖查詢網](https://www.sccrafter.com/)** & **[SCMDB](https://scmdb.net/)**：查詢各階飛船組件藍圖、製造原材配方需求與任務掉落點。
+- **[簡體中文藍圖查詢系統](https://scm.flowcld.com/tools/blueprint)**：友善中文公民的藍圖製造數據庫。
+- **[Regolith Co. (小行星採礦地圖)](https://regolith.rocks/)**：專為星際礦工打造的資源分佈、岩石電阻與高純度礦脈分享平台。
+- **[Universal Item Finder (物品搜尋器)](https://finder.cstone.space/)**：快速查詢任何一把特殊槍械、護甲或零件在全星系哪間商店有售。
+- **[Star Citizen Wiki](https://starcitizen.tools/)**：全球資料最齊全、歷史最悠久的英文星際公民百科全書。
+{% endtab %}
 
-- **[BoredGamer](https://www.youtube.com/@BoredGamerUK)：** 專注於最新的新聞、教學與更新資訊。
-- **[Nihilastra Gaming](https://www.youtube.com/@Nihilastra)：** 擁有大量繁體中文教學資源的知名玩家頻道。
-- **[躍兔實驗室 - Lab. TwoZic](https://www.youtube.com/@Lab.TwoZic)：** 分享星際公民、麥塊與科技內容的創作頻道。
+{% tab title="社群 Discord 與在地化支援" icon="comments" %}
+- **[星際遊騎兵海灣 (Outrider's Haven)](https://discord.gg/ZDMHJ2jXdd)**：臺灣目前規模最大、討論最活躍的《星際公民》繁體中文 Discord 社群。
+- **[Star Netrunners](https://discord.gg/2H8X3dq83n)**：本手冊作者創立之交流頻道，專注於新手問答、技術分析與遊戲機制深度解析。
+- **[星際公民正體中文翻譯計畫](https://github.com/cosmo-chang-1701/sc-translation-pack)**：由 CosmoChang 主導之多國語言在地化項目，持續提供符合臺灣語意的全中文化介面翻譯補丁包。
+- **[Reddit /r/starcitizen](https://www.reddit.com/r/starcitizen/)**：全球最具影響力的星際公民玩家論壇，也是新情報的第一傳播地。
+{% endtab %}
 
-勇敢地使用這些工具，並融入社群吧！你會發現，與其他公民交流，是這個宇宙最有趣的體驗之一。我們宇宙中見！
+{% tab title="影音創作者頻道" icon="video" %}
+- **[Nihilastra Gaming](https://www.youtube.com/@Nihilastra)**：提供大量高品質繁體中文機制解說、版本評測與新手實況教學。
+- **[躍兔實驗室 (Lab. TwoZic)](https://www.youtube.com/@Lab.TwoZic)**：優質台灣創作者頻道，分享星際公民飛船評測與前沿科技內容。
+- **[BoredGamer](https://www.youtube.com/@BoredGamerUK)**：全球公認最具代表性的英文星際公民每日快訊與版本更新專業解析者。
+{% endtab %}
+{% endtabs %}
+
+---
+
+## 結語與社群融入
+
+勇敢善用這些第三方工具，並大方地加入社群交流吧！你會發現，與志同道合的公民結伴而行，正是這座宇宙最迷人也最溫暖的體驗。我們在繁星中不見不散！

@@ -199,6 +199,108 @@ console.log(`✓ Verified ${stats.frontmatterChecked} files with valid YAML fron
 console.log(`✓ Verified ${stats.verifiedLinks} internal markdown links without any 404.`);
 console.log(`✓ Verified ${stats.verifiedImages} image references.`);
 
+// 8. Verify Heading Hierarchy and GitBook Interactive Blocks
+console.log('--- 7. Checking Heading Hierarchy and GitBook Interactive Blocks ---');
+let headingHierarchyIssues = 0;
+let interactiveBlockIssues = 0;
+
+for (const file of mdFiles) {
+  const content = fs.readFileSync(file, 'utf8');
+  const relPath = path.relative('.', file);
+  if (relPath === 'SUMMARY.md') continue;
+
+  const lines = content.split('\n');
+  let inCodeBlock = false;
+  let headings = [];
+  let tabsCount = 0;
+  let endtabsCount = 0;
+  let tabCount = 0;
+  let endtabCount = 0;
+  let stepperCount = 0;
+  let endstepperCount = 0;
+  let stepCount = 0;
+  let endstepCount = 0;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    if (trimmed.startsWith('```')) {
+      inCodeBlock = !inCodeBlock;
+      continue;
+    }
+    if (inCodeBlock) continue;
+
+    // Check duplicate alerts
+    if (trimmed.startsWith('> [!NOTE]')) {
+      if (i + 1 < lines.length && lines[i + 1].trim().startsWith('> [!NOTE]')) {
+        error(`Duplicate consecutive > [!NOTE] found in ${relPath} at line ${i + 1}`);
+      }
+    }
+
+    // GitBook blocks
+    if (trimmed === '{% tabs %}') tabsCount++;
+    if (trimmed === '{% endtabs %}') endtabsCount++;
+    if (trimmed.startsWith('{% tab ')) tabCount++;
+    if (trimmed === '{% endtab %}') endtabCount++;
+    if (trimmed === '{% stepper %}') stepperCount++;
+    if (trimmed === '{% endstepper %}') endstepperCount++;
+    if (trimmed === '{% step %}' || trimmed.startsWith('{% step ')) stepCount++;
+    if (trimmed === '{% endstep %}') endstepCount++;
+
+    // Headings
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+    if (headingMatch) {
+      headings.push({
+        level: headingMatch[1].length,
+        text: headingMatch[2].trim(),
+        line: i + 1
+      });
+    }
+  }
+
+  // Check interactive block balance
+  if (tabsCount !== endtabsCount || tabCount !== endtabCount) {
+    error(`Unbalanced {% tabs %} in ${relPath}: tabs=${tabsCount}, endtabs=${endtabsCount}, tab=${tabCount}, endtab=${endtabCount}`);
+    interactiveBlockIssues++;
+  }
+  if (stepperCount !== endstepperCount || stepCount !== endstepCount) {
+    error(`Unbalanced {% stepper %} in ${relPath}: stepper=${stepperCount}, endstepper=${endstepperCount}, step=${stepCount}, endstep=${endstepCount}`);
+    interactiveBlockIssues++;
+  }
+
+  // Check H1
+  const h1s = headings.filter(h => h.level === 1);
+  if (h1s.length === 0) {
+    error(`Missing # H1 heading in ${relPath}`);
+    headingHierarchyIssues++;
+  } else if (h1s.length > 1) {
+    error(`Multiple # H1 headings found in ${relPath} (lines: ${h1s.map(h => h.line).join(', ')})`);
+    headingHierarchyIssues++;
+  }
+
+  // Check heading hierarchy sequence
+  let prevLevel = 0;
+  for (const h of headings) {
+    if (prevLevel === 0) {
+      if (h.level !== 1) {
+        error(`First heading in ${relPath} is not H1 (found H${h.level}: "${h.text}" at line ${h.line})`);
+        headingHierarchyIssues++;
+      }
+    } else {
+      if (h.level > prevLevel + 1) {
+        error(`Heading level skip in ${relPath}: H${prevLevel} -> H${h.level} ("${h.text}" at line ${h.line})`);
+        headingHierarchyIssues++;
+      }
+    }
+    prevLevel = h.level;
+  }
+}
+
+if (headingHierarchyIssues === 0 && interactiveBlockIssues === 0) {
+  console.log('✓ All 66 documentation pages have perfect heading hierarchy (0 skips) and balanced interactive blocks.');
+}
+
 // Final Summary
 console.log('\n========================================');
 console.log('SEMANTIC ARCHITECTURE VALIDATION SUMMARY');

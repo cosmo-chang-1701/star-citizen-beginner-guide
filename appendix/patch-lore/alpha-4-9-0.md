@@ -8,7 +8,6 @@ icon: newspaper
 ![](../../.gitbook/assets/loading_screen/alpha_4.9.0.png)
 
 > [!NOTE]
-> [!NOTE]
 > **發佈版本：** 4.9.0 | **年份：** 2956 年 | **來源：** NEW UNITED - 新聯合報
 
 ---

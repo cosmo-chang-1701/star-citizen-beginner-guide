@@ -8,7 +8,6 @@ icon: newspaper
 ![](../../.gitbook/assets/loading_screen/alpha_4.10.0.png)
 
 > [!NOTE]
-> [!NOTE]
 > **發佈版本：** 4.10.0 | **年份：** 2956 年 | **來源：** TERRA GAZETTE - 泰拉公報
 
 ---
