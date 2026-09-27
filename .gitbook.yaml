@@ -1,0 +1,82 @@
+# GitBook Space Configuration
+# Documentation: https://docs.gitbook.com/
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+# Space-level redirects from legacy numeric structure to semantic URLs
+redirects:
+  part-0/README.md: introduction/README.md
+  part-0/section-0-1.md: introduction/what-is-star-citizen.md
+  part-0/section-0-2.md: introduction/pu-and-sq42.md
+  part-0/section-0-3.md: introduction/alpha-mindset.md
+
+  part-1/README.md: getting-started/README.md
+  part-1/section-1-1.md: getting-started/hardware-requirements.md
+  part-1/section-1-2.md: getting-started/game-packages.md
+  part-1/section-1-3.md: getting-started/starter-ships.md
+  part-1/section-1-4.md: getting-started/character-creation.md
+  part-1/section-1-5.md: getting-started/starting-locations.md
+
+  part-2/README.md: first-steps/README.md
+  part-2/section-2-1.md: first-steps/basic-controls.md
+  part-2/section-2-2.md: first-steps/mobiglas-guide.md
+  part-2/section-2-3.md: first-steps/city-to-spaceport.md
+  part-2/section-2-4.md: first-steps/first-flight-and-quantum.md
+
+  part-3/README.md: professions/README.md
+  part-3/section-3-1.md: professions/cargo-hauling.md
+  part-3/section-3-2.md: professions/mercenary-and-bounty-hunting.md
+  part-3/section-3-3.md: professions/mining.md
+  part-3/section-3-4.md: professions/salvage.md
+  part-3/section-3-5.md: professions/refueling.md
+
+  part-4/README.md: survival-guide/README.md
+  part-4/section-4-1.md: survival-guide/medical-and-insurance.md
+  part-4/section-4-2.md: survival-guide/crime-and-prison.md
+  part-4/section-4-3.md: survival-guide/nutrition-and-temperature.md
+
+  part-5/README.md: special-events/README.md
+  part-5/section-alpha-4.10.1.md: special-events/alpha-4-10-1-orison-relief.md
+  part-5/section-alpha-4.10.0.md: special-events/alpha-4-10-0-siege-of-orison.md
+  part-5/section-alpha-4.8.0.md: special-events/alpha-4-8-0-tactical-strike.md
+  part-5/section-alpha-4.7.0.md: special-events/alpha-4-7-0-crafting-and-logistics.md
+  part-5/section-alpha-4.6.0.md: special-events/alpha-4-6-0-lifeline-for-levski.md
+  part-5/section-alpha-4.5.0.md: special-events/alpha-4-5-0-engineering-update.md
+  part-5/section-alpha-4.4.0.md: special-events/alpha-4-4-0-welcome-to-nyx.md
+  part-5/section-alpha-4.3.2.md: special-events/alpha-4-3-2-fractured-frontiers.md
+  part-5/section-alpha-4.3.1.md: special-events/alpha-4-3-1-project-hyperion.md
+  part-5/section-alpha-4.3.0.md: special-events/alpha-4-3-0-onyx-facilities.md
+  part-5/section-alpha-4.2.1.md: special-events/alpha-4-2-1-resource-rush.md
+
+  part-6/README.md: future/README.md
+  part-6/section-6-1.md: future/version-1-0.md
+  part-6/section-6-2.md: future/server-meshing.md
+  part-6/section-6-3.md: future/universe-expansion.md
+  part-6/section-6-4.md: future/endgame-and-economy.md
+  part-6/section-6-5.md: future/sq42-and-roadmap.md
+  part-6/section-6-6.md: future/expectations-and-challenges.md
+  part-6/section-6-7.md: future/ambitious-future.md
+
+  appendix/appendix-a.md: appendix/keybindings.md
+  appendix/appendix-b.md: appendix/community-tools.md
+  appendix/appendix-c.md: appendix/server-meshing-deep-dive.md
+  appendix/appendix-d.md: appendix/error-codes.md
+
+  appendix/appendix-e/README.md: appendix/patch-lore/README.md
+  appendix/appendix-e/section-alpha-4.10.0.md: appendix/patch-lore/alpha-4-10-0.md
+  appendix/appendix-e/section-alpha-4.9.0.md: appendix/patch-lore/alpha-4-9-0.md
+  appendix/appendix-e/section-alpha-4.8.3.md: appendix/patch-lore/alpha-4-8-3.md
+  appendix/appendix-e/section-alpha-4.8.2.md: appendix/patch-lore/alpha-4-8-2.md
+  appendix/appendix-e/section-alpha-4.8.1.md: appendix/patch-lore/alpha-4-8-1.md
+  appendix/appendix-e/section-alpha-4.8.0.md: appendix/patch-lore/alpha-4-8-0.md
+  appendix/appendix-e/section-alpha-4.7.0.md: appendix/patch-lore/alpha-4-7-0.md
+  appendix/appendix-e/section-alpha-4.6.0.md: appendix/patch-lore/alpha-4-6-0.md
+  appendix/appendix-e/section-alpha-4.5.0.md: appendix/patch-lore/alpha-4-5-0.md
+  appendix/appendix-e/section-alpha-4.4.0.md: appendix/patch-lore/alpha-4-4-0.md
+  appendix/appendix-e/section-alpha-4.3.2.md: appendix/patch-lore/alpha-4-3-2.md
+  appendix/appendix-e/section-alpha-4.3.1.md: appendix/patch-lore/alpha-4-3-1.md
+  appendix/appendix-e/section-alpha-4.3.0.md: appendix/patch-lore/alpha-4-3-0.md
+  appendix/appendix-e/section-alpha-4.2.1.md: appendix/patch-lore/alpha-4-2-1.md
