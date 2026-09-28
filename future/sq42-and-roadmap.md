@@ -13,7 +13,7 @@ icon: timeline
 
 《42 中隊》是由 CIG 原班人馬打造的單人戰役 3A 級史詩大作，也是克里斯·羅伯茲 (Chris Roberts) 傳奇經典《銀河飛將》的精神正統續作：
 
-- **最高研發優先級**：CIG 已將 SQ42 的壓模發售列為 2026 年最高優先級任務，目標在 **2026 年第四季** 全球同步發售。
+- **最高研發優先級與發售時程調整**：SQ42 全部章節已可完整遊玩（Content Complete），目前正處於密集打磨與 Beta 準備階段。為確保作品達到最高 3A 品質水準，官方在 [Letter from the Chairman](https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman) 正式宣布將發售時程調整至 **2027 年第二季 (2027 Q2)**。
 - **技術全面回流 PU**：兩款作品共用 StarEngine 底層引擎與美術資產。包括 Maelstrom 物理破壞、全新 HUD 介面、真實毛髮光影與戰術 AI 行為樹，都是在 SQ42 完成精工打磨後，無縫移植至線上持久宇宙中。
 
 ---
@@ -32,11 +32,11 @@ icon: timeline
 綜合官方公開進度與業界分析，未來的核心里程碑如下：
 
 1. **Alpha 4.8 ~ 4.10 週期**：全面實裝戰術打擊群任務、後勤 2.0、跳躍點無縫通行與藍圖長期保存。
-2. **2026 年 Q4**：**《42 中隊》全球正式發售**，以好萊塢級單人戰役向全球玩家證明技術交付實力。
-3. **2027 ~ 2028 年**：**《星際公民 1.0》正式商業上線**，終結刪檔，進入可持續運營的全新紀元。
+2. **2027 年 Q2**：**《42 中隊》全球正式發售**（官方延期時程詳見 [Letter from the Chairman](https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman)），以好萊塢級單人戰役向全球玩家證明技術交付實力。
+3. **2027 年底 ~ 2028 年**：**《星際公民 1.0》正式商業上線**，在單人戰役奠定口碑與驗證底層技術後終結刪檔，進入可持續運營的全新紀元。
 
 > [!NOTE]
-> 《42 中隊》的成功上市將是重塑全球市場信心的關鍵一戰，其磅礡的口碑將為隨後登場的《星際公民 1.0》奠定堅實的玩家基礎。
+> 《42 中隊》由原先目標調整至 2027 年 Q2 發售，體現了團隊對旗艦 3A 單人戰役品質的極致苛求。其成功上市將是重塑全球市場信心的關鍵一戰，其磅礡的口碑將為隨後登場的《星際公民 1.0》奠定堅實的玩家基礎。官方詳細進度公告請參閱 [Letter from the Chairman](https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman)。
 
 ---
 

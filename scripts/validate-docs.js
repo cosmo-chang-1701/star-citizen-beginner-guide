@@ -142,8 +142,8 @@ for (const file of mdFiles) {
   const content = fs.readFileSync(file, 'utf8');
   const relPath = path.relative('.', file);
 
-  // Frontmatter check (except SUMMARY.md)
-  if (path.basename(file) !== 'SUMMARY.md') {
+  // Frontmatter check (except SUMMARY.md and root README.md)
+  if (path.basename(file) !== 'SUMMARY.md' && relPath !== 'README.md') {
     if (!content.startsWith('---\n')) {
       error(`Missing frontmatter in ${relPath}`);
     } else {

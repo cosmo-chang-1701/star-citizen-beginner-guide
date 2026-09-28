@@ -28,7 +28,7 @@ icon: layer-group
 
 - **核心本質**：這是一款完全獨立的 3A 級單人劇情戰役遊戲，舞台同樣設定在《星際公民》的世界觀體系中。
 - **遊玩體驗**：玩家將扮演一名 UEE 地球帝國海軍的新兵，被派往邊境星系加入傳奇的第 42 戰鬥機中隊，親身經歷一場波瀾壯闊的星際史詩戰役。遊戲邀請了包括馬克·漢米爾 (Mark Hamill)、蓋瑞·歐德曼 (Gary Oldman)、吉蓮·安德森 (Gillian Anderson) 等好萊塢頂級巨星進行動作捕捉與配音，被視為經典《銀河飛將》(Wing Commander) 的終極精神續作。
-- **當前階段**：SQ42 目前已進入發售前的最後打磨階段，預計於 2026 年底前正式發售。
+- **當前階段**：SQ42 全部章節已進入最後打磨與最佳化階段。依據官方在 [Letter from the Chairman](https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman) 中公布的最新開發排程，為達到極致 3A 品質，發售時程已調整至 **2027 年第二季 (2027 Q2)** 正式發售。
 
 > [!NOTE]
 > 簡單來說，SQ42 是一部你可以親身握住駕駛桿主演的好萊塢太空科幻大片。
