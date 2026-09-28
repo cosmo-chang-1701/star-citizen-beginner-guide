@@ -143,7 +143,7 @@ for (const file of mdFiles) {
   const relPath = path.relative('.', file);
 
   // Frontmatter check (except SUMMARY.md)
-  if (relPath !== 'SUMMARY.md') {
+  if (path.basename(file) !== 'SUMMARY.md') {
     if (!content.startsWith('---\n')) {
       error(`Missing frontmatter in ${relPath}`);
     } else {
@@ -207,7 +207,7 @@ let interactiveBlockIssues = 0;
 for (const file of mdFiles) {
   const content = fs.readFileSync(file, 'utf8');
   const relPath = path.relative('.', file);
-  if (relPath === 'SUMMARY.md') continue;
+  if (path.basename(file) === 'SUMMARY.md') continue;
 
   const lines = content.split('\n');
   let inCodeBlock = false;
