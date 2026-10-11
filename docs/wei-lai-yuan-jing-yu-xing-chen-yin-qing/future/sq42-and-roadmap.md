@@ -13,7 +13,7 @@ icon: timeline
 
 《42 中隊》是由 CIG 原班人馬打造的單人戰役 3A 級史詩大作，也是克里斯·羅伯茲 (Chris Roberts) 傳奇經典《銀河飛將》的精神正統續作：
 
-- **最高研發優先級與發售時程調整**：SQ42 全部章節已可完整遊玩（Content Complete），目前正處於密集打磨與 Beta 準備階段。為確保作品達到最高 3A 品質水準，官方在 [Letter from the Chairman](https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman) 正式宣布將發售時程調整至 **2027 年第二季 (2027 Q2)**。
+- **最高研發優先級與發售時程調整**：SQ42 全部章節已可完整遊玩（Content Complete），目前正處於密集打磨與 Beta 準備階段。為確保作品達到最高 3A 品質水準，官方在 [Letter from the Chairman](https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman) 正式宣布將發售時程調整至 **2027 年第二季 (2027 Q2)**。此外，本作已正式開設 [Steam 商店頁面](https://store.steampowered.com/app/4045720/Squadron_42/) 供全球玩家加入願望清單並追蹤發售動態。
 - **技術全面回流 PU**：兩款作品共用 StarEngine 底層引擎與美術資產。包括 Maelstrom 物理破壞、全新 HUD 介面、真實毛髮光影與戰術 AI 行為樹，都是在 SQ42 完成精工打磨後，無縫移植至線上持久宇宙中。
 
 ---
