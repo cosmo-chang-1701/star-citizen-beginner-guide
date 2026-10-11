@@ -73,6 +73,7 @@
   * [附錄 C：巨擘的統一：深入解析《星際公民》伺服器網格化技術及其發展軌跡](appendix/server-meshing-deep-dive.md)
   * [附錄 D：錯誤代碼對照表](appendix/error-codes.md)
   * [附錄 E：各版本新聞焦點](appendix/patch-lore/README.md)
+    * [Alpha 4.10.2：卡斯墜機重創 RSI、辛迪加審判核心證人失蹤、經濟學家擔憂資源短缺](appendix/patch-lore/alpha-4-10-2.md)
     * [Alpha 4.10.0：九尾幫襲擊奧里森、希安拒絕軍事援助、重生技術僱用限制訴訟](appendix/patch-lore/alpha-4-10-0.md)
     * [Alpha 4.9.0：奠基節擴展至非 UEE 星系、斯坦頓免費安全援助請求遭拒、格雷黑市因非法轉售飛船零件被起訴](appendix/patch-lore/alpha-4-9-0.md)
     * [Alpha 4.8.3：XenoThreat 襲擊增加護航需求激增、InterSec 對削減軍費表憂慮、公會發佈 2956 武器製造指南](appendix/patch-lore/alpha-4-8-3.md)

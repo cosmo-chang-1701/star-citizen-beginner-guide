@@ -66,6 +66,7 @@ redirects:
   appendix/appendix-d.md: appendix/error-codes.md
 
   appendix/appendix-e/README.md: appendix/patch-lore/README.md
+  appendix/appendix-e/section-alpha-4.10.2.md: appendix/patch-lore/alpha-4-10-2.md
   appendix/appendix-e/section-alpha-4.10.0.md: appendix/patch-lore/alpha-4-10-0.md
   appendix/appendix-e/section-alpha-4.9.0.md: appendix/patch-lore/alpha-4-9-0.md
   appendix/appendix-e/section-alpha-4.8.3.md: appendix/patch-lore/alpha-4-8-3.md
