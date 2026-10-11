@@ -39,6 +39,7 @@ redirects:
   part-4/section-4-3.md: survival-guide/nutrition-and-temperature.md
 
   part-5/README.md: special-events/README.md
+  part-5/section-alpha-4.10.2.md: special-events/alpha-4-10-2-rsi-discovery-month.md
   part-5/section-alpha-4.10.1.md: special-events/alpha-4-10-1-orison-relief.md
   part-5/section-alpha-4.10.0.md: special-events/alpha-4-10-0-siege-of-orison.md
   part-5/section-alpha-4.8.0.md: special-events/alpha-4-8-0-tactical-strike.md
