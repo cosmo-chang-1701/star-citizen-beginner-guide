@@ -23,6 +23,7 @@ icon: trophy
 
 | 版本 | 活動名稱 | 核心玩法與亮點 |
 | :---: | :--- | :--- |
+| **Alpha 4.10.2** | **[RSI 探索月 (RSI Discovery Month)](alpha-4-10-2-rsi-discovery-month.md)** | 四大職業軌道矩陣、星座 Mk V 半人馬座與雲雀子機、帳號直發防重置 (Wipe-Immune) 獎勵。 |
 | **Alpha 4.10.1** | **[奧里森救濟 (Orison Relief Support)](alpha-4-10-1-orison-relief.md)** | 浮島防衛物資後勤、聲望累積與官方帳號直發防重置 (Wipe-Immune) 獎勵。 |
 | **Alpha 4.10.0** | **[圍攻奧里森 (Siege of Orison)](alpha-4-10-0-siege-of-orison.md)** | 九尾幫防空突襲、浮島登陸作戰與重裝裝甲 BUL-H4 實戰。 |
 | **Alpha 4.8.0** | **[戰術打擊 (Tactical Strike)](alpha-4-8-0-tactical-strike.md)** | 前線突擊、高價值據點壓制與動態補給線戰術實施。 |
@@ -39,4 +40,4 @@ icon: trophy
 
 ## 🚀 準備好就出發
 
-👉 **[開始閱讀最新活動：Alpha 4.10.1 奧里森救濟全攻略](alpha-4-10-1-orison-relief.md)**
+👉 **[開始閱讀最新活動：Alpha 4.10.2 RSI 探索月全攻略](alpha-4-10-2-rsi-discovery-month.md)**

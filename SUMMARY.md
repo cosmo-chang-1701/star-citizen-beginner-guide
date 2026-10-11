@@ -40,6 +40,7 @@
 
 ## ⚡ 特殊活動指南
 * [第五章：深入進階 - 特殊活動指南](special-events/README.md)
+  * [Alpha 4.10.2：RSI 探索月 (RSI Discovery Month)](special-events/alpha-4-10-2-rsi-discovery-month.md)
   * [Alpha 4.10.1：奧里森救濟 (Orison Relief Support)](special-events/alpha-4-10-1-orison-relief.md)
   * [Alpha 4.10.0：圍攻奧里森 (Siege of Orison)](special-events/alpha-4-10-0-siege-of-orison.md)
   * [Alpha 4.8.0：戰術打擊 (Tactical Strike)](special-events/alpha-4-8-0-tactical-strike.md)
