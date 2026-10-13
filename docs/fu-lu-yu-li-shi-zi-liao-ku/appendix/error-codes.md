@@ -1,101 +1,223 @@
 ---
-description: 遊戲連線錯誤代碼速查手冊：Error 30000、30009、19004、50001、60015、0 錯誤排查與快速自救步驟。
+description: 依 RSI 官方支援中心校準的錯誤代碼速查表：19000/19005、30000、30009/30018、60015、65000、啟動器 2000/50XX、EAC Code 0 與遊戲崩潰代碼之官方排除步驟。
 icon: triangle-exclamation
 ---
 
 # 附錄 D：錯誤代碼對照表
 
-## 錯誤代碼分類對照矩陣
+{% hint style="info" %}
+**資料來源與校準基準**
+本頁內容依 [RSI 官方支援中心](https://support.robertsspaceindustries.com/hc/en-us) 截至 2026 年 10 月之文章整理，對應 Alpha 4.10.2。每一列皆附官方文章連結；官方未收錄或已下架之代碼另列於「社群回報代碼」。遊戲版本更新後，請以官方文章最新內容為準。
+{% endhint %}
 
-本節將遊戲所有常見錯誤劃分為三大矩陣：啟動與反作弊、帳號與大廳、伺服器連線與持久化。
+## 快速索引
 
-### 類別 A：啟動器、圖形驅動與反作弊 (Launcher, GPU & EAC)
+| 代碼特徵 | 常見發生時機 | 對應類別 |
+| :--- | :--- | :--- |
+| 1032、1034、帳號救援信件 | 登入啟動器 / RSI 官網 | 類別 C |
+| 2000、3004/3005、4000、50XX、8001/8004 | 安裝、更新、驗證遊戲檔案 | 類別 A |
+| Code 0、206/207、70XXX、Vulkan / DXGI 訊息 | 按下 Launch Game 後、進入主選單前 | 類別 B |
+| 3221225477、7328XXXXX 等長串數字 | 遊戲中途閃退 | 類別 B：遊戲崩潰代碼對照 |
+| 19000 / 19005（19K 系列） | 進入主選單或宇宙時的帳號驗證 | 類別 C |
+| 30XXX、403、41XXX、60XXX、64008、65000 | 進入宇宙、載入中或遊玩中斷線 | 類別 D |
 
-此類別問題主要發生於進入 3D 世界之前，集中於本地作業系統環境、顯卡底層驅動、安全防護軟體攔截或反作弊模組衝突。
+## 類別 A：啟動器、安裝與遊戲檔案 (RSI Launcher & Installer)
 
-| 錯誤代碼 | 錯誤訊息與技術成因 | 官方 / 社群實證解決方案 | 參考資料連結 |
+本類別涵蓋 RSI 啟動器安裝、遊戲檔案下載、更新與檔案權限相關之錯誤代碼。
+
+| 錯誤代碼 | 官方說明與成因 | 官方建議排除步驟 | 官方來源 |
 | :--- | :--- | :--- | :--- |
-| **0 (Code 0)** | **Easy Anti-Cheat (EAC) Initialization Failed / Anti-Cheat Error**<br>`Error - Anticheat (CODE: 0)`。Easy Anti-Cheat 反作弊模組初始化失敗、反作弊核心檔案損壞，或遭到背景防毒/安全防護軟體攔截隔離。 | <ul><li>開啟工作管理員，強制結束所有殘留的 `RSI Launcher` 與 `StarCitizen.exe` 進程。</li><li>進入遊戲安裝目錄 `\StarCitizen\LIVE`，手動刪除整個 `EasyAntiCheat` 資料夾。</li><li>開啟啟動器，進入「Settings」點擊 `VERIFY`（分析遊戲檔案完整性），自動重新下載純淨 EAC 元件。</li><li>關閉可能與反作弊衝突之第三方軟體（如特定 RGB 控制軟體或畫面注入層）。</li></ul> | [官方 RSI 知識庫 - EAC 疑難排解](https://support.robertsspaceindustries.com/hc/en-us/articles/4412276152343-Easy-Anti-Cheat-Troubleshooting) |
-| **206 / 207** | **Easy Anti-Cheat (EAC) Validation Failed / Service Error**<br>Easy Anti-Cheat 模組驗證失敗、EAC 執行核心檔案損壞、數位簽章校驗不合，或 EAC 背景守護服務遭安全軟體強制隔離。 | <ul><li>進入遊戲安裝目錄 `\StarCitizen\LIVE`，手動刪除整個 `EasyAntiCheat` 資料夾。</li><li>至使用者路徑 `%appdata%\EasyAntiCheat` 清空暫存檔案。</li><li>開啟啟動器，進入「Settings」頁面點擊 `VERIFY`（驗證），自動重新下載部署純淨 EAC 元件。</li><li>確認防毒軟體未將 `EasyAntiCheat_EOS.sys` 封鎖。</li></ul> | [官方 EAC 疑難排解指南](https://support.robertsspaceindustries.com/hc/en-us/articles/4412276152343-Easy-Anti-Cheat-Troubleshooting) |
-| **210** | **Unrecognized Game Client**<br>EAC 引擎無法辨識遊戲客戶端主程式 (`Unrecognized game client. Cannot continue.`)。通常發生在更新修補中斷、二進位檔案校驗和 (Hash) 不符，或第三方注入工具 (如舊版 Reshade / 覆蓋層) 干擾。 | <ul><li>暫時關閉所有第三方遊戲外掛、字型包或畫面注入器 (ReShade / Special K)。</li><li>於啟動器 Settings 中執行完整 `VERIFY` 檔案驗證。</li><li>若驗證無效，執行針對 **206 / 207** 的 EAC 目錄清理重裝 SOP。</li><li>確保遊戲主程式安裝路徑未包含異常特殊字元或非預設捷徑。</li></ul> | [官方 EAC 支援 - 錯誤 210 排查說明](https://eoshelp.epicgames.com/s/article/What-causes-the-anti-cheat-error-Unrecognized-game-client-Cannot-continue) |
-| **1275 / 30005** | **EAC Driver Load Error / StartService Failed**<br>EAC 核心驅動程式載入失敗 (`StartService failed with 1275`)。核心成因為 Windows 11 核心隔離 (Core Isolation) 之「記憶體完整性 (HVCI)」或核心模式硬體強制堆疊保護安全策略阻斷未簽章或舊版 EAC 核心驅動載入。 | <ul><li>開啟 Windows「設定」→「隱私權與安全性」→「Windows 安全性」→「裝置安全性」。</li><li>點選「核心隔離詳細資料」，暫時將「記憶體完整性」設為關閉並重新啟動電腦。</li><li>若近期安裝了特定 Windows 預覽更新（如 KB5044376），可檢查是否有後續微軟修補。</li><li>進入 `\StarCitizen\LIVE\EasyAntiCheat`，以管理員身分執行 `EasyAntiCheat_Setup.exe` 點選修復。</li></ul> | [Epic 支援 - EAC Error 1275 處理](https://www.epicgames.com/help/c-202300000001639/c-202300000001736/eac-driver-error-1275-driver-load-error-in-windows-11-a202300000010435) |
-| **2000 / 50XX** | **Generic Launcher / Installer / Download Pipeline Failure**<br>啟動器安裝或下載傳輸管道失敗。多因儲存裝置非 NTFS 格式、磁碟寫入權限受阻、剩餘空間不足或 CDN 檔案區塊校驗逾時（包含 5007、5008、5010、5012、5015、5018、5021 等）。 | <ul><li>確認遊戲安裝目錄所在磁碟為 **NTFS** 格式（不支援 exFAT / FAT32），且剩餘可用空間不少於 100 GB。</li><li>以系統管理員身分啟動 RSI Launcher。</li><li>在啟動器 Settings 中將 `Concurrent Downloads` 調降為 5，並設定 `Max Download Speed` 限制頻寬，減輕網路堆疊負載。</li><li>檢視 `%appdata%\rsilauncher\logs` 日誌確認卡住的具體檔案。</li></ul> | [官方 RSI 知識庫 - 錯誤 2000 與 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
-| **GPU Crash / GPU Hang** | **Shader Compilation Crash / GPU Timeout Detection and Recovery (TDR)**<br>顯卡設備超時掛起 (`DXGI_ERROR_DEVICE_HUNG` / `GPU Device Instance Paused`)、著色器編譯失敗或顯存 (VRAM) 溢出。多因過期著色器快取、顯卡過度超頻或驅動版本衝突引發。 | <ul><li>**清除著色器快取**：完全刪除 `%localappdata%\Star Citizen` 資料夾內的所有檔案。</li><li>使用 DDU (Display Driver Uninstaller) 工具乾淨移除舊驅動，安裝最新版 NVIDIA / AMD 官方驅動。</li><li>關閉 MSI Afterburner 等工具之顯卡超頻、顯存超頻或降電壓設定，回復原廠預設時脈。</li><li>確保系統分頁檔 (Pagefile) 設在高速 NVMe SSD 上且由系統自動管理（建議不少於 32 GB）。</li><li>若在 Vulkan 模式下頻繁崩潰，可於顯示設定切換至 DirectX 11 進行對照測試。</li></ul> | [官方 RSI 圖形疑難排解指南](https://support.robertsspaceindustries.com/hc/en-us/articles/360000081887-Guide-to-Graphic-Issues) |
+| **2000** | **Generic Launcher Error**<br>通用錯誤，表示啟動器正在執行的程序失敗，需查看日誌找出實際成因。 | <ul><li>完全結束遊戲與啟動器，確認系統匣 / 工作管理員中沒有多個 RSI Launcher 程序。</li><li>Settings → 選擇頻道 (LIVE/PTU) → 確認安裝路徑 → `VERIFY`。</li><li>開啟 `%appdata%\rsilauncher\logs\log.log`，捲到最底查看錯誤時間點附近的訊息。</li><li>仍無效則完整移除啟動器與遊戲後重裝。</li><li>即使已自行解決，也建議至 Issue Council 回報。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **InvalidMDFileError** | **InvalidMDFileError**<br>log.log 中出現，表示檔案損壞。 | <ul><li>`VERIFY`。</li><li>無效則完整移除並重裝。</li><li>仍無效參照〈Troubleshoot the RSI Launcher〉（Issue Council：LCH-244）。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **3004 / 3005** | **Error 3004 / 3005**<br>已安裝檔案損壞，或下載過程發生網路問題（官方特別提到 Starlink 使用者回報頻繁）。 | <ul><li>`VERIFY`。</li><li>若安裝失敗後殘留 `data.p4k`：將其改名為 `data.p4k.part` → 以系統管理員身分執行啟動器 → 點 Install。</li><li>Settings → Download：`Concurrent Download` 調低至 10（預設 Max）、下載速限設為 2000 KB/s。</li><li>檢查家用網路、RSI Status、暫停/切換 VPN。</li><li>最後手段：完整移除重裝。</li></ul> | [官方 KB - Error 3004 / 3005](https://support.robertsspaceindustries.com/hc/en-us/articles/22531092903319-Error-3004-3005) |
+| **4000** | **Something went wrong when downloading the Manifest**<br>無法取得更新清單 (`Cannot retrieve Update Manifest`)，通常為存取被阻擋。 | <ul><li>防火牆/路由器放行 TCP 8000–8020、UDP 64090–64110（必要時請 ISP 協助）。</li><li>防火牆與防毒軟體白名單加入 `RSI Launcher.exe`、`StarCitizen.exe`（官方點名 Avast、Panda 曾有問題）。</li><li>完整移除並重裝，並完全關機一次清除記憶體快取。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher) |
+| **5007** | **Error 5007**<br>網路連線問題導致下載失敗；重新下載或清快取有時無效。 | <ul><li>玩家回報使用 VPN 完成下載與安裝後即可解決，安裝完成後可關閉 VPN。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **5008** | **Error 5008**<br>下載/安裝時發生連線問題。 | <ul><li>先執行 3004/3005 的步驟。</li><li>將殘留的 `data.p4k` 改名為 `data.p4k.part` → 確認啟動器程序已結束 → 以系統管理員身分執行 → 點 Install，讓流程不中斷完成。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **5009** | **IO ERROR**<br>Windows 存取權限問題，啟動器無法建立或寫入遊戲資料夾。 | <ul><li>完全結束遊戲與啟動器。</li><li>在 `StarCitizen` 資料夾內手動建立對應頻道資料夾（如 `LIVE`、`PTU`、`EPTU`），路徑需與啟動器設定一致。</li><li>仍無效：以系統管理員身分執行啟動器後重試。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **5010** | **P4K ERROR**<br>遊戲檔案損壞。 | <ul><li>`VERIFY`。</li><li>無效則完整移除並重裝。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **5012** | **Verification header not found**<br>網路延遲或下載過程嚴重 lag。 | <ul><li>開啟或關閉 VPN。</li><li>重開（斷電重啟）路由器。</li><li>切換有線/無線網路。</li><li>在下載設定中調降下載速度。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **5013** | **Installer Exception - u002**<br>log.log 出現 `Worker threw: Installer exception`；官方表示成因不明、無明確解法。 | <ul><li>參照〈Troubleshoot the RSI Launcher〉的通用步驟。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **5015–5018** | **NETWORK FATAL ERROR**<br>網路問題，可能連帶造成檔案損壞。 | <ul><li>先 `VERIFY`。</li><li>再執行 5012 的網路排除步驟。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **5021** | **Installer Error**<br>官方推測為 Windows 11 模擬磁碟磁區大小 (sector size) 的行為異常。 | <ul><li>以系統管理員身分開啟命令提示字元。</li><li>執行 `REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\stornvme\Parameters\Device" /v "ForcedPhysicalSectorSizeInBytes" /t REG_MULTI_SZ /d "* 4095" /f`。</li><li>重新開機。</li><li>重試前可先刪除先前的安裝檔案（⚠ 修改登錄檔需謹慎）。</li></ul> | [官方 KB - Error 2000 or 50XX](https://support.robertsspaceindustries.com/hc/en-us/articles/22514899089431-Error-2000-or-50XX) |
+| **8001 / 8004** | **Error Code 8001 / 8004**<br>遊戲安裝資料夾權限問題；可能無法 VERIFY、無法完成安裝，或安裝後一執行就閃退。 | <ul><li>工作管理員結束所有 RSI Launcher 程序 → 以系統管理員身分執行。</li><li>`StarCitizen` 資料夾 → 內容 → 安全性：Administrators 需有完全控制；Users 需有讀取與執行/列出資料夾內容/讀取，並套用至子資料夾。</li><li>手動建立 `StarCitizen\LIVE` 資料夾。</li><li>防毒軟體白名單加入 `StarCitizen.exe`。</li><li>仍無效則完整移除重裝。</li></ul> | [官方 KB - Error Code 8001 / 8004](https://support.robertsspaceindustries.com/hc/en-us/articles/360012273294-Error-Code-8001-8004) |
+| **data.p4k 驗證迴圈** | **Troubleshoot errors with data.p4k**<br>`data.p4k` 超過 40 GB 仍顯示損壞、不斷要求 Verify、啟動出現 “Failed to verify” 或 “Star Citizen has stopped running unexpectedly”。成因：連線慢/不穩、ISP 限速大檔、舊路由器韌體、連接埠被封鎖。 | <ul><li>放行 TCP 8000–8020、UDP 64090–64110。</li><li>白名單 `RSI Launcher.exe`、`StarCitizen.exe`。</li><li>調低 `Concurrent Downloads`（先試 15 或 10）與 `Download Speed Limit`。</li><li>將 `data.p4k` 改名為 `data.p4k.backup` 後執行 Verify。</li><li>完整移除重裝。</li></ul> | [官方 KB - Troubleshoot errors with data.p4k](https://support.robertsspaceindustries.com/hc/en-us/articles/360000115367-Troubleshoot-errors-with-data-p4k) |
+| **You do not have permission to sign in.** | **Launcher Error Message**<br>使用了過時版本的啟動器（常見於舊連結下載）。 | <ul><li>解除安裝啟動器。</li><li>從 RSI 官網 Download 頁面重新下載最新版。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher) |
+| **Session Expired** | **Session Expired**<br>多為網路問題或 VPN 設定干擾啟動器。 | <ul><li>暫停或白名單網路防護程式（如防毒軟體、NordVPN 的 Web Protect）。</li><li>至 Issue Council 啟動器分類回報。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher) |
+| **System Requirements Not Met** | **RSI Launcher Error - System Requirements Not Met**<br>CPU 不支援遊戲所需的指令集；屬硬體限制，客服無法協助。 | <ul><li>至 CPU 製造商官網核對規格是否符合最低需求。</li><li>若 CPU 確實相容仍出現此錯誤，蒐集系統資訊與崩潰日誌後提交工單。</li></ul> | [官方 KB - RSI Launcher Error - System Requirements Not Met](https://support.robertsspaceindustries.com/hc/en-us/articles/360057156593-RSI-Launcher-Error-System-Requirements-Not-Met) |
+| **Missing a Game Package** | **RSI Launcher - "Missing a Game Package" Message**<br>登入的帳號沒有遊戲包。常見原因：誤將遊戲包熔掉 (reclaim)、登入錯誤帳號、遊戲包已送人、免費試玩 (Free Fly) 活動結束。 | <ul><li>至官網 Hangar 以 Game Packages 篩選確認。</li><li>若誤熔可從 Buy Back 買回，但官方建議直接購買新遊戲包較划算。</li><li>確認登入的 Email 是主要帳號。</li></ul> | [官方 KB - RSI Launcher - "Missing a Game Package"](https://support.robertsspaceindustries.com/hc/en-us/articles/22382918063383-RSI-Launcher-Missing-a-Game-Package-Message) |
 
-### 類別 B：帳號認證與大廳佇列 (Authentication, Entitlement & Lobby)
+## 類別 B：Easy Anti-Cheat、圖形與崩潰 (EAC, Graphics & Crash)
 
-此類別問題集中於玩家從啟動器登入、帳號資產核對，到大廳匹配並嘗試接入伺服器分片 (Shard) 的過程。
+本類別涵蓋 Easy Anti-Cheat (EAC) 反作弊模組、顯示卡驅動、Vulkan 渲染與圖形崩潰相關之錯誤代碼。
 
-| 錯誤代碼 | 錯誤訊息與技術成因 | 官方 / 社群實證解決方案 | 參考資料連結 |
+| 錯誤代碼 | 官方說明與成因 | 官方建議排除步驟 | 官方來源 |
 | :--- | :--- | :--- | :--- |
-| **15008 / 16008** | **Account Authentication / Service Outage / CDN Unreachable**<br>雲端身分認證服務中斷 (`CIG services CODE 16008` / `Account data update failed CODE 15008`)、登入驗證端點無回應，或玩家本機 DNS 無法正確解析 RSI 全球 CDN 認證節點。 | <ul><li>造訪 [RSI Status 頁面](https://status.robertsspaceindustries.com/) 檢查官方伺服器群與驗證服務是否處於 Degraded 或 Maintenance 狀態。</li><li>開啟命令提示字元 (cmd) 執行 `ipconfig /flushdns` 刷新快取。</li><li>將系統 DNS 變更為 Google DNS (`8.8.8.8`) 或 Cloudflare DNS (`1.1.1.1`)。</li><li>重啟路由器與電腦，排除本地網路 Session 鎖死。</li></ul> | [官方 RSI 知識庫 - 錯誤 15008 與 16008](https://support.robertsspaceindustries.com/hc/en-us/articles/360012425434-Error-Code-15008-16008) |
-| **16007** | **Account Data Fetch Timeout**<br>帳號資料拉取逾時 (`Account data update failed CODE 16007`)。客戶端向中央資料庫請求該玩家的角色基礎屬性、資產快照與外觀資料時逾時，常見於大型版本釋出初期或伺服器承載尖峰。 | <ul><li>在啟動器主介面按下 `Ctrl + Alt + Shift + R` 重置快取並重新登入。</li><li>使用瀏覽器登入 RSI 官方網站，進入帳號設定刷新連線狀態。</li><li>若持續受阻，代表資料庫中該玩家的實體索引指針鎖死，請前往官網執行「Character Repair」（角色修復）。</li><li>避開晚間尖峰時段，等待 15~30 分鐘讓資料庫佇列消化後重試。</li></ul> | [官方 RSI 知識庫 - 錯誤代碼 16007](https://support.robertsspaceindustries.com/hc/en-us/articles/360051485014-Error-Code-16007) |
-| **19000 / 19003 / 19004** | **Login & Authentication Token Desync / System Clock Mismatch**<br>帳號登入憑證失效、本地驗證 Token 損毀，或電腦自睡眠/休眠喚醒後本地時鐘與伺服器 UTC 時間戳脫節導致握手拒絕。 | <ul><li>**19003 專用**：休眠喚醒後時鐘脫節。開啟 Windows 設定「時間與語言」→「日期和時間」，點擊「立即同步」確保時鐘分秒不差，或直接完全重新開機。</li><li>**19004 專用**：在啟動器介面按下快捷鍵 `Ctrl + Alt + Shift + R`，清除本機過期憑證快取後重新登入。</li><li>**19000 專用**：使用瀏覽器「無痕式視窗」登入官網並勾選「Trust this device」，隨後重新登入啟動器。</li></ul> | [官方 RSI 知識庫 - 錯誤代碼 19000 與 19005](https://support.robertsspaceindustries.com/hc/en-us/articles/4409503463831-Error-Code-19000-19005)<br>[社群討論 - Reddit 19004 解決指南](https://www.reddit.com/r/starcitizen/comments/11osctx/19004_error_fix/) |
-| **19005** | **Entitlement Processing Timeout**<br>權益處理解析逾時（通常與 19000 歸屬於同一驗證佇列問題）。多見於大型促銷節慶（如 IAE、Invictus、探索月等活動）或大版本更新後，後端權益服務需同時為巨量帳號結算船隻與道具，導致帳號清單同步逾時。 | <ul><li>此為後端佇列壅塞引發，**切勿頻繁重複瘋狂點擊進入**，以免加劇逾時。</li><li>登入 RSI 官網「My Hangar」檢查最新入庫的物品訂單是否已完成「Attributed」。</li><li>耐心等待 30 至 60 分鐘，待後端完成批次權益結算後再次登入。</li><li>若超過 24 小時仍被此代碼阻擋，向 RSI 官方支援中心提交客服工單 (Support Ticket)。</li></ul> | [官方 RSI 知識庫 - 錯誤代碼 19000 與 19005](https://support.robertsspaceindustries.com/hc/en-us/articles/4409503463831-Error-Code-19000-19005) |
-| **40014 / 40015** | **Connection to Session Host Failed / Shard Capacity Exceeded**<br>大廳連線失敗、跨區組隊分片衝突，或目標伺服器分片已達到最大承載上限 (Full Shard)，客戶端接入請求遭到拒絕。 | <ul><li>若為組隊狀態，退回主選單解散隊伍，由房員各自單獨進入伺服器測試，或更換另一名玩家擔任隊長重新組隊。</li><li>於主選單伺服器區域 (Region) 選擇清單中，將 `Best` 手動更換為指定區域（如 `EU`、`USA` 或 `AUS`）以切換至其他未滿載分片。</li><li>檢查本地網路路由，嘗試開啟或關閉 VPN 繞開特定出口節點的 UDP 壅塞。</li></ul> | [官方 RSI 知識庫 - 錯誤代碼 60015 與 40015](https://support.robertsspaceindustries.com/hc/en-us/articles/360041558213-Error-Code-60015)<br>[社群討論 - Reddit 40014 錯誤排查](https://www.reddit.com/r/starcitizen/comments/126za2u/error_code_40014_details/) |
+| **0 (Code 0)** | **Error 0 / Code 0**<br>與 Easy Anti-Cheat (EAC) 相關，官方仍在調查成因。 | <ul><li>刪除 `StarCitizen\LIVE` 下的 `EasyAntiCheat` 資料夾。</li><li>完全關閉 RSI Launcher（必要時用工作管理員結束程序）。</li><li>重新開啟啟動器 → SETTINGS → 點「Analyze game files」旁的 `VERIFY`。</li><li>仍無效則完整解除安裝重灌。</li></ul> | [官方 KB - Easy Anti-Cheat - Troubleshooting](https://support.robertsspaceindustries.com/hc/en-us/articles/4412276152343-Easy-Anti-Cheat-Troubleshooting) |
+| **206 / 207** | 官方崩潰代碼表註明：通常與 Easy Anti-Cheat 相關。 | <ul><li>依 Code 0 步驟處理。</li><li>移除所有模組 (mod) 檔案後重試。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher)<br>[官方 KB - Easy Anti-Cheat - Troubleshooting](https://support.robertsspaceindustries.com/hc/en-us/articles/4412276152343-Easy-Anti-Cheat-Troubleshooting) |
+| **70XXX（如 70004）** | **Error 70k**<br>以 70 開頭的代碼皆與 EAC 相關，表示某項 EAC 檢查失敗。 | <ul><li>依本類別 EAC 相關步驟處理。</li></ul> | [官方 KB - Easy Anti-Cheat - Troubleshooting](https://support.robertsspaceindustries.com/hc/en-us/articles/4412276152343-Easy-Anti-Cheat-Troubleshooting) |
+| **EAC 偵測到檔案修改** | **I Can't Login Due to Windows and Launcher Errors**<br>EAC 偵測到遊戲檔案遭修改（含 UI 修改、在地化/字型等 mod），出現指名檔案的 Windows 錯誤，或啟動器顯示遊戲意外停止。EAC 僅支援最新服務包的 Windows 10 / 11。 | <ul><li>結束遊戲與啟動器。</li><li>移除所有 mod 檔案。</li><li>重新安裝遊戲。</li><li>不開啟任何第三方修改程式再啟動。</li><li>仍無效則完整刪除遊戲檔案後重裝。</li></ul> | [官方 KB - Easy Anti-Cheat - Troubleshooting](https://support.robertsspaceindustries.com/hc/en-us/articles/4412276152343-Easy-Anti-Cheat-Troubleshooting)<br>[官方 KB - Easy Anti-Cheat (Announcement)](https://support.robertsspaceindustries.com/hc/en-us/articles/4412282759191-Easy-Anti-Cheat) |
+| **記憶體管理藍屏 (Memory Management BSOD)** | **Memory Management Blue Screen Errors**<br>Windows 11 24H2 與 EAC 的相容性問題，微軟正與 EAC 協調。 | <ul><li>部分玩家回報：開啟「Windows 安全性 → 裝置安全性 → 核心隔離 → 記憶體完整性」後改善（可能影響效能；Win11 通常預設開啟）。</li></ul> | [官方 KB - Easy Anti-Cheat - Troubleshooting](https://support.robertsspaceindustries.com/hc/en-us/articles/4412276152343-Easy-Anti-Cheat-Troubleshooting) |
+| **Failed to Initialize Vulkan** | **Vulkan Troubleshooting**<br>EAC 會標記部分舊版 `vulkan-1.dll`（驅動更新時不一定會同步更新）。若 EAC 錯誤指名 AMD/NVIDIA 的 .dll，則為 Windows 安全性設定衝突。 | <ul><li>更新顯示卡驅動與 Vulkan。</li><li>若為 EAC 指名 .dll：開始選單搜尋「Exploit protection（惡意探索保護）」→ 系統設定 → 將名稱含 ASLR 的設定全部開啟 → 重新開機。</li></ul> | [官方 KB - Vulkan Troubleshooting](https://support.robertsspaceindustries.com/hc/en-us/articles/38193952128535-Vulkan-Troubleshooting) |
+| **切換 Vulkan 後無法啟動** | **Vulkan Crash after Swapping off DirectX Rendering**<br>改用 Vulkan 後遊戲一啟動就崩潰。 | <ul><li>在 `StarCitizen\LIVE\` 建立或開啟 `user.cfg`。</li><li>最後一行加入 `r.GraphicsRenderer = 0`。</li><li>存檔後重新啟動（改回 DirectX）。</li></ul> | [官方 KB - Vulkan Troubleshooting](https://support.robertsspaceindustries.com/hc/en-us/articles/38193952128535-Vulkan-Troubleshooting) |
+| **vulkan-1.dll was not found** | **Error - Vulkan-1.dll was not found**<br>顯示卡驅動過舊所致，不需重裝遊戲。 | <ul><li>至 NVIDIA / AMD 官網更新驅動。</li><li>**切勿**從網路下載單一 DLL 檔案（不安全）。</li></ul> | [官方 KB - Error - Vulkan-1.dll was not found](https://support.robertsspaceindustries.com/hc/en-us/articles/360042820514-Error-Vulkan-1-dll-was-not-found) |
+| **DXGI device blocked** | **"DXGI device blocked" / "your graphics card has blocked StarCitizen.exe"**<br>圖形相關阻擋，也可能是硬體故障的徵兆。 | <ul><li>更新顯示卡驅動。</li><li>NVIDIA 控制面板 → 管理 3D 設定 → 程式設定 → 新增 `StarCitizen\LIVE\Bin64\StarCitizen.exe` 設定檔。</li><li>若為硬體故障，客服無法協助。</li></ul> | [官方 KB - "DXGI device blocked"](https://support.robertsspaceindustries.com/hc/en-us/articles/360000082727--DXGI-device-blocked-or-your-graphics-card-has-blocked-StarCitizen-exe) |
+| **Out of memory / 記憶體使用量警告** | **Out of memory errors - set your pagefile**<br>系統記憶體接近上限；可能是遊戲記憶體洩漏或其他程式占用（16 GB 為最低建議）。 | <ul><li>關閉串流、瀏覽器等其他占用記憶體的程式。</li><li>確認遊戲使用獨立顯示卡。</li><li>分頁檔設為「自動管理所有磁碟的分頁檔大小」。</li><li>16 GB 玩家可自訂：初始 8000 MB、最大 12000 MB。</li><li>SSD 需額外保留約 10 GB 空間。</li></ul> | [官方 KB - Out of memory errors - set your pagefile](https://support.robertsspaceindustries.com/hc/en-us/articles/360000083387-Out-of-memory-errors-set-your-pagefile) |
 
-### 類別 C：伺服器網格、連線與持久化 (Server Meshing, Replication Layer & PES)
+### 遊戲崩潰代碼對照 (game.log)
 
-此類別為當前核心宇宙中最關鍵的連線與數據持久化錯誤，涉及複寫層、實體圖 (EntityGraph) 以及多節點伺服器網格協同運作。
+{% hint style="info" %}
+**game.log 日誌位置與排查說明**
+日誌檔案位於 `StarCitizen\LIVE\game.log`（僅保留最近一次遊戲階段，崩潰後請立即查看）。開啟檔案後以 `Ctrl + F` 搜尋 `crash`。未列出的代碼可轉為 16 進位後以 `0x<代碼>` 搜尋。
+{% endhint %}
 
-| 錯誤代碼 | 錯誤訊息與技術成因 | 官方 / 社群實證解決方案 | 參考資料連結 |
+| 啟動器代碼 | game.log 代碼 | 官方說明 | 官方建議 | 官方來源 |
+| :--- | :--- | :--- | :--- | :--- |
+| **3221225477** | `EXCEPTION_ACCESS_VIOLATION` (0xC0000005) | 最常見的崩潰：程式嘗試存取記憶體失敗。成因從記憶體故障、音效驅動不相容到顯示卡皆有可能。 | <ul><li>可嘗試於 BIOS 關閉 XMP（特別是極高頻記憶體）。</li><li>**Alpha 4.10.2 已知問題**：NVIDIA 驅動 616.56 + Vulkan 進遊戲即閃退 → 回退驅動版本，或改用 DirectX 11（STARC-218424）。</li><li>若 log.log 出現 `Star Citizen process exited abnormally (code: 3221225477)`，檢查是否安裝 Sonic Studio 3 / Sonic Studio Virtual Mixer，需完整解除安裝。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher)<br>[官方 KB - Alpha 4.10.2 已知問題](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Alpha-4-10-2-Known-Issues) |
+| **732823392** | `STATUS_CRYENGINE_WATCH_DOG` (0x2BADFF60) | 引擎崩潰；有時與網路相關，但多數需等待後續修補。 | <ul><li>回報 Issue Council。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher) |
+| **732819469** | `STATUS_CRYENGINE_FATAL_ERROR` (0x2BADF00D) | 同上，兩者常同時出現。 | <ul><li>回報 Issue Council。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher) |
+| **732823393** | `STATUS_CRYENGINE_OUT_OF_SYSMEM` (0x2BADFF61) | 系統記憶體不足；偶爾也代表顯示卡記憶體不足（看 game.log 最後一行）。 | <ul><li>增加虛擬記憶體（見 Out of memory 列）。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher) |
+| **732823385** | `STATUS_CRYENGINE_GPU_CRASH` (0x2BADFF59) | 圖形崩潰。 | <ul><li>確認顯示卡驅動為最新版。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher) |
+| **2147483651** | `EXCEPTION_BREAKPOINT` (0x80000003) | 程式因錯誤而中止，但沒有更具體的資訊。 | <ul><li>參考網路上針對 0x80000003 的排除文章。</li></ul> | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher) |
+| **3489660927** | 無（0xCFFFFFFF） | 通常表示程式在凍結狀態下被關閉。 | — | [官方 KB - Troubleshoot the RSI Launcher](https://support.robertsspaceindustries.com/hc/en-us/articles/360000161747-Troubleshoot-the-RSI-Launcher) |
+
+## 類別 C：帳號登入與驗證 (Account & Authentication)
+
+本類別涵蓋 RSI 啟動器與官網帳號登入、密碼驗證及進入主選單時之帳號驗證錯誤。
+
+| 錯誤代碼 | 官方說明與成因 | 官方建議排除步驟 | 官方來源 |
 | :--- | :--- | :--- | :--- |
-| **30000 (Code 30k)** | **General Connection Timeout / Disconnection from Replication Layer**<br>通用伺服器通訊逾時中斷。在當前複寫層架構下，此代碼專指客戶端與獨立複寫層之間的通訊徹底斷絕（當 RLCR 伺服器崩潰恢復倒數超時或全域分片崩解時觸發）。 | <ul><li>**關鍵判斷**：若畫面上方出現「Server Error: Attempting Recovery」，請**原地等待 30~60 秒**等待 RLCR 救援，切勿強退！僅在畫面彈出「Connection Lost: 30000」對話方塊時才代表救援失敗（真 30k）。</li><li>**飛船與貨物救援 SOP**：返回主選單後切換區域重新進服，直接前往太空港 ASOP 終端查詢。PES 崩潰保護機制會將船隻狀態鎖定在太空港，通常可直接「Retrieve」（取回）且裝載貨物完全保留（狀態為 Stored）。**切勿手快點擊「Claim」（保險理賠）**，否則原有貨物將被永久銷毀！</li><li>若剛進載入畫面就遭遇 30k，刪除本機 `USER` 與 `Shaders` 資料夾。</li></ul> | [官方 RSI 知識庫 - 錯誤代碼 30000](https://support.robertsspaceindustries.com/hc/en-us/articles/360053608633-Error-Code-30000) |
-| **30009** | **Entity Graph Desync / Bed Logout Stall**<br>角色或載具實體狀態逾時。通常因在飛船床鋪登出 (Bed Logout)、躍遷途中離線或伺服器卡頓時強退遊戲，導致客戶端載入時與後端 EntityGraph 資料庫的實體指針無法匹配同調（實體處於幽靈占用狀態）。 | <ul><li>**Arena Commander 實體刷新 SOP（社群首選實證解法）**：<br>1. 進入主選單，點選進入 **Arena Commander** 模式。<br>2. 選擇 **Single Player (單人模式)** → **Free Flight (自由飛行)**。<br>3. 載具選擇當初床鋪登出的那艘船艦（若不可選，選擇任意單座戰機）。<br>4. 成功載入地圖後駕駛飛船飛行並切換視角操作 30 秒，隨後透過選單正常退出至主選單。此操作可強迫後端伺服器改寫實體指針。<br>5. 重新進入常規宇宙 (Persistent Universe)。</li><li>進入角色自訂器 (Character Customizer)，隨意更換性別或眼球顏色後儲存，刷新資料庫標籤。</li><li>切換不同伺服器區域（例如從 USA 切至 EU）嘗試登入。</li><li>若以上均無效，至官網帳號設定執行「Character Repair」（角色修復）。</li></ul> | [官方 RSI 知識庫 - 錯誤代碼 30009 與 30018](https://support.robertsspaceindustries.com/hc/en-us/articles/360038342233-Error-Code-30009-30018) |
-| **30011 / 30012** | **Socket Connection Interrupted / UDP Packet Loss**<br>底層網路通訊端斷開 (`Socket Error: Unable to send data`)、遊戲 UDP 封包嚴重遺失、路由路徑中斷，或路由器 MTU 封包大小不相容。 | <ul><li>將家用光纖數據機與路由器完全拔除電源，靜置 30 秒後重新通電重啟。</li><li>檢查防毒軟體或第三方防火牆，確保 UDP 埠口 64090 - 64110 未被封閉。</li><li>更新網路卡驅動程式，停用任何主機板附帶的封包最佳化軟體（如 Killer Control Center / ROG GameFirst）。</li><li>執行 `ipconfig /flushdns` 並檢查網路連線 MTU 值是否標準（推薦預設 1500）。</li></ul> | [官方支援 - 網路連線已知問題排查](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Known-Issues) |
-| **30018** | **Persistent Universe Session Loading Stall**<br>與 30009 同屬官方成對收錄之連線/載入停滯問題。客戶端嘗試進入常規宇宙時，因先前非正常離線或在艦船床鋪登出導致 Session 狀態未能及時釋放，進入讀取等待逾時。 | <ul><li>與 **30009** 採取完全相同的排除 SOP：優先進入 **Arena Commander** 單人自由飛行模式駕駛載具滯空 30 秒後退出刷新實體。</li><li>給予後端清理窗口，暫停登入等待 15 分鐘讓伺服器自動剔除幽靈 Session。</li><li>於主選單切換至其他伺服器區域（如 EU 或 AUS）。</li><li>若持續卡死無法載入，前往 RSI 官網帳號設定提交「Character Repair」（角色修復）。</li></ul> | [官方 RSI 知識庫 - 錯誤代碼 30009 與 30018](https://support.robertsspaceindustries.com/hc/en-us/articles/360038342233-Error-Code-30009-30018) |
-| **50001** | **CIG Services Connection Timeout**<br>`ERROR - CIG services (CODE 50001)`。客戶端與 CIG 後端微服務通訊逾時中斷，常見於官方伺服器臨時維護、後端服務負載降級或玩家本地網路路由阻塞。 | <ul><li>造訪 [RSI Status 頁面](https://status.robertsspaceindustries.com/) 檢查官方伺服器群是否正在進行熱修復或例行維護。</li><li>完全重啟 RSI 啟動器與遊戲進程，使用 `Ctrl + Alt + Shift + R` 清除啟動器本機快取。</li><li>檢查本地網路防護軟體，確認未攔截遊戲通訊連接埠。</li><li>若伺服器狀態正常且持續報錯，嘗試切換 DNS 為 `8.8.8.8` 或重開路由器。</li></ul> | [官方 RSI 即時服務狀態 (RSI Status)](https://status.robertsspaceindustries.com/) |
-| **60012** | **Mesh Node Unavailable / Shard Frozen**<br>伺服器網格節點不可用、指定分片實體管理器陷入凍結死鎖狀態，分片調度器拒絕新客戶端接入。 | <ul><li>於主選單伺服器選擇中，手動將區域從 `Best` 切換至特定區域（如 `EU` 或 `USA`），強制分配至不同分片。</li><li>若多次嘗試任何區域均跳出 60012，代表該帳號角色實體被困在已死鎖的分片節點中，請登入官網執行「Character Repair」（角色修復）。</li><li>刪除遊戲目錄 `\StarCitizen\LIVE\USER` 資料夾排除本機狀態殘留。</li></ul> | [Reddit 社群 - 60012 實證排除方案](https://www.reddit.com/r/starcitizen/comments/1kky6a0/cant_log_in_error_code_60012/) |
-| **60015 / 60016** | **Game Instance Error / Shard Load Issue**<br>嘗試登入宇宙時，系統嘗試分配的目標遊戲實例/分片異常或已滿員 (60015)；或後端伺服器與網路負載過高 (60016)。 | <ul><li>**60015 官方實證解法**：在主選單將伺服器區域 (Region) 從 `Best` 手動變更為特定區域（如 `EU`、`USA` 或 `AUS`）再點選進入宇宙，強制繞開故障實例。</li><li>**60016 官方建議**：通常為短暫網路與伺服器峰值負載引起，等待數分鐘後重試。</li><li>完全重啟 RSI 啟動器並重設快取 (`Ctrl + Alt + Shift + R`)。</li><li>若帳號角色狀態卡在異常實例中，至官網執行「Character Repair」。</li></ul> | [官方 RSI 知識庫 - 錯誤代碼 60015](https://support.robertsspaceindustries.com/hc/en-us/articles/360041558213-Error-Code-60015)<br>[官方支援 - 網路連線已知問題排查](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Known-Issues) |
-| **65000 / 65002** | **Universe Loading Error**<br>常規宇宙載入錯誤。客戶端在嘗試載入常規宇宙 (Persistent Universe) 階段發生未知錯誤或數據讀取中斷。 | <ul><li>執行針對 **30009** 的「Arena Commander 自由飛行刷新大法」，重置本地實體狀態。</li><li>前往官網執行「Character Repair」（角色修復）。</li><li>清除本機著色器快取 `%localappdata%\Star Citizen` 與遊戲安裝目錄下的 `USER` 資料夾。</li><li>在啟動器 Settings 中點擊 `VERIFY` 驗證主遊戲檔案完整性。</li></ul> | [官方 RSI 知識庫 - 錯誤代碼 65000](https://support.robertsspaceindustries.com/hc/en-us/articles/34409251540887-Error-Code-65000) |
+| **1032** | **Error Code 1032**<br>`Sign in failed. You may have entered the wrong credentials…`；即使帳密正確也可能出現。 | <ul><li>清空啟動器帳號/密碼欄位後手動重新輸入。</li><li>仍失敗：完全結束啟動器（工作管理員確認）。</li><li>在瀏覽器登出 RSI 官網並關閉瀏覽器。</li><li>開啟無痕視窗登入 RSI 官網，**保持該視窗開啟**。</li><li>重新開啟啟動器登入。</li><li>仍失敗：清除瀏覽器快取與 Cookie、執行 Account Recovery；切勿在工單中提供密碼。</li></ul> | [官方 KB - Error Code 1032](https://support.robertsspaceindustries.com/hc/en-us/articles/41432483468951-Error-Code-1032) |
+| **1034** | **Maximum number of failed login attempts exceeded**<br>短時間內登入失敗次數過多，帳號暫時封鎖（通常不需開工單）。 | <ul><li>約 1 小時後再試，期間持續嘗試會重新觸發。</li><li>清空欄位重新輸入帳密。</li><li>注意 MFA 有效時間：Email 驗證碼約 5 分鐘、手機驗證器約 30 秒。</li><li>改用 Account Recovery 重設密碼。</li><li>若重設後仍失敗，改用 Login ID（或 Email）另一種方式登入。</li></ul> | [官方 KB - Error Code 1034](https://support.robertsspaceindustries.com/hc/en-us/articles/360055136614-Error-Code-1034-Maximum-number-of-failed-login-attempts-exceeded) |
+| **19000 / 19005（19K 系列）** | **Error Code 19000 / 19005**<br>遊戲客戶端無法與伺服器完成帳號資料驗證（**與 MFA 二階段驗證無關**）。成因：帳號沒有遊戲包、家用網路/ISP 問題、安全軟體攔截或檔案損壞、伺服器高負載（大改版、IAE、Invictus 等活動後特別多）。 | <ul><li>查看 RSI Status。</li><li>稍後再試。</li><li>使用 `RSI Launcher` 資料夾中的 `RSI Launcher.exe` 啟動，**不要**直接執行 `LIVE` 內的 `StarCitizen_Launcher.exe`。</li><li>確認只有一個啟動器執行中。</li><li>`VERIFY`。</li><li>同步系統時鐘。</li><li>以系統管理員身分執行啟動器。</li><li>停用 VPN/Proxy（或反過來嘗試使用 VPN 繞路）。</li><li>系統管理員命令提示字元執行 `ipconfig /flushdns`。</li><li>白名單 `RSI Launcher.exe`、`StarCitizen_Launcher.exe`。</li><li>刪除（或改名為 `user-backup`）`USER` 資料夾。</li><li>完整移除重裝。</li><li>仍無效：蒐集遊戲與系統檔案後聯絡客服。</li></ul> | [官方 KB - Error Code 19000 / 19005](https://support.robertsspaceindustries.com/hc/en-us/articles/36547864392471-Error-Code-19000-19005)<br>[官方 KB - Check Your System Clock](https://support.robertsspaceindustries.com/hc/en-us/articles/360041208893-Check-Your-System-Clock) |
+| **No RSI Account Linked to this Email** | **Error - No RSI Account Linked to this Email**<br>執行帳號救援時收到此信件。 | <ul><li>系統偶發誤報：數分鐘後再送一次。</li><li>改用舊的或其他 Email 嘗試。</li><li>若 Email 遭他人未經授權更改，立即聯絡客服。</li></ul> | [官方 KB - Error - No RSI Account Linked to this Email](https://support.robertsspaceindustries.com/hc/en-us/articles/360043284614-Error-No-RSI-Account-Linked-to-this-Email) |
+
+## 類別 D：伺服器連線、宇宙載入與角色狀態 (Connection, PU Loading & Character)
+
+本類別涵蓋進入常規宇宙 (PU)、伺服器連線、分片分配、角色狀態異常與載入停滯相關之錯誤代碼。
+
+| 錯誤代碼 | 官方說明與成因 | 官方建議排除步驟 | 官方來源 |
+| :--- | :--- | :--- | :--- |
+| **30000（30K）** | **Error Code 30000**<br>官方的「通用逾時訊息」：與遊戲伺服器斷線（伺服器崩潰），或連線逾時但仍連著大廳 (hub) 伺服器。 | <ul><li>刪除 `StarCitizen\LIVE` 下的 `USER` 資料夾。</li><li>`VERIFY`。</li><li>完全關閉啟動器並確認僅有一個執行中。</li><li>關閉 VPN 後重試。</li><li>（4.10.2 已知問題補充）若在船上/床鋪登出或崩潰後發生 → 角色修復；確認符合最低配備（尤其儲存裝置）；**不要在教學關卡中強制退出**；改裝至更快的 SSD；`ipconfig /flushdns` 或更換 DNS。</li><li>回報 Issue Council。</li></ul> | [官方 KB - Error Code 30000](https://support.robertsspaceindustries.com/hc/en-us/articles/360053608633-Error-Code-30000)<br>[官方 KB - Alpha 4.10.2 已知問題](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Alpha-4-10-2-Known-Issues) |
+| **30003** | **Error Code 30003**<br>官方仍在調查；多數指向網路問題與連帶的檔案損壞，以及會管理網路封包的程式。 | <ul><li>關閉網卡設定中的 cFosSpeed（或 Gigabyte Speed、XFast LAN，常見於 MSI/技嘉/華擎主機板）。</li><li>`VERIFY`。</li><li>刪除 `data.p4k`（約 40 GB 以上）→ Settings → Games → Star Citizen - LIVE → VERIFY GAME，或完整重裝。</li><li>白名單 `RSI Launcher.exe`、`StarCitizen.exe`。</li><li>放行 TCP 8000–8020、UDP 64090–64110（**不需要**做連接埠轉發，轉發反而可能造成問題）。</li><li>嘗試 VPN；或在登入畫面將伺服器從 Best 改為 EU / US / AUS。</li><li>更新 Windows（N/KN 版需安裝 Media Pack）與驅動。</li><li>關閉其他程式逐一排查。</li></ul> | [官方 KB - Error Code 30003](https://support.robertsspaceindustries.com/hc/en-us/articles/360002285233-Error-Code-30003) |
+| **30009 / 30018** | **Error Code 30009/30018**<br>已知問題：登入時出現，最常發生在**船上或禁飛區內登出或崩潰**之後。官方建議暫時避免在船艦床鋪登出。 | <ul><li>若船仍在遊戲中，請同行好友摧毀你的船。</li><li>若可用同一艘船進入 Arena Commander，使用該船遊玩一次。</li><li>使用 VPN 者：完全關閉啟動器後切換 VPN 伺服器/地區。</li><li>更換 DNS 為 `8.8.8.8` / `8.8.4.4`（無效可試 `4.2.2.2` / `4.2.2.4`），停用 IPv6 後重開機。</li><li>回報 Issue Council 後**等待 15 分鐘**再登入。</li><li>部分案例需角色修復。</li></ul> | [官方 KB - Error Code 30009/30018](https://support.robertsspaceindustries.com/hc/en-us/articles/360038342233-Error-Code-30009-30018)<br>[官方 KB - Character Repair](https://support.robertsspaceindustries.com/hc/en-us/articles/360041509433-Character-Repair) |
+| **30028** | **Error Code 30028**<br>因閒置過久被踢出。 | <ul><li>重新啟動遊戲即可。</li><li>若並未閒置卻出現：檢查系統時鐘是否正確，可設定網際網路時間伺服器。</li></ul> | [官方 KB - Error Code 30028](https://support.robertsspaceindustries.com/hc/en-us/articles/360052827894-Error-Code-30028) |
+| **403（API Denied）** | **Error 403 - API Denied Issues**<br>Alpha 4.10.2 已知問題：連線至遊戲與服務時出現 API 錯誤，有時顯示 403。 | <ul><li>使用 VPN 者：關閉 VPN 或切換伺服器（不一定對所有人有效）。</li><li>至 Issue Council LCH-2629 回報 ISP 與嘗試過的步驟。</li></ul> | [官方 KB - Alpha 4.10.2 已知問題](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Alpha-4-10-2-Known-Issues) |
+| **41013** | **Error 41013**<br>Alpha 4.10.2 已知問題：重新連線後出現。 | <ul><li>角色修復通常可解決，但**個人機庫 (Personal Hangar) 可能暫時消失**。</li><li>回報 Issue Council STARC-182112。</li></ul> | [官方 KB - Alpha 4.10.2 已知問題](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Alpha-4-10-2-Known-Issues) |
+| **41070** | **Error Code 41070**<br>角色資料發生異常，導致無法正常進入遊戲。 | <ul><li>等待 10–15 分鐘後再試。</li><li>先加入其他玩家的隊伍，由隊長進入宇宙。</li><li>開啟或關閉 VPN。</li><li>角色修復，完成後等待 10–15 分鐘再登入。</li><li>白名單遊戲與啟動器 .exe；暫停附帶防護功能的 VPN（如 NordVPN、ProtonVPN）。</li><li>回報 Issue Council STARC-172407。</li></ul> | [官方 KB - Error Code 41070](https://support.robertsspaceindustries.com/hc/en-us/articles/33938335789207-Error-Code-41070) |
+| **60010 / 60016 / 60012** | **Error 60010 / 60016 / 60012**<br>官方確認此錯誤**顯示的訊息與實際問題不符**；多數案例是帳號近期將遊戲包熔掉 (reclaim)，其他原因仍在調查。 | <ul><li>至官網 Hangar 確認帳號仍擁有遊戲包（參照 Missing a Game Package）。</li><li>若有其他發現請回報 Issue Council。</li></ul> | [官方 KB - Alpha 4.10.2 已知問題](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Alpha-4-10-2-Known-Issues)<br>[官方 KB - RSI Launcher - "Missing a Game Package"](https://support.robertsspaceindustries.com/hc/en-us/articles/22382918063383-RSI-Launcher-Missing-a-Game-Package-Message) |
+| **60015 / 40015** | **Error Code 60015**<br>系統嘗試分配給你的遊戲實例 (instance) 運作異常。 | <ul><li>進入宇宙前，手動將登入區域 (Region) 從 Best 改為其他區域。</li></ul> | [官方 KB - Error Code 60015](https://support.robertsspaceindustries.com/hc/en-us/articles/360041558213-Error-Code-60015) |
+| **60030 及其他 60K** | **Error 60k (others)**<br>成因仍在調查。 | <ul><li>可嘗試 30K 的排除步驟。</li><li>部分案例會隨時間自行恢復。</li><li>仍無效：回報 Issue Council 並提交工單。</li></ul> | [官方 KB - Alpha 4.10.2 已知問題](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Alpha-4-10-2-Known-Issues) |
+| **64008** | 官方〈Character Repair〉列為需要角色修復的情況之一。 | <ul><li>角色修復。</li></ul> | [官方 KB - Character Repair](https://support.robertsspaceindustries.com/hc/en-us/articles/360041509433-Character-Repair) |
+| **65000** | **Error Code 65000**<br>客戶端載入常規宇宙 (PU) 時發生錯誤，通常是會自行恢復的暫時性網路問題。 | <ul><li>等待一段時間再試。</li><li>查看 RSI Status。</li><li>角色修復。</li><li>進入 Arena Commander 遊玩一段時間後再登入 PU。</li><li>`VERIFY`。</li><li>網路排查：換另一台裝置測試、嘗試 VPN。</li><li>放行 TCP 8000–8020、UDP 64090–64110。</li></ul> | [官方 KB - Error Code 65000](https://support.robertsspaceindustries.com/hc/en-us/articles/34409251540887-Error-Code-65000) |
+| **10002 / 30007 / 15006** | **Required Windows files and configurations**<br>官方指出這些錯誤可能是 ISP 封鎖連接埠、限速或其他網路設定所致（個別文章已下架）。 | <ul><li>關閉或正確設定 Proxy。</li><li>防火牆白名單 `RSI Launcher.exe`、`StarCitizen.exe`。</li><li>放行 TCP 8000–8020、UDP 64090–64110，必要時請 ISP 協助。</li><li>嘗試 VPN；若 VPN 可行代表需請 ISP 開放連接埠。</li></ul> | [官方 KB - Required Windows files and configurations](https://support.robertsspaceindustries.com/hc/en-us/articles/360000148648-Required-Windows-files-and-configurations-for-Star-Citizen) |
+| **無限載入畫面 (Infinite Loading Screen)** | **Infinite Loading Screen**<br>常發生於組隊狀態離開 PU、組隊異常，或在船艦床鋪登出之後；伺服器崩潰後也可能出現。 | <ul><li>請好友摧毀你仍在遊戲中的船。</li><li>確認符合最低配備與足夠儲存空間。</li><li>重開數據機/路由器。</li><li>暫停（或啟用）VPN；NordVPN 關閉 Web Protection。</li><li>關閉其他程式。</li><li>伺服器崩潰後：完全結束遊戲重開。</li><li>回報 STARC-57517。</li><li>最後手段：角色修復。</li></ul> | [官方 KB - Infinite Loading Screen](https://support.robertsspaceindustries.com/hc/en-us/articles/360024706933-Infinite-Loading-Screen)<br>[官方 KB - Alpha 4.10.2 已知問題](https://support.robertsspaceindustries.com/hc/en-us/articles/360056254754-Star-Citizen-Alpha-4-10-2-Known-Issues) |
+| **Kicked by Admin** | **Error - Kicked by Admin**<br>通常是在遊戲中時提交了角色修復而被移出遊戲。 | <ul><li>提交後**至少 1 小時**再登入。</li><li>數小時後仍未完成，可再次提交角色修復。</li></ul> | [官方 KB - Error - Kicked by Admin](https://support.robertsspaceindustries.com/hc/en-us/articles/360048321434-Error-Kicked-by-Admin) |
+
+## 社群回報代碼（官方知識庫未收錄或已下架）
+
+以下代碼在玩家社群中常見，但 RSI 官方知識庫目前未收錄專文或原始文章已下架。遇此類問題請參照右欄建議之官方排查流程處理。
+
+| 錯誤代碼 | 現況 | 建議參照 |
+| :--- | :--- | :--- |
+| **210** | RSI KB 未收錄；EAC 開發商 Epic 有官方說明（Unrecognized game client） | 類別 B 的 EAC 步驟；Epic 文章：[Epic 官方 - Unrecognized game client](https://eoshelp.epicgames.com/s/article/What-causes-the-anti-cheat-error-Unrecognized-game-client-Cannot-continue) |
+| **1275 / 30005** | RSI KB 未收錄；Epic 有 EAC 驅動載入錯誤說明 | Epic 文章 [Epic 官方 - EAC Driver Error 1275](https://www.epicgames.com/help/c-202300000001639/c-202300000001736/eac-driver-error-1275-driver-load-error-in-windows-11-a202300000010435)。⚠ 不要任意關閉 Windows 安全性功能；RSI 官方針對 Win11 24H2 藍屏反而建議**開啟**記憶體完整性 |
+| **15008 / 16008** | RSI 原官方文章已下架 | 先查 RSI Status，再依 19K 系列步驟 |
+| **16007** | RSI 原官方文章已移除 | 19K 系列步驟；持續發生再考慮角色修復 |
+| **19003 / 19004** | RSI KB 未個別收錄，屬 19K 系列 | 19000 / 19005 步驟（特別是同步系統時鐘、單一啟動器） |
+| **40014** | RSI KB 未收錄 | 60015 / 40015 步驟（更換區域）；組隊中可先離隊單獨進入 |
+| **30011 / 30012** | RSI KB 未收錄 | 30003 的網路排除步驟 |
+| **50001** | RSI KB 未收錄 | 先查 RSI Status，再依 30K 步驟 |
+| **GPU Hang / DXGI_ERROR_DEVICE_HUNG** | RSI 原圖形疑難排解文章已下架 | 官方對應 game.log 代碼 732823385（GPU Crash）：更新驅動；社群常見補充：刪除 `%localappdata%\Star Citizen` 著色器快取 |
 
 ---
 
-## 萬用自救三板斧 (Universal Troubleshooting SOP)
+## 官方通用排除流程 (Official Troubleshooting Flow)
 
-當您遭遇未明錯誤碼、遊戲啟動失敗或載入介面持續卡死時，無需慌張重新下載整個遊戲。請依序執行以下經過社群與官方實證的「萬用自救三板斧」，高達 90% 的常見客戶端與連線故障均可藉此迅速排解。
+當遭遇未收錄於對照表中的未知錯誤代碼或異常狀況時，請依序執行以下官方建議的排查步驟：
 
-### 第一斧：啟動器重設快取組合鍵 (Ctrl + Alt + Shift + R)
+### 步驟 1：確認伺服器狀態並稍後再試
 
-* **適用場景**：錯誤代碼 `19004`、`0`、`2000`、啟動器白屏/黑屏無反應、更新進度條卡死、無法點擊 Launch Game 按鈕。
-* **技術原理**：RSI 啟動器基於 Electron 框架構建，長期運行會積累大量本機身分憑證、CDN 快取與通訊 Session。該組合鍵可強制抹除本機認證暫存，使啟動器回復純淨初始狀態。
-* **標準操作流程**：
-  1. 開啟 RSI Launcher 啟動器（無需成功登入）。
-  2. 在鍵盤上同時按下快捷鍵組合：`Ctrl + Alt + Shift + R`。
-  3. 螢幕將跳出確認對話方塊，詢問是否要重設啟動器並清除快取。
-  4. 點選「OK / Confirm」，啟動器將自動清空 `%appdata%\rsilauncher` 並重新啟動。
-  5. 重新輸入 RSI 帳號、密碼以及二階段驗證碼 (2FA) 登入。
+* 造訪 [RSI Status 頁面](https://status.robertsspaceindustries.com/) 確認官方伺服器群與各項服務是否正常運作。
+* 在大型版本發布或遊戲內大型活動（如 IAE、Invictus）期間，伺服器與驗證負載極高，若遭遇暫時性逾時請稍後再試。
 
-### 第二斧：清除本機著色器快取與 USER 檔案夾
+### 步驟 2：重新啟動並清除啟動器快取
 
-* **適用場景**：GPU Hang / DXGI 設備掛起閃退、著色器編譯異常、進入主選單卡黑屏、角色或艦船貼圖破圖、大版本更新後幀率驟降或異常卡頓。
-* **技術原理**：
-  * **著色器快取 (Shaders)**：在現代渲染架構下，Vulkan 與 DirectX 的著色器快取集中存放於使用者本機 AppData 路徑中。當顯卡驅動更新或遊戲釋出修補檔後，舊的編譯二進位二級快取可能與新驅動指令集衝突，導致 GPU 超時崩潰。
-  * **USER 檔案夾**：存放本機圖形自訂檔、暫存 UI 狀態及本地實體快取。定期清理可避免過期設定檔干擾遊戲運行。
-* **標準操作流程**：
-  1. **清除著色器快取**：
-     * 按下鍵盤 `Win + R` 開啟「執行」視窗。
-     * 輸入 `%localappdata%\Star Citizen` 並按下 Enter。
-     * 將該資料夾內的所有檔案與子目錄全數刪除（下次進入遊戲時引擎將自動重新編譯乾淨的著色器，首次進入主城幀率稍有波動屬正常現象）。
-  2. **清除 USER 檔案夾（請注意自訂鍵位備份）**：
-     * 進入遊戲安裝路徑（預設為 `C:\Program Files\Roberts Space Industries\StarCitizen\LIVE`）。
-     * **重要備份**：若您有精心配置的自訂按鍵對應，請先進入 `LIVE\USER\Client\0\Controls\Mappings`，將您的自訂 `.xml` 導出設定檔複製備份至其他安全路徑（有關鍵位配置請參閱 [附錄 A：快捷鍵小抄](keybindings.md)）。
-     * 備份完畢後，將整個 `USER` 資料夾刪除。
+* 完全結束遊戲與啟動器，確認系統匣與工作管理員中沒有殘留的程序。可在啟動器 Settings 中開啟 `Enable close-to-quit` 避免背景殘留。
+* 開啟啟動器 Settings → 點選「Application」分頁 → 點擊 **CLEAR LAUNCHER CACHE** 按鈕清除快取。
+* 以系統管理員身分重新執行啟動器。
 
-### 第三斧：官方角色修復 (Character Repair)
+### 步驟 3：驗證遊戲檔案 (VERIFY)
 
-* **適用場景**：錯誤代碼 `30009`、`30018`、`60012`、`65000`、角色無頭/無眼球/無法召喚 mobiGlas、太空港 ASOP 終端全部黑屏無反應、所有船隻均卡在「Unknown」狀態無法召喚。
-* **技術原理**：直接向 RSI 後端資料庫伺服器發送重置請求，強制解除該帳號在後端 EntityGraph 中的所有實體鎖死狀態，並重新生成基礎角色節點。
-* **標準操作流程**：
-  1. 完全關閉《星際公民》遊戲客戶端與 RSI 啟動器。
-  2. 開啟瀏覽器造訪 [Roberts Space Industries 官方網站](https://robertsspaceindustries.com/) 並登入您的帳號。
-  3. 點選右上角個人頭像，選擇「Account」進入帳號管理介面。
-  4. 於左側導航選單中點選「Settings」→「Character Repair」。
-  5. 仔細閱讀頁面說明後，點選紅色的「Submit Request」按鈕確認執行。
-* **重要資產保留與冷卻須知**：
-  * **資產完全保留**：角色修復**不是**帳號重置 (Wipe)！您的 **aUEC 遊戲幣、已購買或租賃之船艦、船艦改裝配件、個人武器與裝甲均不會遺失**。
-  * **重置項目說明**：系統僅會將您的角色重生點（醫療床）重設回當前設定的主要居留地主城，所有已穿戴裝備將自動脫卸並放回該主城的本機倉庫存儲，且未完成的進行中任務合約將被放棄。
-  * **60 分鐘冷卻警示**：提交角色修復後，後端資料庫批次處理需耗時約 15 分鐘。此功能設有 **60 分鐘冷卻時間 (Cooldown)**，在此期間內無法再次提交。**請於提交後至少耐心等待 15 分鐘，再重新開啟啟動器登入遊戲**，切勿在送出後立即秒開遊戲，以免干擾資料庫寫入程序。
+* 開啟啟動器進入 Settings。
+* 選擇目前遊玩的頻道（如 LIVE 或 PTU），確認遊戲安裝路徑無誤。
+* 點擊「Analyze game files」旁邊的 `VERIFY` 按鈕進行檔案完整性驗證。在驗證與下載完成前，請避免執行其他高負載程式。
+
+### 步驟 4：重建 USER 資料夾
+
+* 進入遊戲安裝路徑 `StarCitizen\LIVE\`。
+* 尋找 `USER` 資料夾。若要保留個人的按鍵對應與控制設定，官方建議將其改名為 `user-backup` 而非直接刪除；自訂鍵位備份方式亦可參照 [附錄 A：快捷鍵小抄](keybindings.md)。
+* 移除或改名後，建議將電腦完全關機一次以清除記憶體暫存快取。
+
+### 步驟 5：網路與安全軟體檢查
+
+* 以系統管理員身分開啟命令提示字元，執行 `ipconfig /flushdns` 清除本機 DNS 快取。
+* 在防毒軟體與防火牆白名單中加入 `RSI Launcher.exe` 與 `StarCitizen.exe`。
+* 於路由器與防火牆放行通訊埠：TCP 8000–8020、UDP 64090–64110（官方特別指出**不需要**做連接埠轉發，轉發反而可能引發問題）。
+* 嘗試開啟或關閉 VPN，排查特定出口節點或 ISP 路由問題。
+* 若連線仍異常，嘗試將系統 DNS 改為 Google DNS（`8.8.8.8` / `8.8.4.4`）或 Cloudflare DNS（`1.1.1.1`）。
+
+### 步驟 6：回報問題與聯絡客服
+
+* 若問題屬於遊戲內 Bug 或伺服器異常，至 [Issue Council](https://issue-council.robertsspaceindustries.com/) 搜尋或回報問題。
+* 啟動器問題可檢視日誌檔案 `%appdata%\rsilauncher\logs\log.log`。
+* 遊戲崩潰問題可檢視 `StarCitizen\LIVE\game.log`。
+* 若需尋求官方客服協助，請依 [官方 KB - Send In-Game Files for RSI Support](https://support.robertsspaceindustries.com/hc/en-us/articles/360000065688-Send-In-Game-Files-for-RSI-Support) 說明蒐集遊戲與系統資訊檔案後提交客服工單。
+
+### 步驟 7：完整移除並重新安裝
+
+* 當所有常規排除步驟均無效時，作為最後手段，請透過 Windows 控制台完整解除安裝 RSI Launcher，並手動刪除殘留的遊戲資料夾後重新安裝。
+
+## 角色修復 (Character Repair) 須知
+
+{% hint style="danger" %}
+**角色修復是最後手段，一旦開始便無法中止或還原。** 提交後請至少等待 1 小時再登入遊戲。
+{% endhint %}
+
+### 適用情況
+
+角色修復主要適用於以下嚴重狀態異常（官方建議先嘗試已知替代解法後再使用）：
+* 遭遇特定錯誤代碼：部分 30009、64008、無限載入畫面 (Infinite Loading Screen)。
+* 部分 19K 系列代碼或出現「unstowed」角色實體狀態錯誤。
+* mobiGlas 介面遺失或徹底失效。
+* 角色無法與環境互動（例如無法開門、無法操作終端機或無法登艦）。
+* 角色永久卡在地形或物體中無法脫困。
+* 需取回租借 (loaner) 船艦。
+
+### 不會被修復的項目
+
+以下問題無法透過角色修復解決，請勿以此嘗試處理：
+* 船艦與載具相關問題（例如船隻重複出現在清單中）。
+* 犯罪等級 (CrimeStat) 與陣營聲望。
+* 修復當下**已遺失**的個人裝備與物品（包含 pledge 贊助物品，已遺失的 pledge 物品需等待下次伺服器資料庫重置時歸還）。
+* 崩潰導致的貨物遺失與 aUEC 損失：依官方政策，客服**無法補償**因崩潰或 Bug 損失的貨物與 aUEC，官方建議切勿將全部 aUEC 資金投入單趟貨運。
+
+### 修復後的影響
+
+執行角色修復後，帳號將產生以下變動與效果：
+* **角色重置至重生點**：角色將被送回主要居留地的醫療重生點。
+* **裝備卸下歸庫**：修復當下角色身上已裝備的物品會被自動卸下並放入居留地庫存。
+* **資產保留**：您的 aUEC 遊戲幣、聲望、擁有的船艦、載具與庫存裝備**不受影響**；此操作不會重置長期持久化 (LTP)。
+* **41013 副作用警示**：若因錯誤 41013 執行角色修復，可能導致個人機庫 (Personal Hangar) 暫時消失。
+
+### 操作步驟與等待時間
+
+1. 先嘗試已知的替代解決方案（如更換伺服器區域、Arena Commander 刷新實體等）。
+2. 完全結束遊戲客戶端與 RSI Launcher。
+3. 登入 [RSI 官方網站](https://robertsspaceindustries.com/)。
+4. 建議先至 Issue Council 查詢或回報相關異常。
+5. 前往「Account Dashboard」→ 點選「Settings」→ 選擇「Character Repair」。
+6. 仔細閱讀頁面條款後，依指示提交修復請求。
+7. **等待時間須知**：修復期間帳號無法登入遊戲；若在遊戲進行中提交會被系統踢出並顯示「Kicked by Admin」。雖然系統通常約 15 分鐘後完成後端程序，但官方強烈要求提交後**至少等待 1 小時**再重新登入遊戲，過早登入可能導致更多帳號異常。若數小時後仍未恢復，可回報 Issue Council 或再次提交。
 
 ---
 
