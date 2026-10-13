@@ -7,7 +7,9 @@ icon: newspaper
 
 ![](../../../.gitbook/assets/alpha_4.3.1.png)
 
-> \[!NOTE] **發佈版本：** 4.3.1 | **年份：** 2955 年 | **來源：** NEW UNITED - 新聯合報
+{% hint style="info" %}
+**發佈版本：** 4.3.1 | **年份：** 2955 年 | **來源：** NEW UNITED - 新聯合報
+{% endhint %}
 
 ***
 

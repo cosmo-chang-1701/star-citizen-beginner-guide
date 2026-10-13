@@ -7,8 +7,9 @@ icon: newspaper
 
 ![](../../.gitbook/assets/loading_screen/alpha_4.2.1.png)
 
-> [!NOTE]
-> **發佈版本：** 4.2.1 | **年份：** 2955 年 | **來源：** NEW UNITED - 新聯合報
+{% hint style="info" %}
+**發佈版本：** 4.2.1 | **年份：** 2955 年 | **來源：** NEW UNITED - 新聯合報
+{% endhint %}
 
 ---
 
@@ -19,10 +20,10 @@ icon: newspaper
 > **虐待動物的揭露引發了許多要求該研究公司給出答案的呼聲。**
 
 <!-- As recordings of living valakkar eggs being tortured on Pyro I at Associates Science & Development's (ASD) Lazarus Complex surfaced last month, many across the Empire are calling for a deeper investigation into the company's practices. Leading the charge is animal rights group PAW (Preserve All Wildlife) who have been actively protesting multiple ASD sites for what they've called "unconscionable cruelty". -->
-隨著上個月在派羅 I 的聯合科學與發展公司 (Associates Science & Development, ASD) Lazarus 綜合設施中傳出虐待活體 valakkar 卵的錄音曝光，帝國上下許多人呼籲對該公司的做法進行更深入的調查。領導這項指控的是動物權利組織 PAW (Preserve All Wildlife)，他們一直在積極抗議多個聯合科學與發展公司站點，稱其為「不合情理的殘酷行為」。
+隨著上個月在派羅 I 的聯科發 (Associates Science & Development, ASD) Lazarus 綜合設施中傳出虐待活體 valakkar 卵的錄音曝光，帝國上下許多人呼籲對該公司的做法進行更深入的調查。領導這項指控的是動物權利組織 PAW (Preserve All Wildlife)，他們一直在積極抗議多個聯科發站點，稱其為「不合情理的殘酷行為」。
 
 <!-- Not the first controversy ASD has dealt with, the company had previously gained notoriety from the brutality of their EE6 electron cannon. An ASD spokesperson claims that the Chief Scientist heading the research, Dr. Logan Jorrit, was exploring a potential solution for the regen crisis but was also quick to explain that since the lab was located in the unregulated Pyro system, they are technically operating outside of UEE law. An official release from ASD's board announced that Dr. Jorrit had been placed on temporary administrative leave while the company performs an internal investigation on the lab's activities. -->
-這並非聯合科學與發展公司處理的第一起爭議，該公司先前因其 EE6 電子砲的殘酷性而臭名昭著。一名聯合科學與發展公司發言人聲稱，領導該研究的首席科學家 Logan Jorrit 博士正在探索再生危機的潛在解決方案，但他也迅速解釋說，由於實驗室位於不受監管的派羅星系，他們嚴格來說是在 UEE 法律之外運作。聯合科學與發展公司董事會的官方新聞稿宣布，Jorrit 博士已被暫時停職，公司將對實驗室的活動進行內部調查。
+這並非聯科發處理的第一起爭議，該公司先前因其 EE6 電子砲的殘酷性而臭名昭著。一名聯科發發言人聲稱，領導該研究的首席科學家 Logan Jorrit 博士正在探索再生危機的潛在解決方案，但他也迅速解釋說，由於實驗室位於不受監管的派羅星系，他們嚴格來說是在 UEE 法律之外運作。聯科發董事會的官方新聞稿宣布，Jorrit 博士已被暫時停職，公司將對實驗室的活動進行內部調查。
 
 <!-- **UEE RESOURCE DRIVE SPURS REGEN RESEARCH** -->
 ## UEE 資源募集刺激再生研究
@@ -46,7 +47,7 @@ icon: newspaper
 傭兵公會在一次新聞稿中表示：「感謝傭兵公會高技能的專業人士不懈努力地保護和捍衛我們的客戶，我們在六月創下了合約完成的新紀錄。」然而，並非所有人都認為這個高數字值得慶祝。中央黨發言人 Acka Newton 指出，高完成率與整個帝國日益增長的犯罪數量一致，「這個紀錄之所以可能，只是因為現任政府完全無法保護 UEE 人民的安全。」
 
 <!-- **FOUNDATION FESTIVAL WELCOMES VOLUNTEERS** -->
-## 基礎節 (Foundation Festival) 歡迎志工
+## 奠基節 (Foundation Festival) 歡迎志工
 
 <!-- **The annual civic program sees people across the empire step up to help those in need.** -->
 > **這項年度公民計畫見證了整個帝國的人們挺身而出，幫助那些需要幫助的人。**

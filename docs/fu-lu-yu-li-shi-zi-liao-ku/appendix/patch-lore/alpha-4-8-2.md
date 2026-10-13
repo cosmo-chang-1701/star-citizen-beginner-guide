@@ -7,7 +7,9 @@ icon: newspaper
 
 ![](../../../.gitbook/assets/alpha_4.8.2.png)
 
-> \[!NOTE] **發佈版本：** 4.8.2 | **年份：** 2956 年 | **來源：** TERRA GAZETTE - 泰拉公報：西安特別版
+{% hint style="info" %}
+**發佈版本：** 4.8.2 | **年份：** 2956 年 | **來源：** TERRA GAZETTE - 泰拉公報：西安特別版
+{% endhint %}
 
 ***
 

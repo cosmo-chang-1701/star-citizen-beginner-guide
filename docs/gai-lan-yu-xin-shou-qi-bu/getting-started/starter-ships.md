@@ -61,9 +61,10 @@ icon: jet-fighter
 - **渴望強悍火力、重視機庫空間與實用性：** 推薦直上 **Avenger Titan**。
 - **志在工業致富、偏好穩定採礦：** 推薦選購 **Drake Golem**。
 
-> [!TIP]
-> **官方飛船升級機制 (Cross-Chassis Upgrade / CCU)：**
-> 所有的入門船未來都可以隨時在官網透過「Ship Upgrades」功能**僅補差價**升級成更高級的船艦。例如先以 Aurora Mk II 起步，日後若熱愛採礦，只需補齊差額即可無痛轉換為 Golem，原有的遊戲包權限與保險均會完整繼承！
+{% hint style="info" %}
+**官方飛船升級機制 (Cross-Chassis Upgrade / CCU)：**
+所有的入門船未來都可以隨時在官網透過「Ship Upgrades」功能**僅補差價**升級成更高級的船艦。例如先以 Aurora Mk II 起步，日後若熱愛採礦，只需補齊差額即可無痛轉換為 Golem，原有的遊戲包權限與保險均會完整繼承！
+{% endhint %}
 
 ---
 

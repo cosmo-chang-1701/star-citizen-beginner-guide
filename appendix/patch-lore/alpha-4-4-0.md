@@ -7,8 +7,9 @@ icon: newspaper
 
 ![](../../.gitbook/assets/loading_screen/alpha_4.4.0.png)
 
-> [!NOTE]
-> **發佈版本：** 4.4.0 | **年份：** 2955 年 | **來源：** VOX POPULI - 人民聯盟之聲
+{% hint style="info" %}
+**發佈版本：** 4.4.0 | **年份：** 2955 年 | **來源：** VOX POPULI - 人民聯盟之聲
+{% endhint %}
 
 ---
 

@@ -3,12 +3,13 @@ description: Alpha 4.6.0 新聞焦點：Aciedo 完成全帝國超光速網路升
 icon: newspaper
 ---
 
-# Alpha 4.6.0：Aciedo 完成全帝國超光速網路升級、尼克斯星系列夫斯基站爆發致命黴菌感染、羅伯茨太空工業歷史特展於克羅肖星系開幕
+# Alpha 4.6.0：Aciedo 完成全帝國超光速網路升級、尼克斯星系列夫斯基站爆發致命黴菌感染、羅伯茲太空工業歷史特展於克羅肖星系開幕
 
 ![](../../.gitbook/assets/loading_screen/alpha_4.6.0.png)
 
-> [!NOTE]
-> **發佈版本：** 4.6.0 | **年份：** 2956 年 | **來源：** NEW UNITED - 新聯合報
+{% hint style="info" %}
+**發佈版本：** 4.6.0 | **年份：** 2956 年 | **來源：** NEW UNITED - 新聯合報
+{% endhint %}
 
 ---
 
@@ -38,7 +39,7 @@ icon: newspaper
 
 <!-- **NEW RSI MUSEUM EXHIBIT UNVEILED** -->
 
-## 羅伯茨太空工業 (RSI) 博物館新展覽揭幕
+## 羅伯茲太空工業 (RSI) 博物館新展覽揭幕
 
 <!-- **ENTHUSIASTS OF THE SHIP MANUFACTURER GIVING THE NEW EXHIBITION HIGH MARKS.** -->
 
@@ -46,11 +47,11 @@ icon: newspaper
 
 <!-- The acclaimed Mohio Museum in Angeli, Croshaw recently premiered its brand-new exhibit, RSI: Beyond the Millennia. Featuring preserved and restored vehicles from throughout the company's storied history, curator Max Durino says their goal was to not only show how Roberts Space Industries has altered Humanity's course through the stars, but where they might take us in the years to come. -->
 
-位於克羅肖 (Crowshaw) 星系安吉利 (Angeli) 的知名莫希奧 (Mohio) 博物館最近首映了其全新展覽「RSI：跨越千禧」 (RSI: Beyond the Millennia)。館長 Max Durino 表示，展覽展出了該公司傳奇歷史中保存與修復的載具，他們的目標不僅是展示羅伯茨太空工業如何改變了人類在星際間的進程，還展示了他們在未來幾年可能引領我們走向何方。
+位於克羅肖 (Crowshaw) 星系安吉利 (Angeli) 的知名莫希奧 (Mohio) 博物館最近首映了其全新展覽「RSI：跨越千禧」 (RSI: Beyond the Millennia)。館長 Max Durino 表示，展覽展出了該公司傳奇歷史中保存與修復的載具，他們的目標不僅是展示羅伯茲太空工業如何改變了人類在星際間的進程，還展示了他們在未來幾年可能引領我們走向何方。
 
 <!-- **CORAMOR VID REMAKE ANNOUNCED** -->
 
-## 寇拉莫 (Coramor) 影片翻拍版發佈
+## 科拉情人節 (Coramor) 影片翻拍版發佈
 
 <!-- Nearly 500 years after the classic vid story premiered, a new remake is hoping to capture the spirit of the original doomed romance that captured the empire's heart. -->
 

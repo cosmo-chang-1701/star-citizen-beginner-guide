@@ -35,8 +35,9 @@ icon: timeline
 2. **2027 年 Q2**：**《42 中隊》全球正式發售**（官方延期時程詳見 [Letter from the Chairman](https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman)），以好萊塢級單人戰役向全球玩家證明技術交付實力。
 3. **2027 年底 ~ 2028 年**：**《星際公民 1.0》正式商業上線**，在單人戰役奠定口碑與驗證底層技術後終結刪檔，進入可持續運營的全新紀元。
 
-> [!NOTE]
-> 《42 中隊》由原先目標調整至 2027 年 Q2 發售，體現了團隊對旗艦 3A 單人戰役品質的極致苛求。其成功上市將是重塑全球市場信心的關鍵一戰，其磅礡的口碑將為隨後登場的《星際公民 1.0》奠定堅實的玩家基礎。官方詳細進度公告請參閱 [Letter from the Chairman](https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman)。
+{% hint style="info" %}
+《42 中隊》由原先目標調整至 2027 年 Q2 發售，體現了團隊對旗艦 3A 單人戰役品質的極致苛求。其成功上市將是重塑全球市場信心的關鍵一戰，其磅礡的口碑將為隨後登場的《星際公民 1.0》奠定堅實的玩家基礎。官方詳細進度公告請參閱 [Letter from the Chairman](https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman)。
+{% endhint %}
 
 ---
 

@@ -25,3 +25,7 @@ yarn-error.log*
 *.sln
 *.sw?
 *~
+
+# Python cache
+__pycache__/
+*.py[cod]

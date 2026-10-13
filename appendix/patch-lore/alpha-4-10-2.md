@@ -7,8 +7,9 @@ icon: newspaper
 
 ![](../../.gitbook/assets/loading_screen/alpha_4.10.2.png)
 
-> [!NOTE]
-> **發佈版本：** 4.10.2 | **年份：** 2956 年 | **來源：** TERRA GAZETTE - 泰拉公報
+{% hint style="info" %}
+**發佈版本：** 4.10.2 | **年份：** 2956 年 | **來源：** TERRA GAZETTE - 泰拉公報
+{% endhint %}
 
 ---
 
@@ -22,7 +23,7 @@ icon: newspaper
 
 <!-- As part of their RSI Discovery Month event, RSI had hoped that noted ship-enthusiast and infamous bad boy Ellroy Cass would be able to draw youthful pilots to their latest ship model, the Skylark snub. But when Cass was supposed to do a simple docking procedure with a Constellation Mk V Centaurus, the resulting crash sent spectators scrambling as fiery debris rained down. Cass, who walked away with minor injuries, has denied being intoxicated despite having attended an unveiling party shortly before takeoff. -->
 
-作為其「RSI 探索月」(RSI Discovery Month) 活動的一部分，羅伯茨太空工業 (RSI) 原本期望著名飛船愛好者兼惡名昭彰的「壞小子」埃爾羅伊·卡斯 (Ellroy Cass) 能夠吸引年輕飛行員關注他們的最新艦型——雲雀級 (Skylark) 艦載子機。然而，當卡斯理應對一艘星座五型 半人馬座 (Constellation Mk V Centaurus) 進行簡單的對接程序時，引發的墜撞事故導致燃燒的殘骸如雨般灑落，迫使現場觀眾四處逃竄。僅受輕傷脫險的卡斯否認涉嫌酒醉，儘管他在起飛前不久才剛參加過一場新船亮相派對。
+作為其「RSI 探索月」(RSI Discovery Month) 活動的一部分，羅伯茲太空工業 (RSI) 原本期望著名飛船愛好者兼惡名昭彰的「壞小子」埃爾羅伊·卡斯 (Ellroy Cass) 能夠吸引年輕飛行員關注他們的最新艦型——雲雀級 (Skylark) 艦載子機。然而，當卡斯理應對一艘星座五型 半人馬座 (Constellation Mk V Centaurus) 進行簡單的對接程序時，引發的墜撞事故導致燃燒的殘骸如雨般灑落，迫使現場觀眾四處逃竄。僅受輕傷脫險的卡斯否認涉嫌酒醉，儘管他在起飛前不久才剛參加過一場新船亮相派對。
 
 <!-- **LEAD WITNESS MISSING IN SYNDICATE TRIAL** -->
 

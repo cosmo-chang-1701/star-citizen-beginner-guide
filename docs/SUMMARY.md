@@ -51,11 +51,11 @@
   * [Alpha 4.3.0：Onyx 設施 (Onyx Facilities)](te-shu-huo-dong-zhi-nan/special-events/alpha-4-3-0-onyx-facilities.md)
   * [Alpha 4.2.1：資源爭奪戰 (Resource Rush)](te-shu-huo-dong-zhi-nan/special-events/alpha-4-2-1-resource-rush.md)
 
-## 🌌 未來願景與星辰引擎
+## 🌌 未來願景與星際引擎
 
 * [第六章：展望未來，星辰大海的彼方](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/README.md)
   * [6.1：「1.0 版本」代表什麼？這是一個全新的開始！](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/version-1-0.md)
-  * [6.2：打造宇宙的魔法：伺服器網格化與星辰引擎](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/server-meshing.md)
+  * [6.2：打造宇宙的魔法：伺服器網格化與星際引擎](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/server-meshing.md)
   * [6.3：1.0 版本的宇宙：你的冒險起點](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/universe-expansion.md)
   * [6.4：你能在宇宙中做什麼？核心玩法、經濟與終極目標](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/endgame-and-economy.md)
   * [6.5：我們離 1.0 還有多遠？《42 中隊》與開發路線圖](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/sq42-and-roadmap.md)
@@ -73,13 +73,13 @@
   * [Alpha 4.10.2：卡斯墜機重創 RSI、辛迪加審判核心證人失蹤、經濟學家擔憂資源短缺](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-10-2.md)
   * [Alpha 4.10.0：九尾幫襲擊奧里森、希安拒絕軍事援助、重生技術僱用限制訴訟](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-10-0.md)
   * [Alpha 4.9.0：奠基節擴展至非 UEE 星系、斯坦頓免費安全援助請求遭拒、格雷黑市因非法轉售飛船零件被起訴](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-9-0.md)
-  * [Alpha 4.8.3：XenoThreat 襲擊增加護航需求激增、InterSec 對削減軍費表憂慮、公會發佈 2956 武器製造指南](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-8-3.md)
+  * [Alpha 4.8.3：異種威脅 (XenoThreat) 襲擊增加護航需求激增、InterSec 對削減軍費表憂慮、公會發佈 2956 武器製造指南](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-8-3.md)
   * [Alpha 4.8.2：皇帝稱續簽克安條約至關重要、人類飛行員青睞克安飛船、參議院辯論克安互助條款](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-8-2.md)
   * [Alpha 4.8.1：爪蠑螈和平使者失蹤、飛行員對委員會建議「聘請額外安全人員」感到憤怒、藝術作為抵抗的行為](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-8-1.md)
   * [Alpha 4.8.0：「戰術打擊」行動重塑前線後勤、保險機制改革引發經濟波動、加油員俱樂部正式成立](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-8-0.md)
   * [Alpha 4.7.0：尼克斯 I 爆發土地爭奪熱潮、聯合地球帝國跨星系通訊網遭駭客攻擊、舒賓星際非法出售礦業權益引發爭議](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-7-0.md)
-  * [Alpha 4.6.0：Aciedo 完成全帝國超光速網路升級、尼克斯星系列夫斯基站爆發致命黴菌感染、羅伯茨太空工業歷史特展於克羅肖星系開幕](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-6-0.md)
-  * [Alpha 4.5.0：恐怖組織頭目遭獵頭幫處決、超光速即時通訊技術問世、光明節主題武器成熱門禮物](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-5-0.md)
+  * [Alpha 4.6.0：Aciedo 完成全帝國超光速網路升級、尼克斯星系列夫斯基站爆發致命黴菌感染、羅伯茲太空工業歷史特展於克羅肖星系開幕](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-6-0.md)
+  * [Alpha 4.5.0：恐怖組織頭目遭獵頭幫處決、超光速即時通訊技術問世、光燈節主題武器成熱門禮物](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-5-0.md)
   * [Alpha 4.4.0：剜度襲擊致家族喪生、尼克斯 I 地球化改造現曙光、IAE 盛會遭批帝國衰敗](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-4-0.md)
   * [Alpha 4.3.2：Amelia Boyd 現身斯坦頓、ADDISON 皇帝發表公民日致辭、親特瓦林團體抗議伊德里斯戰役重演](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-3-2.md)
   * [Alpha 4.3.1：新創公司提議「再地球化」引發風險爭議、再生危機致急救人員嚴重短缺、抗議組織要求醫院停止再生醫療](fu-lu-yu-li-shi-zi-liao-ku/appendix/patch-lore/alpha-4-3-1.md)

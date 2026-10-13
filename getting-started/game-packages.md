@@ -17,8 +17,10 @@ icon: cart-shopping
 
 前往《星際公民》官方網站的 [帳號註冊頁面 (Enlist)](https://robertsspaceindustries.com/enlist)，填寫你的帳號代號 (Callsign)、電子郵件與密碼。
 
-> [!IMPORTANT]
-> 帳號建立完成後，強烈建議立即前往帳號設定頁面啟用 **雙重身份驗證 (Two-Factor Authentication / 2FA)**，保護你的飛船與數位資產安全。
+{% hint style="warning" %}
+帳號建立完成後，強烈建議立即前往帳號設定頁面啟用 **雙重身份驗證 (Two-Factor Authentication / 2FA)**，保護你的飛船與數位資產安全。
+{% endhint %}
+
 {% endstep %}
 
 {% step %}
@@ -41,8 +43,10 @@ icon: cart-shopping
 | **遊戲包 (Game Package)** | 標註 **Star Citizen Digital Download** | **擁有遊戲進入權限** + 獲得該艘飛船（新手必備） |
 | **獨立飛船 (Standalone Ship)** | 僅標註飛船名稱與保險期 | 僅包含船隻本體，**不含遊戲進入權限**（切勿買錯！） |
 
-> [!WARNING]
-> 如果只購買了「獨立飛船」而沒有任何「遊戲包」，你將無法登入持久宇宙 (Persistent Universe)！
+{% hint style="warning" %}
+如果只購買了「獨立飛船」而沒有任何「遊戲包」，你將無法登入持久宇宙 (Persistent Universe)！
+{% endhint %}
+
 {% endstep %}
 
 {% step %}

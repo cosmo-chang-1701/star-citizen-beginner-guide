@@ -20,8 +20,9 @@ icon: recycle
 | **正式承包商 (Contractor)** | 重型砲艇與護衛艦 | RSI Constellation、Aegis Retaliator、Drake Corsair |
 | **資深/精銳承包商 (Senior/Elite)** | 次主力艦與巨型工業船 | Aegis Hammerhead、MISC Starfarer、Drake Caterpillar |
 
-> [!TIP]
-> **關鍵藍圖收益**：千萬不要只做常規花錢買點位的殘骸任務！請務必完成初期的**「交付合約 (Turn-in Contracts)」**，這是取得高階**打撈雷射頭模組藍圖 (Salvage Module Blueprints)** 的唯一穩定管道。
+{% hint style="info" %}
+**關鍵藍圖收益**：千萬不要只做常規花錢買點位的殘骸任務！請務必完成初期的**「交付合約 (Turn-in Contracts)」**，這是取得高階**打撈雷射頭模組藍圖 (Salvage Module Blueprints)** 的唯一穩定管道。
+{% endhint %}
 
 ---
 
@@ -58,7 +59,7 @@ icon: recycle
 
 坐回打撈船操縱席，按下 **`M`** 切換至打撈模式：
 - 瞄準艦體平滑表面啟動刮除光束，剝離裝甲塗層並自動壓縮為標準 1 SCU 規格的 RMC 箱。
-- 在團隊協同作戰中，RMC 箱可即時交由隊友的多功能工具「修復配件 (Cambio-SRT)」，在戰場第一線對重損戰機進行裝甲熱修補！
+- 在團隊協同作戰中，RMC 箱可即時交由隊友的多功能工具「坎比奧 打撈修復工具 (Cambio-SRT)」，在戰場第一線對重損戰機進行裝甲熱修補！
 {% endstep %}
 
 {% step %}
@@ -76,7 +77,7 @@ icon: recycle
 
 | 船艦型號 | 編制人數 | 核心定位與實戰優勢 |
 | :--- | :--- | :--- |
-| **Drake Vulture (禿鷹)** | 1 人獨立作業 | **孤狼與前線戰術維修神船！** 兼具靈巧機動與獨立壓縮出箱能力，單人即可完整通吃中小型殘骸。 |
+| **Drake Vulture (禿鷲)** | 1 人獨立作業 | **孤狼與前線戰術維修神船！** 兼具靈巧機動與獨立壓縮出箱能力，單人即可完整通吃中小型殘骸。 |
 | **Aegis Reclaimer (回收者)** | 3-5 人多人團隊 | **重型工業航母級移動拆船廠！** 專精於結構解體與海量 CMAT 產能，是工會打造大型組件的唯一重裝源頭。 |
 
 ---

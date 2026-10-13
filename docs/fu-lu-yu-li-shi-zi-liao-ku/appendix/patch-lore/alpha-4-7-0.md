@@ -7,7 +7,9 @@ icon: newspaper
 
 ![](../../../.gitbook/assets/alpha_4.7.0.png)
 
-> \[!NOTE] **發佈版本：** 4.7.0 | **年份：** 2956 年 | **來源：** VOX POPULI - 人民聯盟之聲
+{% hint style="info" %}
+**發佈版本：** 4.7.0 | **年份：** 2956 年 | **來源：** VOX POPULI - 人民聯盟之聲
+{% endhint %}
 
 ***
 
@@ -43,4 +45,4 @@ icon: newspaper
 
 諷刺的是，QV 行星服務公司 (QV Planet Services) 的幽靈竟然被另一家對人民聯盟及其理想漠不關心的礦業公司復活了。
 
-在對星系內殘留資源進行勘探後，舒賓星際 (Shubin Interstellar) 已開始出售基格帶 (Keeger Belt) 附近廢棄的 QV 拆解站 (QV Breaker Stations) 的礦業權。但許多當地礦工都在想，舒賓到底憑什麼擁有出售這些權益的權利？
+在對星系內殘留資源進行勘探後，舒賓星際 (Shubin Interstellar) 已開始出售基格小行星帶 (Keeger Belt) 附近廢棄的 QV 碎岩站 (QV Breaker Stations) 的礦業權。但許多當地礦工都在想，舒賓到底憑什麼擁有出售這些權益的權利？

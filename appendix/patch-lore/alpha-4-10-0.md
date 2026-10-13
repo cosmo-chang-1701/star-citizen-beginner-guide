@@ -7,8 +7,9 @@ icon: newspaper
 
 ![](../../.gitbook/assets/loading_screen/alpha_4.10.0.png)
 
-> [!NOTE]
-> **發佈版本：** 4.10.0 | **年份：** 2956 年 | **來源：** TERRA GAZETTE - 泰拉公報
+{% hint style="info" %}
+**發佈版本：** 4.10.0 | **年份：** 2956 年 | **來源：** TERRA GAZETTE - 泰拉公報
+{% endhint %}
 
 ---
 
@@ -22,7 +23,7 @@ icon: newspaper
 
 <!-- In the early hours of the morning, members of the Nine Tails gang bypassed Crusader's security to take control of several Orison floating platforms. While the outlaw's motives remain unknown, multiple attempts to retake the platforms have met heavy resistance. Crusader officials have announced that they've requested assistance from the private security firm Northrock Service Group and have begun organizing a wider relief effort to help residents affected by this tragedy. The latest in a string of recent attacks in the Stanton system, Senator Ngo of Terra III stated: "While my heart goes out to those on Crusader affected by this heinous attack, incidents like this will continue to happen as long as the military chooses to focus on feckless wars instead of protecting people from outlaw threats." -->
 
-在清晨時分，九尾 (Nine Tails) 幫的成員避開了十字軍的保安，控制了奧里森 (Orison) 的數個浮動平台。雖然這群不法之徒的動機仍然不明，但多次試圖奪回平台的行動都遭遇了強烈抵抗。十字軍官員宣布，他們已經請求私人保安公司北岩服務集團 (Northrock Service Group) 的協助，並已開始組織更廣泛的救援行動，以幫助受這場悲劇影響的居民。針對這起近期在斯坦頓 (Stanton) 星系發生的一連串襲擊中的最新事件，泰拉三號 (Terra III) 參議員 Ngo 表示：「雖然我對十字軍星上受這起令人髮指的襲擊影響的人們深表同情，但只要軍方選擇將重心放在徒勞無功的戰爭上，而不是保護人民免受不法之徒的威脅，類似的事件就會繼續發生。」
+在清晨時分，九尾 (Nine Tails) 幫的成員避開了十字軍的保安，控制了奧里森 (Orison) 的數個浮動平台。雖然這群不法之徒的動機仍然不明，但多次試圖奪回平台的行動都遭遇了強烈抵抗。十字軍官員宣布，他們已經請求私人保安公司北境之巖服務團隊 (Northrock Service Group) 的協助，並已開始組織更廣泛的救援行動，以幫助受這場悲劇影響的居民。針對這起近期在斯坦頓 (Stanton) 星系發生的一連串襲擊中的最新事件，泰拉三號 (Terra III) 參議員 Ngo 表示：「雖然我對十字軍星上受這起令人髮指的襲擊影響的人們深表同情，但只要軍方選擇將重心放在徒勞無功的戰爭上，而不是保護人民免受不法之徒的威脅，類似的事件就會繼續發生。」
 
 <!-- **MANDATORY AID CLAUSE REJECTED BY XI'AN NEGOTIATORS** -->
 
@@ -49,7 +50,7 @@ Though the current projection for the talks is to maintain the current HuXa Trea
 <!-- With only a small percentage of the population able to utilize the regenerative technology, the high court has been asked to weigh in on whether Mercenary Guild member company Eckhart Security has the right to require its employees and contractors to have functioning imprints.
 Sparanto Lima, who filed the initial lawsuit, claims they had their contract unfairly terminated when it was revealed that they were no longer able to regenerate if they were killed while working for Eckhart. -->
 
-由於只有一小部分人口能夠利用重生技術，高等法院被要求介入裁定傭兵公會成員公司埃克哈特保安 (Eckhart Security) 是否有權要求其員工和承包商必須具備可運作的（重生）印記。
+由於只有一小部分人口能夠利用重生技術，高等法院被要求介入裁定傭兵公會成員公司埃克哈特保全 (Eckhart Security) 是否有權要求其員工和承包商必須具備可運作的（重生）印記。
 提起最初訴訟的 Sparanto Lima 聲稱，當發現如果在為埃克哈特工作期間被殺死將無法重生時，他們的合約遭到了不公平的終止。
 
 <!-- **SHARPSHOOTER SIMA CROWN WINS HEDEBY CLASSIC** -->

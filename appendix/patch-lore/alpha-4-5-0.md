@@ -1,14 +1,15 @@
 ---
-description: Alpha 4.5.0 新聞焦點：恐怖組織頭目遭獵頭幫處決、超光速即時通訊技術問世、光明節主題武器成熱門禮物。
+description: Alpha 4.5.0 新聞焦點：恐怖組織頭目遭獵頭幫處決、超光速即時通訊技術問世、光燈節主題武器成熱門禮物。
 icon: newspaper
 ---
 
-# Alpha 4.5.0：恐怖組織頭目遭獵頭幫處決、超光速即時通訊技術問世、光明節主題武器成熱門禮物
+# Alpha 4.5.0：恐怖組織頭目遭獵頭幫處決、超光速即時通訊技術問世、光燈節主題武器成熱門禮物
 
 ![](../../.gitbook/assets/loading_screen/alpha_4.5.0.jpg)
 
-> [!NOTE]
-> **發佈版本：** 4.5.0 | **年份：** 2955 年 | **來源：** TERRA GAZETTE - 泰拉公報
+{% hint style="info" %}
+**發佈版本：** 4.5.0 | **年份：** 2955 年 | **來源：** TERRA GAZETTE - 泰拉公報
+{% endhint %}
 
 ---
 
@@ -22,7 +23,7 @@ icon: newspaper
 
 <!-- After last month's coordinated assault on the Pyro system utilizing multiple stolen RSI Polaris, leader of the terrorist organization Frontier Fighters, Amelia Boyd, has been brutally executed following her capture by the notorious outlaw group the Headhunters. Despite Citizens for Prosperity's inability to hand Boyd over to UEE authorities to face justice, there is hope that with the Frontier Fighter's leader now deceased that the group will no longer to be a threat. -->
 
-在上個月利用多艘被盜的羅伯茨太空工業 (RSI) 北極星 (Polaris) 對派羅 (Pyro) 星系發動協同攻擊後，恐怖組織「邊境戰士」的領袖阿梅莉亞·博伊德在被惡名昭彰的非法組織獵頭幫俘虜後遭到殘忍處決。儘管「繁榮公民」 (Citizens for Prosperity) 組織無法將博伊德移交給聯合地球帝國當局接受正義審判，但人們希望隨著邊境戰士領袖的死亡，該組織將不再構成威脅。
+在上個月利用多艘被盜的羅伯茲太空工業 (RSI) 北極星 (Polaris) 對派羅 (Pyro) 星系發動協同攻擊後，恐怖組織「邊境戰士」的領袖阿梅莉亞·博伊德在被惡名昭彰的非法組織獵頭幫俘虜後遭到殘忍處決。儘管「繁榮公民」 (Citizens for Prosperity) 組織無法將博伊德移交給聯合地球帝國當局接受正義審判，但人們希望隨著邊境戰士領袖的死亡，該組織將不再構成威脅。
 
 <!-- **FTL COMMS BREAKTHROUGH** -->
 
@@ -42,11 +43,11 @@ icon: newspaper
 
 <!-- **RETAILERS REPORT THAT LUMINALIA-THEMED WEAPONS ARE THIS YEAR'S MOST POPULAR GIFT.** -->
 
-> **零售商報告指出，光明節 (Luminalia) 主題武器是今年最受歡迎的禮物。**
+> **零售商報告指出，光燈節 (Luminalia) 主題武器是今年最受歡迎的禮物。**
 
 <!-- In what is considered by some to be a concerning sign of the times, sales of Luminalia-themed weapons have sky-rocketed this year to become the holiday's most sought-after gift. While some have been quick to point out the irony of giving a weapon on a holiday about togetherness, others say that they make a thoughtful gift as threats from piracy and Vanduul continue to rise. -->
 
-在一些人認為這是令人擔憂的時代跡象中，光明節主題武器的銷量在今年激增，成為節日最受追捧的禮物。雖然有些人迅速指出在一個象徵團聚的節日贈送武器具有諷刺意味，但其他人則表示，隨著來自海盜和剜度 (Vanduul) 的威脅持續上升，這是一份貼心的禮物。
+在一些人認為這是令人擔憂的時代跡象中，光燈節主題武器的銷量在今年激增，成為節日最受追捧的禮物。雖然有些人迅速指出在一個象徵團聚的節日贈送武器具有諷刺意味，但其他人則表示，隨著來自海盜和剜度 (Vanduul) 的威脅持續上升，這是一份貼心的禮物。
 
 <!-- **CONSUMER SPECIAL: ARE FUSES FAILING MORE FREQUENTLY?** -->
 

@@ -30,8 +30,10 @@ icon: microchip
 - **指令集支援：** CPU 必須支援 **AVX、AVX2 與 FMA3** 指令集（Intel Haswell / AMD Excavator 以後架構）。
 - **處理器特性：** 《星際公民》極度依賴 CPU 計算複雜的物理碰撞與實體網路同步。目前 **AMD Ryzen X3D 系列**（如 7800X3D、9800X3D）憑藉巨大的 3D V-Cache，在遊戲中展現出壓倒性的最低幀率 (1% Low FPS) 優勢。
 - **GPU 卸載技巧：**
-  > [!IMPORTANT]
-  > 在遊戲設定中，將「品質」(Quality) 選項設定為「高」(High) 或「非常高」(Very High)。這會促使渲染引擎將更多計算任務從 CPU 卸載到 GPU，在多數非頂級配置上反而能提升幀率。
+
+{% hint style="warning" %}
+在遊戲設定中，將「品質」(Quality) 選項設定為「高」(High) 或「非常高」(Very High)。這會促使渲染引擎將更多計算任務從 CPU 卸載到 GPU，在多數非頂級配置上反而能提升幀率。
+{% endhint %}
 
 ### 顯示卡 GPU 與 Vulkan API
 

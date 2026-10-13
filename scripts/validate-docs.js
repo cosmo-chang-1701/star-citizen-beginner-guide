@@ -142,8 +142,8 @@ for (const file of mdFiles) {
   const content = fs.readFileSync(file, 'utf8');
   const relPath = path.relative('.', file);
 
-  // Frontmatter check (except SUMMARY.md and root README.md)
-  if (path.basename(file) !== 'SUMMARY.md' && relPath !== 'README.md') {
+  // Frontmatter check (except SUMMARY.md and README.md files)
+  if (path.basename(file) !== 'SUMMARY.md' && relPath !== 'README.md' && relPath !== 'docs/README.md') {
     if (!content.startsWith('---\n')) {
       error(`Missing frontmatter in ${relPath}`);
     } else {
@@ -220,6 +220,8 @@ for (const file of mdFiles) {
   let endstepperCount = 0;
   let stepCount = 0;
   let endstepCount = 0;
+  let hintCount = 0;
+  let endhintCount = 0;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -231,11 +233,9 @@ for (const file of mdFiles) {
     }
     if (inCodeBlock) continue;
 
-    // Check duplicate alerts
-    if (trimmed.startsWith('> [!NOTE]')) {
-      if (i + 1 < lines.length && lines[i + 1].trim().startsWith('> [!NOTE]')) {
-        error(`Duplicate consecutive > [!NOTE] found in ${relPath} at line ${i + 1}`);
-      }
+    // Disallow any lingering GitHub alert blockquotes
+    if (/^>\s*\\?\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]/i.test(trimmed)) {
+      error(`Disallowed legacy alert blockquote found in ${relPath} at line ${i + 1}: "${trimmed}" (must use GitBook {% hint style="..." %})`);
     }
 
     // GitBook blocks
@@ -247,6 +247,8 @@ for (const file of mdFiles) {
     if (trimmed === '{% endstepper %}') endstepperCount++;
     if (trimmed === '{% step %}' || trimmed.startsWith('{% step ')) stepCount++;
     if (trimmed === '{% endstep %}') endstepCount++;
+    if (trimmed.startsWith('{% hint ') || trimmed === '{% hint %}') hintCount++;
+    if (trimmed === '{% endhint %}') endhintCount++;
 
     // Headings
     const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
@@ -266,6 +268,10 @@ for (const file of mdFiles) {
   }
   if (stepperCount !== endstepperCount || stepCount !== endstepCount) {
     error(`Unbalanced {% stepper %} in ${relPath}: stepper=${stepperCount}, endstepper=${endstepperCount}, step=${stepCount}, endstep=${endstepCount}`);
+    interactiveBlockIssues++;
+  }
+  if (hintCount !== endhintCount) {
+    error(`Unbalanced {% hint %} in ${relPath}: hint=${hintCount}, endhint=${endhintCount}`);
     interactiveBlockIssues++;
   }
 
@@ -299,6 +305,55 @@ for (const file of mdFiles) {
 
 if (headingHierarchyIssues === 0 && interactiveBlockIssues === 0) {
   console.log('✓ All 66 documentation pages have perfect heading hierarchy (0 skips) and balanced interactive blocks.');
+}
+
+// 8. Verify Terminology Compliance (sc-knowledge alignment)
+console.log('--- 8. Checking Terminology Compliance (sc-knowledge) ---');
+let terminologyIssues = 0;
+const deprecatedTerms = [
+  { term: '德拉克工業', desc: 'Use 德雷克星際 instead of 德拉克工業' },
+  { term: '毀滅空間站', desc: 'Use 廢墟太空站 instead of 毀滅空間站' },
+  { term: '星辰建築師', desc: 'Use 星際建築系統 instead of 星辰建築師' },
+  { term: '阿隆光環', desc: 'Use 亞倫環 instead of 阿隆光環' },
+  { term: '克萊雪監獄', desc: 'Use 克萊舍爾勞教所 instead of 克萊雪監獄' },
+  { term: '史丹頓', desc: 'Use 斯坦頓 instead of 史丹頓' },
+  { regex: /德拉克(?![沃斯])/g, term: '德拉克', desc: 'Use 德雷克星際 instead of 德拉克 (except Drakworth)' },
+  { term: '基礎節 (Foundation Festival)', desc: 'Use 奠基節 instead of 基礎節' },
+  { term: '寇拉莫 (Coramor)', desc: 'Use 科拉情人節 instead of 寇拉莫' },
+  { term: '生命維持系統 (Life Support)', desc: 'Use 維生系統 instead of 生命維持系統' },
+  { term: '醫療生物凝膠', desc: 'Use 醫療凝膠 instead of 醫療生物凝膠' },
+  { term: '互安防務', desc: 'Use 互安防衛 instead of 互安防務' },
+  { term: '北岩服務集團', desc: 'Use 北境之巖服務團隊 instead of 北岩服務集團' },
+  { term: '埃克哈特保安', desc: 'Use 埃克哈特保全 instead of 埃克哈特保安' },
+  { term: '科瓦萊什物流', desc: 'Use 科瓦萊什貨運 instead of 科瓦萊什物流' },
+  { term: 'QV 拆解站', desc: 'Use QV 碎岩站 instead of QV 拆解站' },
+  { term: 'SCM (戰鬥機動)', desc: 'Use SCM (戰鬥操控模式) instead of SCM (戰鬥機動)' },
+  { term: 'NAV (極速導航)', desc: 'Use NAV (巡航導航模式) instead of NAV (極速導航)' }
+];
+
+for (const file of mdFiles) {
+  const content = fs.readFileSync(file, 'utf8');
+  const relPath = path.relative('.', file);
+  // Strip HTML comments (preserving original English lore sources)
+  const cleanContent = content.replace(/<!--[\s\S]*?-->/g, '');
+
+  for (const item of deprecatedTerms) {
+    if (item.regex) {
+      // Reset regex index before test
+      item.regex.lastIndex = 0;
+      if (item.regex.test(cleanContent)) {
+        error(`Deprecated term pattern "${item.term}" found in ${relPath}: ${item.desc}`);
+        terminologyIssues++;
+      }
+    } else if (cleanContent.includes(item.term)) {
+      error(`Deprecated term "${item.term}" found in ${relPath}: ${item.desc}`);
+      terminologyIssues++;
+    }
+  }
+}
+
+if (terminologyIssues === 0) {
+  console.log(`✓ All ${mdFiles.length} documentation files are strictly compliant with sc-knowledge terminology.`);
 }
 
 // Final Summary

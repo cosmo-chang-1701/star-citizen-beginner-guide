@@ -57,7 +57,9 @@ icon: train-subway
 
 ## 快捷指引與注意事項
 
-> \[!TIP] 更多詳細的步兵與交互操作快捷鍵，請隨時查閱 [**附錄 A：快捷鍵小抄**](../../fu-lu-yu-li-shi-zi-liao-ku/appendix/keybindings.md)。
+{% hint style="info" %}
+更多詳細的步兵與交互操作快捷鍵，請隨時查閱 [**附錄 A：快捷鍵小抄**](../../fu-lu-yu-li-shi-zi-liao-ku/appendix/keybindings.md)。
+{% endhint %}
 
 ***
 

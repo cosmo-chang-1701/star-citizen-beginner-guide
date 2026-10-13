@@ -7,8 +7,9 @@ icon: newspaper
 
 ![](../../.gitbook/assets/loading_screen/alpha_4.3.0.jpg)
 
-> [!NOTE]
-> **發佈版本：** 4.3.0 | **年份：** 2955 年 | **來源：** TERRA GAZETTE - 泰拉公報
+{% hint style="info" %}
+**發佈版本：** 4.3.0 | **年份：** 2955 年 | **來源：** TERRA GAZETTE - 泰拉公報
+{% endhint %}
 
 ---
 
@@ -28,7 +29,7 @@ Addison 政府稱讚全帝國範圍內為支持解決再生危機的科學研究
 > **關於 ASD 實驗室在斯坦頓進行驚人實驗的報導，促使參議院創新小組委員會舉行了一次特別閉門會議。**
 
 <!-- The Senate Innovation Subcommittee took closed-door testimony from a former Associated Science & Development employee following reports of potentially unethical and illegal experiments being conducted at company facilities in Stanton and beyond. Stories and images of these alleged experiments have flooded Spectrum causing a firestorm of debate surrounding the loosening of scientific restrictions permitted by the Second Life Initiative (SLI). An official release from ASD's board denied any wrongdoing by the company and insisted that all authorized experiments exceed the standards set in the SLI, noting that the allegations appear to be linked to research facilities in Stanton that are no longer in operation. -->
-參議院創新小組委員會聽取了一名前聯合科學與發展公司員工的閉門證詞，此前有報導稱該公司在斯坦頓及其他地區的設施中進行了潛在不道德和非法的實驗。有關這些所謂實驗的故事和圖片充斥著 Spectrum，引發了一場關於放寬「第二生命倡議」 (SLI) 所允許的科學限制的激烈辯論。ASD 董事會發布的官方聲明否認了公司的任何不當行為，並堅稱所有授權實驗均超越了 SLI 中設定的標準，同時指出這些指控似乎與斯坦頓已停止營運的研究設施有關。
+參議院創新小組委員會聽取了一名前聯科發員工的閉門證詞，此前有報導稱該公司在斯坦頓及其他地區的設施中進行了潛在不道德和非法的實驗。有關這些所謂實驗的故事和圖片充斥著 Spectrum，引發了一場關於放寬「第二生命倡議」 (SLI) 所允許的科學限制的激烈辯論。ASD 董事會發布的官方聲明否認了公司的任何不當行為，並堅稱所有授權實驗均超越了 SLI 中設定的標準，同時指出這些指控似乎與斯坦頓已停止營運的研究設施有關。
 
 <!-- **KRUGER REVEALS L-21 WOLF** -->
 ## KRUGER 揭曉 L-21 WOLF

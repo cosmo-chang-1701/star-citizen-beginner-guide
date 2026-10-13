@@ -25,8 +25,9 @@ icon: cubes
 | **船艦塗裝** | 各企業主題塗裝 | Aurora, Caterpillar, C1 Spirit, Connie, Freelancer, RAFT, Zeus MKII |
 | **其他** | Falston 連身服, Pyro RYT 多功能工具 | N/A |
 
-> [!TIP]
-> 這是個守法公民的活動。犯罪等級 (CrimeStat) 超過三級的玩家無法接取任務，行動前請確保已繳清罰單。
+{% hint style="info" %}
+這是個守法公民的活動。犯罪等級 (CrimeStat) 超過三級的玩家無法接取任務，行動前請確保已繳清罰單。
+{% endhint %}
 
 ## 2. 致勝策略：效率路徑分析
 

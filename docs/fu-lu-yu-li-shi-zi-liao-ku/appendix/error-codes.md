@@ -41,10 +41,11 @@ icon: triangle-exclamation
 * **無縫重啟**：
   一旦新 DGS 接管完畢，提示文字自動消失，物理世界原地解凍，玩家立即恢復操作，船隻姿態、航速、裝載貨物與未完成合約全數完好保留！
 
-> [!IMPORTANT]
-> **強烈操作警告：切勿在「Attempting Recovery」期間強制關閉遊戲！**
-> 當畫面上出現「Server Error: Attempting Recovery」時，請務必給予系統 **60 秒** 的恢復窗口，**切勿立即按下 Alt + F4 或透過工作管理員殺死進程**。
-> 若玩家在 DGS 接管過渡期主動掐斷客戶端與複寫層的連線 Session，後端實體圖將因缺少客戶端握手確認而陷入未正常註銷的「幽靈狀態」，下次登入時極易觸發頑固的 **Error 30009**（實體鎖死）或 **Error 16007**（角色資料拉取失敗）！
+{% hint style="warning" %}
+**強烈操作警告：切勿在「Attempting Recovery」期間強制關閉遊戲！**
+當畫面上出現「Server Error: Attempting Recovery」時，請務必給予系統 **60 秒** 的恢復窗口，**切勿立即按下 Alt + F4 或透過工作管理員殺死進程**。
+若玩家在 DGS 接管過渡期主動掐斷客戶端與複寫層的連線 Session，後端實體圖將因缺少客戶端握手確認而陷入未正常註銷的「幽靈狀態」，下次登入時極易觸發頑固的 **Error 30009**（實體鎖死）或 **Error 16007**（角色資料拉取失敗）！
+{% endhint %}
 
 ---
 
@@ -142,7 +143,8 @@ icon: triangle-exclamation
 
 ---
 
-> [!TIP]
-> **延伸閱讀與進階資源**
-> * 欲深入理解伺服器網格化之底層架構原理，請參閱 [附錄 C：巨擘的統一：深入解析《星際公民》伺服器網格化技術及其發展軌跡](server-meshing-deep-dive.md)。
-> * 如需查詢官方即時伺服器節點健康度與維護公告，請隨時追蹤 [RSI 官方即時服務狀態頁面](https://status.robertsspaceindustries.com/)。
+{% hint style="info" %}
+**延伸閱讀與進階資源**
+* 欲深入理解伺服器網格化之底層架構原理，請參閱 [附錄 C：巨擘的統一：深入解析《星際公民》伺服器網格化技術及其發展軌跡](server-meshing-deep-dive.md)。
+* 如需查詢官方即時伺服器節點健康度與維護公告，請隨時追蹤 [RSI 官方即時服務狀態頁面](https://status.robertsspaceindustries.com/)。
+{% endhint %}

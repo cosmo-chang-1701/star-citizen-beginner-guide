@@ -7,8 +7,9 @@ icon: newspaper
 
 ![](../../.gitbook/assets/loading_screen/alpha_4.9.0.png)
 
-> [!NOTE]
-> **發佈版本：** 4.9.0 | **年份：** 2956 年 | **來源：** NEW UNITED - 新聯合報
+{% hint style="info" %}
+**發佈版本：** 4.9.0 | **年份：** 2956 年 | **來源：** NEW UNITED - 新聯合報
+{% endhint %}
 
 ---
 
@@ -50,15 +51,15 @@ icon: newspaper
 
 <!-- **DRAKE ARE PURSUING LEGAL ACTION OVER THE UNAUTHORIZED USE AND SALE OF THEIR PROPRIETARY SHIP PARTS.** -->
 
-> **德拉克 (Drake) 正針對其專屬飛船零件的未經授權使用和銷售採取法律行動。**
+> **德雷克星際 (Drake) 正針對其專屬飛船零件的未經授權使用和銷售採取法律行動。**
 
 <!-- Despite having previously expressed support for Grey's Market entrepreneurial spirit and counterculture messaging, Drake Interplanetary taking legal action against the company regarding the design of their latest ship, the "Basher." -->
 
-儘管先前曾對格雷黑市的創業精神和反主流文化理念表示支持，德拉克工業（Drake Interplanetary）還是針對該公司最新飛船「Basher」的設計採取了法律行動。
+儘管先前曾對格雷黑市的創業精神和反主流文化理念表示支持，德雷克星際（Drake Interplanetary）還是針對該公司最新飛船「Basher」的設計採取了法律行動。
 
 <!-- In court filings, Drake has claimed that Grey's vehicle unlawfully incorporates key proprietary components into their design, violating their company's terms. A spokesperson from Grey's Market responded to the lawsuit, commenting: "We're flattered that Drake spends so much time thinking about us." -->
 
-在法庭文件中，德拉克聲稱格雷的載具在其設計中非法加入了關鍵的專有組件，違反了他們公司的條款。格雷黑市的發言人對這起訴訟作出了回應，評論道：「我們很榮幸德拉克花這麼多時間考慮我們。」
+在法庭文件中，德雷克星際聲稱格雷的載具在其設計中非法加入了關鍵的專有組件，違反了他們公司的條款。格雷黑市的發言人對這起訴訟作出了回應，評論道：「我們很榮幸德雷克星際花這麼多時間考慮我們。」
 
 <!-- **STUDY FINDS PEOPLE CHANGING HAIRSTYLES MORE FREQUENTLY** -->
 
