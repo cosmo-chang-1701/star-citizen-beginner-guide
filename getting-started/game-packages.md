@@ -50,15 +50,20 @@ icon: cart-shopping
 {% endstep %}
 
 {% step %}
-### 挑選啟航新手船與下載啟動器
+### 購買官方首航包與下載啟動器
 
-根據目前版本環境，推薦以下三款主流入門包：
+為了降低新手入坑門檻，CIG 官方商城已全面整合並推出單一標準遊戲包：**[Star Citizen First Flight Pack (星際公民首航包)](https://robertsspaceindustries.com/en/pledge/Packages/Star-Citizen-First-Flight-Pack)**。
 
-- **經濟實惠首選：RSI Aurora Mk II**（新一代極光，具備良好的基礎貨運網格與護盾）。
-- **新手全能王者：Aegis Avenger Titan**（超強中距火力、充裕貨艙與可供離線存檔的床位）。
-- **工業專業起點：Drake Golem**（專屬輕型採礦船，適合志在工業賺錢的公民）。
+所有新進公民只需購買此單一遊戲包即可獲得完整遊玩權限，內容包含：
 
-付款完成後，請下載最新的 **RSI Launcher 2.0** 官方啟動器，即可開始高速下載遊戲本體。
+- **永久主力起航艦：羅伯茲太空工業 (RSI) 極光 Mk II (Aurora Mk II)**（具備基礎貨物外掛格、護盾與可供隨時離線休息存檔的生活床位）。
+- **30 天多職業體驗艦隊 (30-Day Loaners)：** 官方特別加贈 30 天專用船艦租借權限，無須額外付費即可體驗三大主流職業：
+  - 採礦體驗：**德雷克星際 魔像 (Drake Golem)**
+  - 打撈體驗：**武藏工業與星航公司 財運 (MISC Fortune)**
+  - 貨運體驗：**十字軍工業 無畏 (Crusader Intrepid)**
+- **靈活升級機制 (CCU)：** 若日後想更換為聖盾動力 復仇者 泰坦 (Aegis Avenger Titan) 等熱門進階船艦，只需透過官網的「飛船升級 (Ship Upgrades / CCU)」功能補齊差價即可，或直接在遊戲內使用 aUEC 購買！
+
+付款完成後，請下載最新的 **RSI Launcher 2.0** 官方啟動器，登入帳號即可開始高速下載遊戲本體。
 {% endstep %}
 {% endstepper %}
 
@@ -66,6 +71,6 @@ icon: cart-shopping
 
 ## 接下來的步驟
 
-帳號與遊戲包準備妥當後，接下來讓我們詳細分析新手船的性能差異，做出最適合你的選擇！
+帳號與首航包準備妥當後，接下來讓我們詳細分析首航包配置、30 天體驗艦隊與飛船升級路徑，規劃你的星際生涯！
 
 👉 **[前往下一節：1.3 我的第一艘船該怎麼選？一個影響深遠的決定](starter-ships.md)**
