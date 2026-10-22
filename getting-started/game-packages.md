@@ -47,6 +47,11 @@ icon: cart-shopping
 如果只購買了「獨立飛船」而沒有任何「遊戲包」，你將無法登入持久宇宙 (Persistent Universe)！
 {% endhint %}
 
+{% hint style="info" %}
+**重要機制：Game Access 遊戲存取保護系統 (2026/11/01 生效)**
+CIG 官方自 2026 年底全面實施 **Game Access** 保護機制。購買新手遊戲包後，系統會將該遊戲包指定於官方機庫的「My Hangar -> Game Access」，為帳號提供永久遊玩存取權限。受保護的遊戲包具有**防誤融 (Non-meltable)** 與**防誤贈 (Non-giftable)** 特性，徹底杜絕玩家因手誤融解遊戲包而無法登入伺服器的問題。
+{% endhint %}
+
 {% endstep %}
 
 {% step %}
