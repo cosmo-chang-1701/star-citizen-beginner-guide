@@ -39,6 +39,12 @@ icon: bookmark
 - **[Star Citizen Wiki](https://starcitizen.tools/)**：全球資料最齊全、歷史最悠久的英文星際公民百科全書。
 {% endtab %}
 
+{% tab title="機庫管理與 CCU 升級試算" icon="tags" %}
+- **[CCU Game](https://ccugame.app/)**：全宇宙最強大的升級鏈規劃與機庫管理神器！透過瀏覽器擴充功能安全同步機庫資料，自動繪製升級樹狀圖、計算累積折扣率、自動尋找最省差價路徑 (Gaps Finder)，並支援多目標艦隊預算規劃。
+- **[Star Citizen Hangar Xplorer](https://hangar.link/)**：必備 Chrome / Firefox 瀏覽器擴充套件，能將混亂的官網機庫 (My Hangar) 轉化為清晰的視覺化清單，一鍵篩選 LTI、遊戲包、未套用 CCU、融船估值與各飛船升級歷史。
+- 更多關於如何善用 CCU Game 打造 30%~60% 折扣艦隊的完整教學，請參閱 [**附錄 E：CCU 跨底盤升級完全指南與最佳實踐**](ccu-guide.md)。
+{% endtab %}
+
 {% tab title="社群 Discord 與在地化支援" icon="comments" %}
 - **[星際遊騎兵海灣 (Outrider's Haven)](https://discord.gg/ZDMHJ2jXdd)**：臺灣目前規模最大、討論最活躍的《星際公民》繁體中文 Discord 社群。
 - **[Star Netrunners](https://discord.gg/2H8X3dq83n)**：本手冊作者創立之交流頻道，專注於新手問答、技術分析與遊戲機制深度解析。
