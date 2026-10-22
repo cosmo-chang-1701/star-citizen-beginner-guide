@@ -73,6 +73,7 @@
   * [附錄 B：遇到困難別怕！好用的工具與熱心社群](appendix/community-tools.md)
   * [附錄 C：巨擘的統一：深入解析《星際公民》伺服器網格化技術及其發展軌跡](appendix/server-meshing-deep-dive.md)
   * [附錄 D：錯誤代碼對照表](appendix/error-codes.md)
+  * [附錄 E：艦隊省錢魔法：CCU 跨底盤升級完全指南與最佳實踐](appendix/ccu-guide.md)
 * [歷史資料庫](appendix/patch-lore/README.md)
   * [Alpha 4.10.2：卡斯墜機重創 RSI、辛迪加審判核心證人失蹤、經濟學家擔憂資源短缺](appendix/patch-lore/alpha-4-10-2.md)
   * [Alpha 4.10.0：九尾幫襲擊奧里森、希安拒絕軍事援助、重生技術僱用限制訴訟](appendix/patch-lore/alpha-4-10-0.md)

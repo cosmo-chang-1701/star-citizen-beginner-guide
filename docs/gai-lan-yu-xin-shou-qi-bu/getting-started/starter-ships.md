@@ -88,6 +88,8 @@ icon: jet-fighter
 {% hint style="info" %}
 **官方飛船升級機制 (Cross-Chassis Upgrade / CCU)：**
 在官網「Pledge Store」->「Ship Upgrades」中，選取左側為你的「Aurora Mk II」，右側選取你想升級的目標艦船（例如 Avenger Titan 或 Drake Golem），只需支付兩者之間的官方定價差額。升級套件購買後需至官網「My Hangar」中點選「Apply Upgrade」套用，原本首航包的遊戲資格 (Game Package) 與保險都會完整保留！
+
+如果你未來打算規劃中大型艦隊，或追求最高達 30%~60% 的折價省錢黑魔法，請務必參閱進階專題：👉 **[附錄 E：CCU 跨底盤升級完全指南與最佳實踐](../../fu-lu-yu-li-shi-zi-liao-ku/appendix/ccu-guide.md)**。
 {% endhint %}
 
 ---
