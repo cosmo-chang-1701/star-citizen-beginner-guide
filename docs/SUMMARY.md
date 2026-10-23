@@ -14,17 +14,13 @@
   * [1.4：打造你的數位化身！角色創造快速指南](gai-lan-yu-xin-shou-qi-bu/getting-started/character-creation.md)
   * [1.5：把家安在哪裡好？選擇你的第一個起點](gai-lan-yu-xin-shou-qi-bu/getting-started/starting-locations.md)
 
-## 🧭 核心操作與生存法則
+## 🧭 核心操作與初次飛行
 
 * [第二章：你的第一步，從睡夢中醒來到飛向宇宙](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/README.md)
   * [2.1：醒醒，公民！熟悉你的基本動作與互動](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/basic-controls.md)
   * [2.2：你的超級手環「mobiGlas」，最重要的隨身工具](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/mobiglas-guide.md)
   * [2.3：告別你的小窩，如何從城市前往太空站](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/city-to-spaceport.md)
   * [2.4：握緊駕駛桿！你的第一次飛行與量子跳躍](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/first-flight-and-quantum.md)
-* [第四章：想活得久一點？你必須知道的宇宙生存法則](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/README.md)
-  * [4.1：如果不小心死了怎麼辦？醫療、重生與保險機制](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/medical-and-insurance.md)
-  * [4.2：當個好人還是壞蛋？了解一下犯罪系統](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/crime-and-prison.md)
-  * [4.3：記得吃飯喝水！基礎的生存需求](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/nutrition-and-temperature.md)
 
 ## 💰 宇宙職業與經濟體系
 
@@ -34,6 +30,13 @@
   * [3.3：採礦：工業玩法的基石](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/mining.md)
   * [3.4：打撈：為製造系統做準備](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/salvage.md)
   * [3.5：深空加油員：後勤體系與加油實務](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/refueling.md)
+
+## 🛡️ 宇宙生存法則
+
+* [第四章：想活得久一點？你必須知道的宇宙生存法則](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/README.md)
+  * [4.1：如果不小心死了怎麼辦？醫療、重生與保險機制](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/medical-and-insurance.md)
+  * [4.2：當個好人還是壞蛋？了解一下犯罪系統](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/crime-and-prison.md)
+  * [4.3：記得吃飯喝水！基礎的生存需求](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/nutrition-and-temperature.md)
 
 ## ⚡ 特殊活動指南
 
