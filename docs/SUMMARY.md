@@ -1,6 +1,6 @@
 # Table of contents
 
-## 🚀 概覽與新手起步
+## 🚀 新手起步與準備
 
 * [前言：別慌，我們陪你一起踏入星辰大海](README.md)
 * [第零章：歡迎來到《星際公民》！](gai-lan-yu-xin-shou-qi-bu/introduction/README.md)
@@ -14,31 +14,29 @@
   * [1.4：打造你的數位化身！角色創造快速指南](gai-lan-yu-xin-shou-qi-bu/getting-started/character-creation.md)
   * [1.5：把家安在哪裡好？選擇你的第一個起點](gai-lan-yu-xin-shou-qi-bu/getting-started/starting-locations.md)
 
-## 🧭 核心操作與初次飛行
+---
+
+## 🧭 核心實戰與宇宙生活
 
 * [第二章：你的第一步，從睡夢中醒來到飛向宇宙](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/README.md)
   * [2.1：醒醒，公民！熟悉你的基本動作與互動](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/basic-controls.md)
   * [2.2：你的超級手環「mobiGlas」，最重要的隨身工具](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/mobiglas-guide.md)
   * [2.3：告別你的小窩，如何從城市前往太空站](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/city-to-spaceport.md)
   * [2.4：握緊駕駛桿！你的第一次飛行與量子跳躍](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/first-flight-and-quantum.md)
-
-## 💰 宇宙職業與經濟體系
-
 * [第三章：開始賺錢吧！找到你喜歡的宇宙職業](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/README.md)
   * [3.1：從太空卡車司機開始，最穩紮穩打的賺錢方式](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/cargo-hauling.md)
   * [3.2：想來點刺激的？傭兵與賞金獵人入門](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/mercenary-and-bounty-hunting.md)
   * [3.3：採礦：工業玩法的基石](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/mining.md)
   * [3.4：打撈：為製造系統做準備](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/salvage.md)
   * [3.5：深空加油員：後勤體系與加油實務](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/refueling.md)
-
-## 🛡️ 宇宙生存法則
-
 * [第四章：想活得久一點？你必須知道的宇宙生存法則](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/README.md)
   * [4.1：如果不小心死了怎麼辦？醫療、重生與保險機制](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/medical-and-insurance.md)
   * [4.2：當個好人還是壞蛋？了解一下犯罪系統](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/crime-and-prison.md)
   * [4.3：記得吃飯喝水！基礎的生存需求](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/nutrition-and-temperature.md)
 
-## ⚡ 特殊活動指南
+---
+
+## ⚡ 進階活動與未來展望
 
 * [第五章：深入進階 - 特殊活動指南](te-shu-huo-dong-zhi-nan/special-events/README.md)
   * [Alpha 4.10.2：RSI 探索月 (RSI Discovery Month)](te-shu-huo-dong-zhi-nan/special-events/alpha-4-10-2-rsi-discovery-month.md)
@@ -53,9 +51,6 @@
   * [Alpha 4.3.1：海伯利安計畫 (Project Hyperion)](te-shu-huo-dong-zhi-nan/special-events/alpha-4-3-1-project-hyperion.md)
   * [Alpha 4.3.0：Onyx 設施 (Onyx Facilities)](te-shu-huo-dong-zhi-nan/special-events/alpha-4-3-0-onyx-facilities.md)
   * [Alpha 4.2.1：資源爭奪戰 (Resource Rush)](te-shu-huo-dong-zhi-nan/special-events/alpha-4-2-1-resource-rush.md)
-
-## 🌌 未來願景與星際引擎
-
 * [第六章：展望未來，星辰大海的彼方](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/README.md)
   * [6.1：「1.0 版本」代表什麼？這是一個全新的開始！](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/version-1-0.md)
   * [6.2：打造宇宙的魔法：伺服器網格化與星際引擎](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/server-meshing.md)
@@ -64,6 +59,8 @@
   * [6.5：我們離 1.0 還有多遠？《42 中隊》與開發路線圖](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/sq42-and-roadmap.md)
   * [6.6：期待與挑戰：我們需要了解的現實](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/expectations-and-challenges.md)
   * [6.7：一個雄心勃勃的未來](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/ambitious-future.md)
+
+---
 
 ## 📚 附錄與歷史資料庫
 

@@ -1,6 +1,6 @@
 # 目錄
 
-## 🚀 概覽與新手起步
+## 🚀 新手起步與準備
 * [前言：別慌，我們陪你一起踏入星辰大海](README.md)
 * [第零章：歡迎來到《星際公民》！](introduction/README.md)
   * [0.1：這不只是一款遊戲，它是一個正在誕生的宇宙](introduction/what-is-star-citizen.md)
@@ -15,26 +15,18 @@
 
 ---
 
-## 🧭 核心操作與初次飛行
+## 🧭 核心實戰與宇宙生活
 * [第二章：你的第一步，從睡夢中醒來到飛向宇宙](first-steps/README.md)
   * [2.1：醒醒，公民！熟悉你的基本動作與互動](first-steps/basic-controls.md)
   * [2.2：你的超級手環「mobiGlas」，最重要的隨身工具](first-steps/mobiglas-guide.md)
   * [2.3：告別你的小窩，如何從城市前往太空站](first-steps/city-to-spaceport.md)
   * [2.4：握緊駕駛桿！你的第一次飛行與量子跳躍](first-steps/first-flight-and-quantum.md)
-
----
-
-## 💰 宇宙職業與經濟體系
 * [第三章：開始賺錢吧！找到你喜歡的宇宙職業](professions/README.md)
   * [3.1：從太空卡車司機開始，最穩紮穩打的賺錢方式](professions/cargo-hauling.md)
   * [3.2：想來點刺激的？傭兵與賞金獵人入門](professions/mercenary-and-bounty-hunting.md)
   * [3.3：採礦：工業玩法的基石](professions/mining.md)
   * [3.4：打撈：為製造系統做準備](professions/salvage.md)
   * [3.5：深空加油員：後勤體系與加油實務](professions/refueling.md)
-
----
-
-## 🛡️ 宇宙生存法則
 * [第四章：想活得久一點？你必須知道的宇宙生存法則](survival-guide/README.md)
   * [4.1：如果不小心死了怎麼辦？醫療、重生與保險機制](survival-guide/medical-and-insurance.md)
   * [4.2：當個好人還是壞蛋？了解一下犯罪系統](survival-guide/crime-and-prison.md)
@@ -42,7 +34,7 @@
 
 ---
 
-## ⚡ 特殊活動指南
+## ⚡ 進階活動與未來展望
 * [第五章：深入進階 - 特殊活動指南](special-events/README.md)
   * [Alpha 4.10.2：RSI 探索月 (RSI Discovery Month)](special-events/alpha-4-10-2-rsi-discovery-month.md)
   * [Alpha 4.10.1：奧里森救濟 (Orison Relief Support)](special-events/alpha-4-10-1-orison-relief.md)
@@ -56,10 +48,6 @@
   * [Alpha 4.3.1：海伯利安計畫 (Project Hyperion)](special-events/alpha-4-3-1-project-hyperion.md)
   * [Alpha 4.3.0：Onyx 設施 (Onyx Facilities)](special-events/alpha-4-3-0-onyx-facilities.md)
   * [Alpha 4.2.1：資源爭奪戰 (Resource Rush)](special-events/alpha-4-2-1-resource-rush.md)
-
----
-
-## 🌌 未來願景與星際引擎
 * [第六章：展望未來，星辰大海的彼方](future/README.md)
   * [6.1：「1.0 版本」代表什麼？這是一個全新的開始！](future/version-1-0.md)
   * [6.2：打造宇宙的魔法：伺服器網格化與星際引擎](future/server-meshing.md)
