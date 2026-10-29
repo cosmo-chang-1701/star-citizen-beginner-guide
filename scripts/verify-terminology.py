@@ -93,9 +93,9 @@ def test_markdown_compliance(repo_root: Path):
         if hint_count != endhint_count:
             errors.append(f"Unbalanced hints in {rel}: {hint_count} {{% hint %}} vs {endhint_count} {{% endhint %}}")
             
-        # Check for lingering alert blockquotes
+        # Check for lingering alert blockquotes (except root README.md landing page)
         for idx, line in enumerate(content.splitlines()):
-            if re.search(r"^\s*>\s*\\?\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]", line, re.IGNORECASE):
+            if rel != Path("README.md") and re.search(r"^\s*>\s*\\?\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]", line, re.IGNORECASE):
                 errors.append(f"Legacy alert blockquote in {rel}:{idx+1}: {line.strip()}")
                 
         # Check for deprecated terms outside HTML comments

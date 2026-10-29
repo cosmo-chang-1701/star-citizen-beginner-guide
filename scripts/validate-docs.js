@@ -233,8 +233,8 @@ for (const file of mdFiles) {
     }
     if (inCodeBlock) continue;
 
-    // Disallow any lingering GitHub alert blockquotes
-    if (/^>\s*\\?\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]/i.test(trimmed)) {
+    // Disallow any lingering GitHub alert blockquotes (except for root README.md landing page)
+    if (relPath !== 'README.md' && /^>\s*\\?\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]/i.test(trimmed)) {
       error(`Disallowed legacy alert blockquote found in ${relPath} at line ${i + 1}: "${trimmed}" (must use GitBook {% hint style="..." %})`);
     }
 
