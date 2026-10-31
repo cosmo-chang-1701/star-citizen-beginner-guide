@@ -27,16 +27,16 @@
 
 本手冊已依循現代資訊架構重組，你可以按照推薦路徑逐步閱讀，或直接點選有興趣的主題：
 
-| 章節板塊                                                                | 核心焦點                                 | 推薦閱讀對象         |
-| ------------------------------------------------------------------- | ------------------------------------ | -------------- |
-| [**第零章：認識《星際公民》**](gai-lan-yu-xin-shou-qi-bu/introduction/)         | 第一人稱宇宙本質、PU 與 SQ42、Alpha 測試心態        | 剛接觸或觀望入坑者      |
-| [**第一章：出發前的準備**](gai-lan-yu-xin-shou-qi-bu/getting-started/)        | 硬體需求檢測、遊戲包選購、新手船評估、主城起點              | 準備購包建角的新玩家     |
-| [**第二章：初醒與首次飛行**](he-xin-cao-zuo-yu-sheng-cun-fa-ze/first-steps/)   | 肢體互動、mobiGlas 超級手環、城市通勤、量子跳躍         | 剛登入遊戲首日玩家      |
-| [**第三章：宇宙職業全覽**](yu-zhou-zhi-ye-yu-jing-ji-ti-xi/professions/)      | 貨運物流、傭兵賞金、採礦工業、船骸打撈、深空加油             | 想賺取 aUEC 累積財富者 |
-| [**第四章：宇宙生存法則**](he-xin-cao-zuo-yu-sheng-cun-fa-ze/survival-guide/) | 醫療等級與重生印記、犯罪系統與通緝、極端環境求生             | 追求高生存率的拓荒者     |
-| [**第五章：特殊活動指南**](te-shu-huo-dong-zhi-nan/special-events/)           | 圍攻奧里森、戰術打擊、製造物流、防重置 (Wipe-Immune) 獎勵 | 挑戰高難度陣營戰鬥者     |
-| [**第六章：未來願景與宏圖**](wei-lai-yuan-jing-yu-xing-chen-yin-qing/future/)  | 1.0 正式版藍圖、伺服器網格化、Quanta 經濟、SQ42 進展   | 關心底層技術與未來發展者   |
-| [**附錄：工具箱與資料庫**](fu-lu-yu-li-shi-zi-liao-ku/appendix/)              | 快捷鍵小抄、外部輔助神器、錯誤代碼排除、各版本歷史新聞          | 日常飛行必備隨身手冊     |
+| 章節板塊                                                                    | 核心焦點                                 | 推薦閱讀對象         |
+| ----------------------------------------------------------------------- | ------------------------------------ | -------------- |
+| [**第零章：認識《星際公民》**](xin-shou-qi-bu-yu-zhun-bei/introduction/)            | 第一人稱宇宙本質、PU 與 SQ42、Alpha 測試心態        | 剛接觸或觀望入坑者      |
+| [**第一章：出發前的準備**](xin-shou-qi-bu-yu-zhun-bei/getting-started/)           | 硬體需求檢測、遊戲包選購、新手船評估、主城起點              | 準備購包建角的新玩家     |
+| [**第二章：初醒與首次飛行**](he-xin-shi-zhan-yu-yu-zhou-sheng-huo/first-steps/)    | 肢體互動、mobiGlas 超級手環、城市通勤、量子跳躍         | 剛登入遊戲首日玩家      |
+| [**第三章：宇宙職業全覽**](he-xin-shi-zhan-yu-yu-zhou-sheng-huo/professions/)     | 貨運物流、傭兵賞金、採礦工業、船骸打撈、深空加油             | 想賺取 aUEC 累積財富者 |
+| [**第四章：宇宙生存法則**](he-xin-shi-zhan-yu-yu-zhou-sheng-huo/survival-guide/)  | 醫療等級與重生印記、犯罪系統與通緝、極端環境求生             | 追求高生存率的拓荒者     |
+| [**第五章：特殊活動指南**](jin-jie-huo-dong-yu-wei-lai-zhan-wang/special-events/) | 圍攻奧里森、戰術打擊、製造物流、防重置 (Wipe-Immune) 獎勵 | 挑戰高難度陣營戰鬥者     |
+| [**第六章：未來願景與宏圖**](jin-jie-huo-dong-yu-wei-lai-zhan-wang/future/)        | 1.0 正式版藍圖、伺服器網格化、Quanta 經濟、SQ42 進展   | 關心底層技術與未來發展者   |
+| [**附錄：工具箱與資料庫**](fu-lu-yu-li-shi-zi-liao-ku/appendix/)                  | 快捷鍵小抄、外部輔助神器、錯誤代碼排除、各版本歷史新聞          | 日常飛行必備隨身手冊     |
 
 ***
 
