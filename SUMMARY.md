@@ -67,6 +67,7 @@
   * [附錄 D：錯誤代碼對照表](appendix/error-codes.md)
   * [附錄 E：艦隊省錢魔法：CCU 跨底盤升級完全指南與最佳實踐](appendix/ccu-guide.md)
 * [歷史資料庫](appendix/patch-lore/README.md)
+  * [Alpha 4.10.3：尼克斯星系剜度攻擊持續升級、薊花·珀金斯獲撤銷指控、受污染酸黃瓜引發疫情](appendix/patch-lore/alpha-4-10-3.md)
   * [Alpha 4.10.2：卡斯墜機重創 RSI、辛迪加審判核心證人失蹤、經濟學家擔憂資源短缺](appendix/patch-lore/alpha-4-10-2.md)
   * [Alpha 4.10.0：九尾幫襲擊奧里森、希安拒絕軍事援助、重生技術僱用限制訴訟](appendix/patch-lore/alpha-4-10-0.md)
   * [Alpha 4.9.0：奠基節擴展至非 UEE 星系、斯坦頓免費安全援助請求遭拒、格雷黑市因非法轉售飛船零件被起訴](appendix/patch-lore/alpha-4-9-0.md)
