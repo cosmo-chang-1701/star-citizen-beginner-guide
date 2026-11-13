@@ -1,11 +1,11 @@
 ---
-description: Alpha 4.10.3 活動全攻略：互安防衛「尼克斯剜度入侵」戰役、LBCO Skarnov 電漿步槍藍圖獎勵、IAE 2956 免費試飛與每日參展排程、S3 雷達與打撈更新解析。
+description: Alpha 4.10.3 活動全攻略：互安防衛「尼克斯剜度侵略」戰役、閃電公司 (LBCO) 斯卡諾夫 (Skarnov) 電漿步槍藍圖獎勵、IAE 2956 免費試飛與每日參展排程、S3 雷達與打撈更新解析。
 icon: rocket
 ---
 
-# Alpha 4.10.3：尼克斯剜度入侵與 IAE 2956 (Vanduul Incursion & IAE 2956)
+# Alpha 4.10.3：尼克斯剜度侵略與 IAE 2956 (Vanduul Incursion & IAE 2956)
 
-公民，歡迎來到 Alpha 4.10.3 (`4.10.3-LIVE.13165946`)！在 [Alpha 4.10.2：RSI 探索月 (RSI Discovery Month)](alpha-4-10-2-rsi-discovery-month.md) 的星際慶典落幕後，星際局勢迅速升溫。一方面，尼克斯 (Nyx) 星系的地球化改造與非法幫派「碎刃幫」(Shattered Blade) 的挑釁行為引來了外星種族「剜度」(Vanduul) 的猛烈報復，迫使互安防衛 (InterSec Defense Solutions) 緊急招募傭兵進駐前線；另一方面，斯坦頓 (Stanton) 星系迎來了年度最盛大的航空盛會——**2956 年星際航空博覽會 (IAE 2956)** 與全宇宙免費試飛 (Free Fly)！
+公民，歡迎來到 Alpha 4.10.3 (`4.10.3-LIVE.13165946`)！在 [Alpha 4.10.2：RSI 探索月 (RSI Discovery Month)](alpha-4-10-2-rsi-discovery-month.md) 的星際慶典落幕後，星際局勢迅速升溫。一方面，尼克斯 (Nyx) 星系的地球化改造與非法幫派「碎刃幫」(Shattered Blade) 的挑釁行為引來了外星種族「剜度」(Vanduul) 的猛烈報復，迫使互安防衛 (InterSec Defense Solutions) 緊急招募傭兵進駐前線；另一方面，斯坦頓 (Stanton) 星系迎來了年度最盛大的航空盛會——**2956 年星際航空航太博覽會 (IAE 2956)** 與全宇宙免費試飛 (Free Fly)！
 
 {% hint style="info" %}
 **版本持久性確認 (LTP)**：Alpha 4.10.3 完整保留長期持久性 (LTP, Long Term Persistence)，本次更新**不進行數據重置 (No Wipe)**。現有玩家的 aUEC、艦船與聲望皆全數保留，新帳號或重置後起始資金為 **20,000 aUEC**。
@@ -17,7 +17,7 @@ icon: rocket
 
 ---
 
-## 1. 互安防衛：尼克斯星系剜度入侵 (Vanduul Incursion)
+## 1. 互安防衛：尼克斯星系剜度侵略 (Vanduul Incursion)
 
 隨著尼克斯 I (Nyx I) 的地球化改造工程持續推進，地下豐富的未開發資源吸引了大量企業進駐，卻也同時引來了剜度氏族的頻繁襲擊。更糟的是，當地非法組織「碎刃幫」(Shattered Blade) 屢次主動挑釁這支外星勢力，導致整個尼克斯星系的戰火全面升級。
 
@@ -29,27 +29,27 @@ icon: rocket
 | :--- | :--- | :--- | :--- |
 | **碎刃幫據點突襲**<br>`Shattered Blade Raids` | FPS 步戰清剿 | 徒步滲透並肅清被碎刃幫佔領的輔助空間站與前哨據點。 | 中/重型護甲、實彈或能量步槍、醫療凝膠 (MedGel) |
 | **奪回與防衛受襲艦船**<br>`Retake / Defend Ships` | 登艦奪還作戰 | 強行登艦並擊斃佔領船隻的碎刃幫武裝分子，奪回艦船控制權或保護友方艦隻。 | 近戰霰彈槍 / 衝鋒槍、破門與維生系統備品 |
-| **剜度氏族清剿與巨獸獵殺**<br>`Vanduul Clan Extermination & Mauler Hunts` | 高強度空戰 | 迎戰成群的剜度戰機（Blade、Glaive、Scythe、Stinger），並集火擊沉重型 **剜度 Mauler 驅逐艦 (Vanduul Mauler Destroyer)**。 | 重型戰機、砲艇或小隊協同編隊（對抗 Mauler 建議多人組隊） |
+| **剜度氏族清剿與巨獸獵殺**<br>`Vanduul Clan Extermination & Mauler Hunts` | 高強度空戰 | 迎戰成群的剜度戰機（刀鋒 (Blade)、長刀 (Glaive)、死鐮 (Scythe)、毒刺 (Stinger)），並集火擊沉重型 **剜度重拳驅逐艦 (Vanduul Mauler Destroyer)**。 | 重型戰機、砲艇或小隊協同編隊（對抗 Mauler 建議多人組隊） |
 | **三方對峙與失蹤人口伏擊**<br>`Three-Way Standoffs & Missing-Person Ambushes` | 動態遭遇戰 | 調查失蹤人員訊號並應對突發伏擊，在互安防衛、碎刃幫與剜度勢力之間的三方混戰中突圍。 | 高機動多用途戰機 + 完整個人戰術裝備 |
 
-### 關鍵戰利品：LBCO Skarnov 步槍與藍圖獎勵
+### 關鍵戰利品：閃電公司 (LBCO) 斯卡諾夫 (Skarnov) 步槍與藍圖獎勵
 
-完成互安防衛合約除了可獲得豐厚的 **aUEC** 報酬外，還有機會取得武器製造藍圖，其中最受矚目的便是全新登場的 **LBCO Skarnov Rifle**：
+完成互安防衛合約除了可獲得豐厚的 **aUEC** 報酬外，還有機會取得武器製造藍圖，其中最受矚目的便是全新登場的 **閃電公司 (LBCO) 斯卡諾夫 (Skarnov) 步槍**：
 
 *   **武器定位**：Size 2 能量彈栓步槍 (Energy-Bolt Rifle)。
 *   **特殊機制**：射出的高能電漿彈頭具備**電擊脈衝 (Electrified Pulse)** 效果，擊中目標後會發生引爆並將能量傷害**連鎖傳導 (Chain)** 至鄰近敵人，在空間站狹窄走廊與登艦清剿群體敵人時極具壓制力。
-*   **專屬變體塗裝**：本次活動同步推出四款 Skarnov 步槍變體——**Ferrite**、**Raider Camo**、**Relay** 與 **Sparkplug**，供玩家收集打造專屬戰術風格。
+*   **專屬變體塗裝**：本次活動同步推出四款斯卡諾夫 (Skarnov) 步槍變體——**Ferrite**、**Raider Camo**、**Relay** 與 **Sparkplug**，供玩家收集打造專屬戰術風格。
 
 ---
 
-## 2. 2956 年星際航空博覽會 (IAE 2956 & Free Fly)
+## 2. 2956 年星際航空航太博覽會 (IAE 2956 & Free Fly)
 
-每年一度全星系最盛大的造船工藝展會 **Intergalactic Aerospace Expo (IAE 2956)** 將於 **2026 年 11 月 13 日至 11 月 27 日** 盛大舉行！
+每年一度全星系最盛大的造船工藝展會 **星際航空航太博覽會 (Intergalactic Aerospace Expo, IAE 2956)** 將於 **2026 年 11 月 13 日至 11 月 27 日** 盛大舉行！
 
 ### 展會地點與入場動線
 
-*   **舉辦地點**：斯坦頓星系 **microTech** 行星——**新巴貝奇 (New Babbage)** 的 **Tobin Expo Center（托賓博覽中心）**。
-*   **交通方式**：從 **New Babbage Interstellar Spaceport（新巴貝奇星際太空港）** 搭乘 **Metroloop（地鐵環線）** 即可直達博覽中心展區。
+*   **舉辦地點**：斯坦頓星系 **微科 (microTech)** 行星——**新巴貝奇 (New Babbage)** 的 **托賓博覽中心 (Tobin Expo Center)**。
+*   **交通方式**：從 **新巴貝奇星際太空港 (New Babbage Interstellar Spaceport)** 搭乘 **地鐵環線 (Metroloop)** 即可直達博覽中心展區。
 *   **公會聯合展廳 (Guild Halls)**：今年展場特別設立四大公會贊助展區，包含 **科學院 (Academy of Sciences)**、**傭兵公會 (Mercenary Guild)**、**聯合資源工人組織 (United Resource Workers)** 與 **星際運輸公會 (Interstellar Transport Guild)**，方便玩家深入了解各職業體系與最新裝備。
 *   **免費租借規則**：於展廳內走近展示艦船或透過展場租借終端 (Rental Kiosks)，即可**免費租借 48 小時**，全展期合計超過 200 艘艦船與地面載具供你盡情試駕。
 
@@ -57,16 +57,16 @@ icon: rocket
 
 | 展出日期 | 參展製造商 (Manufacturer) | 本日焦點與亮點艦船 |
 | :---: | :--- | :--- |
-| **11 月 13 日 – 14 日** | **羅伯茲太空工業 (RSI)** | **RSI Galaxy**（大型模組化多用途艦船）與 **RSI Skylark**（雲雀子機） |
-| **11 月 14 日 – 15 日** | **Origin Jumpworks** | 奢華探索與競速艦隊全系列展示 |
-| **11 月 15 日 – 16 日** | **鐵砧航空 (Anvil Aerospace)** | **Anvil Liberator**（艦載運輸與支援母艦）領銜登場 |
-| **11 月 16 日 – 17 日** | **十字軍工業 (Crusader Industries) & Tumbril** | 大氣運輸巨擘與重裝地面裝甲載具聯展 |
-| **11 月 17 日 – 18 日** | **德雷克星際 (Drake Interplanetary)** | **Drake Marauder** 全新艦船首次公開亮相！ |
-| **11 月 18 日 – 19 日** | **Argo Astronautics、Consolidated Outland & 灰貓工業 (Greycat)** | 工業後勤、邊疆拓荒與地面工程載具專場 |
-| **11 月 19 日 – 20 日** | **Kruger Intergalactic、Mirai & 武藏 (MISC)** | 高機動戰機與重型工業運輸艦隊 |
-| **11 月 20 日 – 21 日** | **神盾動力 (Aegis Dynamics)** | 軍用主力艦艇與重型打擊戰機陣容 |
-| **11 月 21 日 – 22 日** | **Aopoa、Banu、Esperia & 蓋圖 (Gatac)** | 外星科技聯展，焦點新艦 **Gatac Hyun** 登場 |
-| **11 月 22 日** | **Best in Show（最佳人氣艦船）** | **Ship Showdown 2956** 年度優勝艦船特別展 |
+| **11 月 13 日 – 14 日** | **羅伯茲太空工業 (RSI)** | **羅伯茲太空工業 銀河 (RSI Galaxy)**（大型模組化多用途艦船）與 **羅伯茲太空工業 雲雀 (RSI Skylark)** |
+| **11 月 14 日 – 15 日** | **起源躍動 (Origin Jumpworks)** | 奢華探索與競速艦隊全系列展示 |
+| **11 月 15 日 – 16 日** | **鐵砧航太 (Anvil Aerospace)** | **鐵砧航太 解放者 (Anvil Liberator)**（艦載運輸與支援母艦）領銜登場 |
+| **11 月 16 日 – 17 日** | **十字軍工業 (Crusader Industries) & 盾博爾地面系統 (Tumbril)** | 大氣運輸巨擘與重裝地面裝甲載具聯展 |
+| **11 月 17 日 – 18 日** | **德雷克星際 (Drake Interplanetary)** | **德雷克星際 劫掠者 (Drake Marauder)** 全新艦船首次公開亮相！ |
+| **11 月 18 日 – 19 日** | **南船座航太 (Argo Astronautics)、聯合外域 (Consolidated Outland) & 灰貓工業 (Greycat)** | 工業後勤、邊疆拓荒與地面工程載具專場 |
+| **11 月 19 日 – 20 日** | **克魯格星際 (Kruger Intergalactic)、未來 (Mirai) & 武藏工業與星航公司 (MISC)** | 高機動戰機與重型工業運輸艦隊 |
+| **11 月 20 日 – 21 日** | **聖盾動力 (Aegis Dynamics)** | 軍用主力艦艇與重型打擊戰機陣容 |
+| **11 月 21 日 – 22 日** | **奧波亞 (Aopoa)、巴努 (Banu)、埃斯佩里亞 (Esperia) & 蓋塔克製造 (Gatac)** | 外星科技聯展，焦點新艦 **蓋塔克製造 玄 (Gatac Hyun)** 登場 |
+| **11 月 22 日** | **Best in Show（最佳人氣艦船）** | **艦船大對決 2956 (Ship Showdown 2956)** 年度優勝艦船特別展 |
 | **11 月 23 日 – 27 日** | **終場盛典 (The Finale)** | 幾乎所有參展製造商之艦船與載具全面開放免費租借 |
 
 ---
@@ -77,7 +77,7 @@ icon: rocket
 
 ### Size 3 雷達升級
 多款中大型主力艦船的雷達硬點由 **Size 2 升級至 Size 3**，並同步調整了預設出廠配裝，大幅強化長程偵測與戰場態勢感知能力：
-*   **受惠艦船名單**：**Carrack**、**Perseus**、**Starlancer**、**Starlancer TAC**、**Hammerhead** 與 **Tiburon**。
+*   **受惠艦船名單**：**克拉克 (Carrack)**、**英仙座 (Perseus)**、**星際槍騎兵 (Starlancer)**、**星際槍騎兵 TAC (Starlancer TAC)**、**錘頭鯊 (Hammerhead)** 與 **狂鯊 (Tiburon)**。
 
 ### 打撈與遊戲內經濟調整
 *   **打撈緩衝槽擴容**：全線打撈艦船（例如單人打撈主力 **禿鷲 Vulture** 等）的**艦載緩衝槽 (Onboard Buffer)** 容量全面提升，減少頻繁折返空間站卸貨的次數，顯著改善長時間作業流暢度。
@@ -85,7 +85,7 @@ icon: rocket
 
 ### 120+ 項錯誤修復與系統最佳化
 本次更新包含超過 **120 項系統與穩定性修復**，重點涵蓋：
-*   **終端與機庫**：修復 ASOP 召喚終端異常與機庫呼叫卡頓問題。
+*   **終端與機庫**：修復 ASOP 自動艦船調度平台召喚終端異常與機庫呼叫卡頓問題。
 *   **貨運與合約**：改善貨物物流同步與各類合約觸發判定，降低任務卡關機率。
 *   **介面與防漏洞**：修正載具 HUD 顯示異常，並封堵多項影響經濟與戰鬥公平性的系統漏洞。
 
@@ -94,14 +94,14 @@ icon: rocket
 ## 4. 公民實戰建議與備戰指南 (Pro Tips)
 
 ### 1. IAE 2956 高效逛展與試飛守則
-*   **避開人潮與提早出發**：開展初期 New Babbage 空間站與太空港玩家極為密集，建議降落時預留充足制動距離，切換至 **SCM (戰鬥操控模式)** 進場，待確認著陸指示後再平穩降落。
+*   **避開人潮與提早出發**：開展初期新巴貝奇 (New Babbage) 空間站與太空港玩家極為密集，建議降落時預留充足制動距離，切換至 **SCM (戰鬥操控模式)** 進場，待確認著陸指示後再平穩降落。
 *   **善用終場週與公會廳**：若錯過特定製造商的單日展期，務必把握 **11 月 23 日 – 27 日的 The Finale** 補租心儀艦船。逛展時也別忘了參觀四大公會展廳，能快速掌握對應職業的進階玩法。
 
 ### 2. 前進尼克斯前線的生存與作戰準備
 *   **出發前檢查維生與醫療物資**：尼克斯屬於無政府邊界星系（可先參閱 [Alpha 4.4.0：歡迎來到 Nyx](alpha-4-4-0-welcome-to-nyx.md) 了解星系環境），補給點相較斯坦頓更為稀疏。請務必檢查宇航服的**維生系統 (Life Support)** 狀態，並隨身攜帶足夠的**醫療凝膠 (MedGel)** 與醫療針。
 *   **單人與小隊分工**：
-    *   **單人玩家**：優先選擇「碎刃幫據點突襲」或「奪回受襲艦船」，透過近距離 FPS 交戰穩步累積互安防衛聲望並刷取 **LBCO Skarnov 步槍藍圖**。
-    *   **組隊玩家**：挑戰「剜度氏族清剿」與 **Vanduul Mauler 驅逐艦獵殺** 時，建議至少 3 至 4 名駕駛員駕駛重型戰機或滿員砲艇協同作戰，注意在 **NAV (巡航導航模式)** 與 **SCM (戰鬥操控模式)** 之間靈活切換以規避敵方集火。
+    *   **單人玩家**：優先選擇「碎刃幫據點突襲」或「奪回受襲艦船」，透過近距離 FPS 交戰穩步累積互安防衛聲望並刷取 **斯卡諾夫 (Skarnov) 步槍藍圖**。
+    *   **組隊玩家**：挑戰「剜度氏族清剿」與 **剜度重拳 (Vanduul Mauler) 驅逐艦獵殺** 時，建議至少 3 至 4 名駕駛員駕駛重型戰機或滿員砲艇協同作戰，注意在 **NAV (巡航導航模式)** 與 **SCM (戰鬥操控模式)** 之間靈活切換以規避敵方集火。
 
 {% hint style="warning" %}
 **防範伏擊提醒**：執行「失蹤人口伏擊」或三方混戰合約時，切勿在未掃描周邊空域的情況下直接開啟貨艙或離座！先確認周遭無隱藏的碎刃幫或剜度戰機埋伏，再進行登艦或搜救作業。
@@ -109,4 +109,4 @@ icon: rocket
 
 ---
 
-**結語**：無論你是想在 Tobin Expo Center 免費試駕超過 200 艘夢幻艦船的新進公民，還是準備響應互安防衛號召、深入尼克斯星系迎戰剜度與碎刃幫的資深傭兵，Alpha 4.10.3 都為你準備了最豐富的舞台。整裝待發，我們星海見！
+**結語**：無論你是想在托賓博覽中心 (Tobin Expo Center) 免費試駕超過 200 艘夢幻艦船的新進公民，還是準備響應互安防衛號召、深入尼克斯星系迎戰剜度與碎刃幫的資深傭兵，Alpha 4.10.3 都為你準備了最豐富的舞台。整裝待發，我們星海見！

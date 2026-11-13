@@ -23,7 +23,7 @@ icon: trophy
 
 | 版本 | 活動名稱 | 核心玩法與亮點 |
 | :---: | :--- | :--- |
-| **Alpha 4.10.3** | **[尼克斯剜度入侵與 IAE 2956 (Vanduul Incursion & IAE 2956)](alpha-4-10-3-vanduul-incursion-and-iae.md)** | 互安防衛尼克斯戰役、LBCO Skarnov 步槍藍圖、IAE 2956 免費試飛與每日參展排程、S3 雷達與打撈更新。 |
+| **Alpha 4.10.3** | **[尼克斯剜度侵略與 IAE 2956 (Vanduul Incursion & IAE 2956)](alpha-4-10-3-vanduul-incursion-and-iae.md)** | 互安防衛尼克斯戰役、閃電公司 (LBCO) 斯卡諾夫 (Skarnov) 步槍藍圖、IAE 2956 免費試飛與每日參展排程、S3 雷達與打撈更新。 |
 | **Alpha 4.10.2** | **[RSI 探索月 (RSI Discovery Month)](alpha-4-10-2-rsi-discovery-month.md)** | 四大職業軌道矩陣、星座 Mk V 半人馬座與雲雀子機、帳號直發防重置 (Wipe-Immune) 獎勵。 |
 | **Alpha 4.10.1** | **[奧里森救濟 (Orison Relief Support)](alpha-4-10-1-orison-relief.md)** | 浮島防衛物資後勤、聲望累積與官方帳號直發防重置 (Wipe-Immune) 獎勵。 |
 | **Alpha 4.10.0** | **[圍攻奧里森 (Siege of Orison)](alpha-4-10-0-siege-of-orison.md)** | 九尾幫防空突襲、浮島登陸作戰與重裝裝甲 BUL-H4 實戰。 |
@@ -41,4 +41,4 @@ icon: trophy
 
 ## 🚀 準備好就出發
 
-👉 **[開始閱讀最新活動：Alpha 4.10.3 尼克斯剜度入侵與 IAE 2956 全攻略](alpha-4-10-3-vanduul-incursion-and-iae.md)**
+👉 **[開始閱讀最新活動：Alpha 4.10.3 尼克斯剜度侵略與 IAE 2956 全攻略](alpha-4-10-3-vanduul-incursion-and-iae.md)**
