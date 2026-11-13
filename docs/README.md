@@ -34,7 +34,7 @@
 | [**第二章：初醒與首次飛行**](he-xin-shi-zhan-yu-yu-zhou-sheng-huo/first-steps/)    | 肢體互動、mobiGlas 超級手環、城市通勤、量子跳躍         | 剛登入遊戲首日玩家      |
 | [**第三章：宇宙職業全覽**](he-xin-shi-zhan-yu-yu-zhou-sheng-huo/professions/)     | 貨運物流、傭兵賞金、採礦工業、船骸打撈、深空加油             | 想賺取 aUEC 累積財富者 |
 | [**第四章：宇宙生存法則**](he-xin-shi-zhan-yu-yu-zhou-sheng-huo/survival-guide/)  | 醫療等級與重生印記、犯罪系統與通緝、極端環境求生             | 追求高生存率的拓荒者     |
-| [**第五章：特殊活動指南**](jin-jie-huo-dong-yu-wei-lai-zhan-wang/special-events/) | 圍攻奧里森、戰術打擊、製造物流、防重置 (Wipe-Immune) 獎勵 | 挑戰高難度陣營戰鬥者     |
+| [**第五章：版本活動編年史**](jin-jie-huo-dong-yu-wei-lai-zhan-wang/special-events/) | 圍攻奧里森、戰術打擊、製造物流、防重置 (Wipe-Immune) 獎勵 | 挑戰高難度陣營戰鬥者     |
 | [**第六章：未來願景與宏圖**](jin-jie-huo-dong-yu-wei-lai-zhan-wang/future/)        | 1.0 正式版藍圖、伺服器網格化、Quanta 經濟、SQ42 進展   | 關心底層技術與未來發展者   |
 | [**附錄：工具箱與資料庫**](fu-lu-yu-li-shi-zi-liao-ku/appendix/)                  | 快捷鍵小抄、外部輔助神器、錯誤代碼排除、各版本歷史新聞          | 日常飛行必備隨身手冊     |
 
