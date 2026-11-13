@@ -35,7 +35,7 @@
 ## ⚡ 進階活動與未來展望
 
 * [第五章：深入進階 - 版本活動編年史](jin-jie-huo-dong-yu-wei-lai-zhan-wang/special-events/README.md)
-  * [Alpha 4.10.3：尼克斯剜度入侵與 IAE 2956 (Vanduul Incursion & IAE 2956)](jin-jie-huo-dong-yu-wei-lai-zhan-wang/special-events/alpha-4-10-3-vanduul-incursion-and-iae.md)
+  * [Alpha 4.10.3：尼克斯剜度侵略與 IAE 2956 (Vanduul Incursion & IAE 2956)](jin-jie-huo-dong-yu-wei-lai-zhan-wang/special-events/alpha-4-10-3-vanduul-incursion-and-iae.md)
   * [Alpha 4.10.2：RSI 探索月 (RSI Discovery Month)](jin-jie-huo-dong-yu-wei-lai-zhan-wang/special-events/alpha-4-10-2-rsi-discovery-month.md)
   * [Alpha 4.10.1：奧里森救濟 (Orison Relief Support)](jin-jie-huo-dong-yu-wei-lai-zhan-wang/special-events/alpha-4-10-1-orison-relief.md)
   * [Alpha 4.10.0：圍攻奧里森 (Siege of Orison)](jin-jie-huo-dong-yu-wei-lai-zhan-wang/special-events/alpha-4-10-0-siege-of-orison.md)
